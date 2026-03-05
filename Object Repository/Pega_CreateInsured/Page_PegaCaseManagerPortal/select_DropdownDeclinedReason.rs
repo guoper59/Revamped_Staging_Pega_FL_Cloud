@@ -122,7 +122,7 @@ Bad Financials of InsuredBLB Broker/Buyer lost businessBusiness - Change to busi
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>8286f7ad-4ceb-4346-8112-363f2ff70239</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

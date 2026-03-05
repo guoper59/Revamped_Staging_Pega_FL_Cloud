@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Documentation/PolicyCreation/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>9372b79e-226d-4add-8e9d-5da12acf97f9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

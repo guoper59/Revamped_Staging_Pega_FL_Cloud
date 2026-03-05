@@ -122,7 +122,7 @@ BureauMultiple Territory Taxes applyNo Taxes ApplySingle Territory Taxes apply -
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>d90de4a6-7c55-46fa-8566-1aacbfe1a5b8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

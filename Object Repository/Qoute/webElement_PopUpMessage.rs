@@ -72,7 +72,7 @@ Important! Do not use Copy Submission to Renew a Policy.</value>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Qoute/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>903e4900-0987-43b0-8c09-eb9b936d92c9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

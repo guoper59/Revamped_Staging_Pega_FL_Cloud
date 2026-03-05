@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr']</value>
+         <value>//*[@ref_element = 'Object Repository/Dashboards/iframe_PegaGadget1Ifr']</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -83,7 +83,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>95ccae26-c100-4665-90c6-6b327617ba0a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

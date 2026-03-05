@@ -122,7 +122,7 @@ CommercialFinancial
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>a7cd3c3f-401d-409f-9257-272bcf963610</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

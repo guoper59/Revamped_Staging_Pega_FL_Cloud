@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Endorsements/iframe_PegaGadget2Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget2Ifr</value>
       <webElementGuid>6db3ac5f-9d09-4cbf-9587-2d9ea07b19f4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

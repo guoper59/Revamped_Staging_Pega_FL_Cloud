@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/UWWorksheet/Page_Worksheets/iframe_PegaGadget2Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget2Ifr</value>
       <webElementGuid>df78981a-71e0-4ad5-9127-62990e5e8925</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

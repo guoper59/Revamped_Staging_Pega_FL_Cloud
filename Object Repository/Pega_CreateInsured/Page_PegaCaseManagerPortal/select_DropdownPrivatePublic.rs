@@ -122,7 +122,7 @@ PrivatePublic
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>ca163fb8-2c92-482b-ba4d-62b4573d56f9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -66,7 +66,7 @@ EnglishItalian
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>0c3c9768-a9b1-4f99-b3be-1d79c1f79922</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

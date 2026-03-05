@@ -116,7 +116,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Qoute/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>f343a706-3569-41d6-b8fa-ccc855193c38</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

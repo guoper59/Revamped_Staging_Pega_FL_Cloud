@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Renewal/iframe_PegaGadget0Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
       <webElementGuid>0e6a3628-fe2a-4c80-8713-5b07f18a466e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

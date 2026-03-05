@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/NewBusiness/iframe_PegaGadget2Ifr']</value>
+         <value>//*[@ref_element = 'Object Repository/Dashboards/iframe_PegaGadget2Ifr']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>5236c3ae-b179-4d50-bd22-4a58491470b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

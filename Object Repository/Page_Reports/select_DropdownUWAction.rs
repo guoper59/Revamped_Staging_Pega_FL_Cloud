@@ -114,7 +114,7 @@ False PositivePositive MatchRefer to Compliance
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Reports/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>605611c1-2aea-4e96-8c2c-c7c0a0069ff8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

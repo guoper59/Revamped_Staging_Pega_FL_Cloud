@@ -122,7 +122,7 @@ Broker BinderNamed InsuredPolicy SlipsQuote LetterRenewal Endorsement
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Documentation/TemplateRules/iframe_PegaGadget0Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
       <webElementGuid>4cf942da-fc4b-4224-ae80-aae87e729371</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr']</value>
+         <value>//*[@ref_element = 'Object Repository/Dashboards/iframe_PegaGadget1Ifr']</value>
       </entry>
       <entry>
          <key>XPATH</key>

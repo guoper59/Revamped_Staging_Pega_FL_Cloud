@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'OK' or . = 'OK') and @ref_element = 'Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr']</value>
+         <value>//*[(text() = 'OK' or . = 'OK') and @ref_element = 'Object Repository/Dashboards/iframe_PegaGadget1Ifr']</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -75,7 +75,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>1e160ebe-7ce0-4d4e-9d1c-d9aff752bc91</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

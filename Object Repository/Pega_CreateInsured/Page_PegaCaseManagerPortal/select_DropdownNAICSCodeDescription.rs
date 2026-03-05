@@ -146,7 +146,7 @@ Central BanksCommercial/ Universal BanksFundsGeneral Insurers/LMAIFAs, Agents an
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>f4c746c9-592a-4344-976f-886a2b34bd9f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -138,7 +138,7 @@ AAS “BTA Baltic Insurance Company”ABS Boiler and Marine Insurance CompanyAbs
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>d1d398ec-ebd0-4ec1-90e5-dd8eb7f9eacc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

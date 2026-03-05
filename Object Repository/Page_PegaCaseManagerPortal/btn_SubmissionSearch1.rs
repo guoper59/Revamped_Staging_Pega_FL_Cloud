@@ -18,7 +18,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Search' or . = 'Search') and @ref_element = 'Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr']</value>
+         <value>//*[(text() = 'Search' or . = 'Search') and @ref_element = 'Object Repository/Dashboards/iframe_PegaGadget0Ifr']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -75,7 +75,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>4031ccf9-c5a9-4452-806f-65ee9215ffba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

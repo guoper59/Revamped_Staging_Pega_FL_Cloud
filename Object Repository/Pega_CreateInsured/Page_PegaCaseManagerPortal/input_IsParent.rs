@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'checkbox' and @name = '$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pIsParent' and @id = '85fabb9a' and @ref_element = 'Object Repository/Pega_CreateInsured/Page_Pega Case Manager Portal/iframe_PegaGadget1Ifr']</value>
+         <value>//*[@type = 'checkbox' and @name = '$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pIsParent' and @id = '85fabb9a' and @ref_element = 'Object Repository/Dashboards/iframe_PegaGadget1Ifr']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -171,7 +171,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>a739cdee-f2b7-45ca-83ba-4ff31e8b56fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

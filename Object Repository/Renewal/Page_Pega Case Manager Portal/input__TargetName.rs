@@ -132,7 +132,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Renewal/Page_Pega Case Manager Portal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>68fb05f1-706a-4280-a99e-c8afdbb0e1dc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

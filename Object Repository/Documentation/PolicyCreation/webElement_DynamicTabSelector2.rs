@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/Documentation/PolicyCreation/iframe_PegaGadget1Ifr']</value>
+         <value>//*[@ref_element = 'Object Repository/Dashboards/iframe_PegaGadget1Ifr']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Documentation/PolicyCreation/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>d2f80283-1365-4b84-b773-8552d38832f5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -66,7 +66,7 @@ BB_TME_SP_ENGBB_TME_SP_ENG_mailBB_TME_SP_ITBB_TME_SP_IT_mail
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>4344a8e8-907a-4786-a006-6a4104a75513</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

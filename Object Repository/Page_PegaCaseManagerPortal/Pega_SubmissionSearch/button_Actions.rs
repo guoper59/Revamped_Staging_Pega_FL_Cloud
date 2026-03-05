@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
       <webElementGuid>142b19a4-6b77-4d7f-b105-8a8ba9071dc1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -180,7 +180,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Documentation/TemplateRules/iframe_PegaGadget0Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
       <webElementGuid>909c93ce-b213-49b3-888b-5f65ad08da1e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

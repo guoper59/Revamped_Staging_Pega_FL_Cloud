@@ -114,7 +114,7 @@ Single LOBMulti LOB
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
       <webElementGuid>a8d96377-b4a5-4a3b-ac1a-e1f0d2c10c9e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -138,7 +138,7 @@ Slip - CC Check requiredPolicy/Legally Approved Wording - CC Check not required
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget2Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget2Ifr</value>
       <webElementGuid>31714ff6-60d0-43ed-990b-249045324c60</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

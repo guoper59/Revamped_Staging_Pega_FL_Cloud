@@ -124,7 +124,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>43cc8ce3-8be2-474c-a746-d32b83353bae</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

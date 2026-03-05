@@ -130,7 +130,7 @@ FL  - New York - TRIFL - Barcelona - AsiaFL - Barcelona - Benelux &amp; Nordic C
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
       <webElementGuid>2dd1b598-adef-4482-880e-8efb2081896a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

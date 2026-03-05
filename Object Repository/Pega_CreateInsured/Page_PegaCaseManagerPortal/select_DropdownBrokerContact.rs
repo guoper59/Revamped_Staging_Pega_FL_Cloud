@@ -163,7 +163,7 @@ Albert  Ferrer FlaqueAna  C. Garijo CalejeroAna  MecaAna  Meca DiezAna  MisolAnt
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
       <webElementGuid>df62b3ae-a015-47c7-a976-87ac7f6e75be</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
