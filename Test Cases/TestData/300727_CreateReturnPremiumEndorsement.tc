@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>300727_CreateReturnPremiumEndorsement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59d6abf4-5376-43e4-9dcf-9a52c024b82c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b149c2c-4bf0-4ce5-91c8-d0860e885bc7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4df5614b-51d7-46f2-a8d1-a691f019473a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Endorsement Number', 'Endorsement Type', 'Endorsement Creation date', 'Endorsement Inception Date', 'Endorsement Expiry Date', 'Endorsement Status']</defaultValue>
+      <description></description>
+      <id>6b149c2c-4bf0-4ce5-91c8-d0860e885bc7</id>
+      <masked>false</masked>
+      <name>expectedHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>['Endorsement Number', 'Endorsement Type', 'Endorsement Creation date', 'Endorsement Inception Date', 'Endorsement Expiry Date', 'Endorsement Status']</defaultValue>
+      <description></description>
+      <id>4df5614b-51d7-46f2-a8d1-a691f019473a</id>
+      <masked>false</masked>
+      <name>expectedValues</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_Coverholder</name>
+   <tag></tag>
+   <elementGuidId>abf32a93-4dc4-49c9-996e-d88e6eb8b9aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.rb_.rb_standard.radioLabel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[(text() = 'Coverholder' or . = 'Coverholder')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02112070517380915926&quot;] >> internal:text=&quot;Coverholder&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>516314d6-921b-4ea6-ac45-55ded96eab3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>a258e7ddCoverholder</value>
+      <webElementGuid>ad85411c-b94a-4e5d-a8f4-71fabddfcf13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>...</value>
+      <webElementGuid>507babd9-fdb2-4607-b209-057eb3ac801c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb_ rb_standard radioLabel</value>
+      <webElementGuid>df97bea8-842f-4d67-858c-460242a7128a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Coverholder</value>
+      <webElementGuid>5c2c9136-6b20-4b17-8e95-3dcfaaea4ab0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/span[@class=&quot;inspector-span&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-primary_container_legend&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_grid_double  content-inline_grid_double&quot;]/div[@class=&quot;content-item content-field item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/div[@class=&quot;radioTable&quot;]/div[1]/span[@class=&quot;col-2&quot;]/label[@class=&quot;rb_ rb_standard radioLabel&quot;]</value>
+      <webElementGuid>f4edd60d-3fc0-4eb8-a0c9-e355f3f1a17e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>d80eb6b2-0799-4850-b971-81b242a3cee4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/span/label</value>
+      <webElementGuid>fe0d322a-e565-4eab-9ed4-44d889a57743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insured Information'])[1]/following::label[1]</value>
+      <webElementGuid>c466d53d-65a2-43cd-9f50-ffa06c24b0e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/following::label[2]</value>
+      <webElementGuid>c0e133a1-4ee8-4773-a827-87fe3460bea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insured'])[1]/preceding::label[1]</value>
+      <webElementGuid>fe262fa7-296c-4be7-a451-696871d082a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Name'])[1]/preceding::label[2]</value>
+      <webElementGuid>0b2e8bcd-8f67-4b86-907c-ea069a068246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Coverholder']/parent::*</value>
+      <webElementGuid>162ef4db-12eb-402d-98ec-de4907bfeaed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/label</value>
+      <webElementGuid>cf2e56db-2768-4010-908c-0318d362c5fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Coverholder' or . = 'Coverholder')]</value>
+      <webElementGuid>14245982-ef5f-4819-bd5a-b75dc1697eac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

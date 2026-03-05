@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ExportToExcel</name>
+   <tag></tag>
+   <elementGuidId>d08a5ce8-1a35-4eb7-b27c-6bc204faf7b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.pzbtn-mid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Export to Excel' or . = 'Export to Excel')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 01704071520390994235900&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d03c04ab-46c3-4adb-b911-d43d60adf5b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-mid</value>
+      <webElementGuid>c797bb47-9e47-49cc-852f-652d969498ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>....</value>
+      <webElementGuid>6e5db44b-b65b-4307-a6d2-1dc83a4d5b9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Export to Excel</value>
+      <webElementGuid>810c6152-a70a-49a6-8761-5a4601cff092</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PEGA_GRID_SKIN&quot;)/div[@id=&quot;RULE_KEY&quot;]/table[@class=&quot;px-fixed-layout-table&quot;]/tbody[1]/tr[2]/td[@class=&quot;dataValueWrite&quot;]/span[1]/button[@class=&quot;pzhc&quot;]/div[@class=&quot;pzbtn-rnd&quot;]/div[@class=&quot;pzbtn-lft&quot;]/div[@class=&quot;pzbtn-rgt&quot;]/div[@class=&quot;pzbtn-mid&quot;]</value>
+      <webElementGuid>e7b36d40-db35-41dd-9dea-5aa2c23a21ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Dashboards/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>c0fad3b3-ed5b-4fd2-a1e7-e0fe7836eecb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submissions in Quoted Status'])[1]/following::div[19]</value>
+      <webElementGuid>40745175-8b24-458d-b7b5-a73eea472eab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workflow Reports:'])[1]/following::div[22]</value>
+      <webElementGuid>c35a087b-fad7-446f-a517-798ec54193fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::div[1]</value>
+      <webElementGuid>3be74b26-1022-4c8c-aa49-0e0df993fbf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quote Reference ID'])[1]/preceding::div[11]</value>
+      <webElementGuid>ef77d8b6-02b6-43cc-b9e2-0e1402518de0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Export to Excel']/parent::*</value>
+      <webElementGuid>36806a01-b6f2-453e-aade-2f65e1cb6765</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Export to Excel' or . = 'Export to Excel')]</value>
+      <webElementGuid>ef822050-da6d-48f9-8f8f-3ff2a40a156c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/div/div/div</value>
+      <webElementGuid>304817c7-0ad0-4313-81a1-79b5aeefd8ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/table/tbody/tr[2]/td/span/button/div/div/div/div</value>
+      <webElementGuid>68ad8817-311e-4fed-9b2e-148c42162aaf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

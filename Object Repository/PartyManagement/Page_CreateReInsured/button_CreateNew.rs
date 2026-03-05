@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CreateNew</name>
+   <tag></tag>
+   <elementGuidId>1455513e-98fd-42f8-a5a1-e1183cae2e5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;NewAgentInfo_pyDisplayHarness.BrokerContactParty_25&quot;] > div.pzbtn-rnd > div.pzbtn-lft > div.pzbtn-rgt > div.pzbtn-mid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::div[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 01612301212320845114662&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f4f58b6e-7f94-41e2-aeb7-00b05c7f17f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-mid</value>
+      <webElementGuid>36e6c98a-44d7-4379-a5ce-3ab5cb28d72d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>....</value>
+      <webElementGuid>f223c741-0123-4a46-a74b-b6e1b3a82ecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+      <webElementGuid>285bbdef-1ffb-4fca-854e-cb29cb502473</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;harness-container&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;harnessBodyNoHead&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[4]/span[@class=&quot;inspector-span&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline  content-inline&quot;]/div[@class=&quot;content-item content-sub_section item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-action_area&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_grid_double  content-inline_grid_double&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/button[@class=&quot;pzhc&quot;]/div[@class=&quot;pzbtn-rnd&quot;]/div[@class=&quot;pzbtn-lft&quot;]/div[@class=&quot;pzbtn-rgt&quot;]/div[@class=&quot;pzbtn-mid&quot;]</value>
+      <webElementGuid>ccb48a7d-91f3-4efa-87f5-dedf0da2f446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/PartyManagement/Page_CreateReInsured/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>59226bfa-19f6-45b6-a969-c30c9917b5e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::div[7]</value>
+      <webElementGuid>efbab0ee-a1a2-4fcc-bc7e-3345be487451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::div[19]</value>
+      <webElementGuid>3caaaa3a-bbc5-461b-a5e1-c5d1b0a12726</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create']/parent::*</value>
+      <webElementGuid>3463f434-8947-41ef-aa86-f7edede27925</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Create' or . = 'Create')]</value>
+      <webElementGuid>943cec3f-1868-4a81-a5f9-d8477774a939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/button/div/div/div/div</value>
+      <webElementGuid>ee0f5556-cd9d-4d53-b0c3-11ddf48e0f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[2]/div/div/button/div/div/div/div</value>
+      <webElementGuid>c4c6b9ef-3e7f-4d9a-a7a4-ce1a0ab103aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

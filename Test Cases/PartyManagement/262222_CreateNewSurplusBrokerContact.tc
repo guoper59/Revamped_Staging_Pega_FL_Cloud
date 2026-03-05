@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin&#xd;
+Description: Create new surplus broker contact&#xd;
+Module: Regression Test Pack/Party Management&#xd;
+Test Case ADO ID:262222</description>
+   <name>262222_CreateNewSurplusBrokerContact</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262222</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c318407a-ba76-42af-944a-e21bd469fc00</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac7bedb6-ed93-47f9-a323-a437b5cea868</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a430f3b-d288-4fd4-bcd7-745eadbd22fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>285d9c20-ef65-4f6b-9597-7c1cc28af0ac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>211611bc-4623-406b-b1dc-f51313544eda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6dee9e42-97cf-41af-bc0e-726088de9f52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba18e368-810a-4215-9bee-c4ab128bcaa3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party Management'</defaultValue>
+      <description></description>
+      <id>ac7bedb6-ed93-47f9-a323-a437b5cea868</id>
+      <masked>false</masked>
+      <name>partyManagementLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Surplus Lines Broker Contact'</defaultValue>
+      <description></description>
+      <id>ac7bedb6-ed93-47f9-a323-a437b5cea868</id>
+      <masked>false</masked>
+      <name>surplusBrokerContactLink</name>
+   </variable>
+   <variable>
+      <defaultValue>[('name') : 'Name', ('address') : 'Address', ('country') : 'Country', ('searchName') : 'Broker Contact', ('firstName') : 'Surplus Lines Broker Contact First Name', ('surname') : 'Surplus Lines Broker Contact Surname', ('email') : 'Surplus Lines Broker contact email', ('surplusProjectName') : 'Surplus Lines Broker', ('brokerCompany') : 'Broker Company', ('licenceNumber') : 'Licence Number', ('brokerEmail') : 'Email']</defaultValue>
+      <description></description>
+      <id>285d9c20-ef65-4f6b-9597-7c1cc28af0ac</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>7</defaultValue>
+      <description></description>
+      <id>211611bc-4623-406b-b1dc-f51313544eda</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestData'</defaultValue>
+      <description></description>
+      <id>6dee9e42-97cf-41af-bc0e-726088de9f52</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Files/TestData'</defaultValue>
+      <description></description>
+      <id>ba18e368-810a-4215-9bee-c4ab128bcaa3</id>
+      <masked>false</masked>
+      <name>testDataFilePath</name>
+   </variable>
+</TestCaseEntity>

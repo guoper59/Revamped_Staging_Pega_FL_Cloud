@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_PolicyReference</name>
+   <tag></tag>
+   <elementGuidId>0ac94f9c-e466-4577-bb3f-81f851d51f3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.field-item.dataValueRead > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Reference :'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0171011110251009294384&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2c70f5a7-9c59-46e9-993e-ef3c15c5952a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20171011110251009294384</value>
+      <webElementGuid>0682b441-87f6-4e79-bdb3-fd32e93f7903</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>F23JU050A001</value>
+      <webElementGuid>7d98aa11-e40f-453f-9104-f7aa7fb6b6b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modaldialog_con&quot;)/div[@id=&quot;pyFlowActionHTML&quot;]/span[1]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_labels_left_with_margin  content-inline_labels_left_with_margin&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueRead&quot;]/span[1]</value>
+      <webElementGuid>e4528c61-d8de-496c-92d8-7be568e549de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Dashboards/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>15bbcbaf-c663-49fa-828a-03cce48447b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Reference :'])[1]/following::span[1]</value>
+      <webElementGuid>0f2cce2b-0233-4bc3-8567-1208ed3ff2e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='s'])[1]/following::span[2]</value>
+      <webElementGuid>9c45bee5-5104-47c5-b508-f93633cebc50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::span[1]</value>
+      <webElementGuid>3f95a151-b86e-434b-b8d0-906b0eabb4d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You are about to replace an open work item which has changes that have not been saved!'])[1]/preceding::span[2]</value>
+      <webElementGuid>2cf0f5f5-8bb3-4036-a5de-bdd309a1fb44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='F23JU050A001']/parent::*</value>
+      <webElementGuid>ed9ede15-1a88-4bc6-933f-5ea0108a5d7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'F23JU050A001' or . = 'F23JU050A001')]</value>
+      <webElementGuid>f7f7cbd5-3557-413a-831c-8e72f63bd64b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>23199c74-0b1f-494b-92c2-1a83cf5eed68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/span</value>
+      <webElementGuid>56d849b2-fc54-4368-acbe-d5a938941b31</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownTMHCCPlacingTitle</name>
+   <tag></tag>
+   <elementGuidId>cbbf12ce-1f20-4318-a06d-3b3d78a29c54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#0c6a520c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'TMHCCPlacingTitle')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 01610070553050950186780&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e2bbfa9a-8141-4fcd-8e9f-4358288b2fe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-loadmode</name>
+      <type>Main</type>
+      <value>LazyLoad</value>
+      <webElementGuid>a4114b29-7309-41e4-b921-af7ee892aba5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-config</name>
+      <type>Main</type>
+      <value>[&quot;DP&quot;,&quot;D_MasterRefData&quot;,&quot;false&quot;,&quot;.Description&quot;,&quot;.RefValue&quot;,&quot;&quot;,&quot;&quot;,&quot;{\&quot;Lob\&quot;:\&quot;FL\&quot;,\&quot;GroupId\&quot;:\&quot;1\&quot;,\&quot;EffectiveDate\&quot;:\&quot;\&quot;,\&quot;RefType\&quot;:\&quot;TMHCCPlacingTitle\&quot;,\&quot;Filter\&quot;:\&quot;\&quot;,\&quot;EffectiveDateNotRequired\&quot;:\&quot;\&quot;,\&quot;Filter1\&quot;:\&quot;\&quot;,\&quot;Filter2\&quot;:\&quot;\&quot;}&quot;,&quot;asc&quot;]</value>
+      <webElementGuid>414720c6-7392-41df-8a4d-9f299a9604ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>201610070553050950186780</value>
+      <webElementGuid>06ca13b3-209e-4ca6-bd79-e3f77ec2d712</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>b2162679-16d3-42ab-bb83-7e00f99e3bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7af0c5a0-09e1-47a0-a28f-c6136370099f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>0c6a520c</value>
+      <webElementGuid>4add68f6-07b7-423b-91e6-3d7cf842311c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>df9ae783-224e-4249-9d49-2754fa5e4c55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pTMHCCPlacingTitle</value>
+      <webElementGuid>f536da6e-b028-4b26-a76d-074db8166069</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pTMHCCPlacingTitleError</value>
+      <webElementGuid>108ffa55-e227-44de-90a0-d928213be95d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select TMHCC Placing Title
+
+
+
+Active Shooter SCRAGEAS PortugalAGEAS PortugalAON Excess AccountantsAON UK Large Lawyers 100 xs 100Aon UK Large Lawyers 15 xs 10AON UK Large Lawyers 20 xs 10AON UK Large Lawyers 70 xs 30AssetSecureCA Seguros FacilityConcordia Polska TUWConcordia Polska TUWCooper Gay MarineDynamic FacilityEPIC EU Lawyers IIIEPIC EU Lawyers III (Brexit replacement fac.)EPIC EU Lawyers IV 75XS 75EPIC EU Lawyers V 100 XS 150ERGO Re-insurance treatyEvent Cancellation Cyber FacilityFINLEX Broker Platform SMARTFinmar IIFinmar II- EUFinmar IIIFurness Underwriting Europe SRLHCCG USHowden Mini UK LawyersHowden Mini UK Lawyers 15 xs 10IPR Furness FacilityIRB Brasil Re. Prop. TreatyITGI Facultative Obligatory AgreementJLT Excess LayerJLT Mini Lawyers 15 xs 10JLT Mini Lawyers 50 xs 25JLT Specialty Ltd Construction 40m xs 10mJLT Specialty Ltd Construction Primary 10mJM Glendinning Mini UK Lawyers 20m x10mK&amp;R SCRK&amp;R SCRK&amp;R SME AON BEKessler Blue LineLimestreet LSLloyds Japan Inc.Lockton Maxi UK LawyersLocktons Mini UK LawyersMapfre Seguros Gerais (PT)Marsh Canadian EngineersMarsh ECHOMarsh India SMEMarsh Large UK Lawyers 100 xs 100Marsh Large UK Lawyers 20 xs 10Marsh Large UK Lawyers 20 xs 30Marsh Large UK Lawyers 30 xs 10Marsh Large UK Lawyers 50 xs 50Marsh Large UK Lawyers 60 xs 40Marsh Large UK Lawyers 75 xs 50Marsh Lawyers UKMarsh Midmarket Portfolio BelgiumMarsh Midmarket Portfolio NetherlandsMarsh Mini LawSouthMarsh Mini UK LawyersMarsh Mini UK LawyersMarsh Mini: Scottish Law Society/ SolicitorsMarsh UK AccountantsMentor D&amp;O (PL)Millers 40x10 UK and Irish Lawyers lineslipNeema KRNord Partner D&amp;O (PL) Ocidental Companhia Portuguesa Seguros, S.A. (PT)Ocidental Companhia Portuguesa Seguros, S.A. (PT)Retro Cyber TMI Section 1Retro Cyber TMI Section 1Retro Cyber TMiM Section 1 + 2Retro Cyber TMiM Section 1 + 2Retro Cyber TMiV Section 1Retro Cyber TMSTH Section 1Retro Cyber/IAR MICO - TMD Section 2Retro Cyber/IAR MICO - TMD Section 2Retro Cyber/IAR TMiV Section 2Retro Cyber/IAR TMST Section 2Retro Cyber/IAR TMST Section 2Retro FL TMIRetro FL TMIRetro FL TMiMRetro FL TMiMRetro FL TMIVRetro FLs TMSTHRetro TMiM TRISeguradoras Unidas S.A. (former Tranquilidade (PT)SegurCaixa Adelas S.A. (ES)Stoïk SME Cyber AgreementStructured Portfolio SolutionTLO UK Barristers Binding AuthorityTM Paris K&amp;RTMNF PiracyTokio Marine Brasil Seguradora Tokio Marine MexicoTokio Marine Singapore Prop. TreatyTrust-Re BahrainUIA ItalyWillis PI ProXS</value>
+      <webElementGuid>ff99d04b-9a6b-4e03-a515-72a6bd41642f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;0c6a520c&quot;)</value>
+      <webElementGuid>9da16b6d-b087-467c-887b-b72b445b40ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>f1e0beeb-1e5c-432d-a505-750cd71113c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='0c6a520c']</value>
+      <webElementGuid>774edadf-e498-4fd0-986f-247d8ba1c92e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[12]/div/div/select</value>
+      <webElementGuid>b899b97a-9a30-4931-867b-a0105cf81bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TMHCC Placing Title'])[1]/following::select[1]</value>
+      <webElementGuid>d38f1162-3f9b-4537-b8d9-20d083b379bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Provider'])[1]/following::select[2]</value>
+      <webElementGuid>012a00a0-4ae3-4fc1-9fe5-ec4669edc9d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Placing Type'])[1]/preceding::select[1]</value>
+      <webElementGuid>0f684541-1260-491b-a556-0ab114522896</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programme View'])[1]/preceding::select[2]</value>
+      <webElementGuid>2c5e30a1-acbb-452b-a028-bc21baf33355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/select</value>
+      <webElementGuid>abd9b0ea-ad12-4462-af5f-b78d845552aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '0c6a520c' and @name = '$PD_SearchSubmissionCriteria$pTMHCCPlacingTitle' and (text() = '&#xd;
+&#xd;
+  Select TMHCC Placing Title&#xd;
+&#xd;
+&#xd;
+&#xd;
+Active Shooter SCRAGEAS PortugalAGEAS PortugalAON Excess AccountantsAON UK Large Lawyers 100 xs 100Aon UK Large Lawyers 15 xs 10AON UK Large Lawyers 20 xs 10AON UK Large Lawyers 70 xs 30AssetSecureCA Seguros FacilityConcordia Polska TUWConcordia Polska TUWCooper Gay MarineDynamic FacilityEPIC EU Lawyers IIIEPIC EU Lawyers III (Brexit replacement fac.)EPIC EU Lawyers IV 75XS 75EPIC EU Lawyers V 100 XS 150ERGO Re-insurance treatyEvent Cancellation Cyber FacilityFINLEX Broker Platform SMARTFinmar IIFinmar II- EUFinmar IIIFurness Underwriting Europe SRLHCCG USHowden Mini UK LawyersHowden Mini UK Lawyers 15 xs 10IPR Furness FacilityIRB Brasil Re. Prop. TreatyITGI Facultative Obligatory AgreementJLT Excess LayerJLT Mini Lawyers 15 xs 10JLT Mini Lawyers 50 xs 25JLT Specialty Ltd Construction 40m xs 10mJLT Specialty Ltd Construction Primary 10mJM Glendinning Mini UK Lawyers 20m x10mK&amp;R SCRK&amp;R SCRK&amp;R SME AON BEKessler Blue LineLimestreet LSLloyds Japan Inc.Lockton Maxi UK LawyersLocktons Mini UK LawyersMapfre Seguros Gerais (PT)Marsh Canadian EngineersMarsh ECHOMarsh India SMEMarsh Large UK Lawyers 100 xs 100Marsh Large UK Lawyers 20 xs 10Marsh Large UK Lawyers 20 xs 30Marsh Large UK Lawyers 30 xs 10Marsh Large UK Lawyers 50 xs 50Marsh Large UK Lawyers 60 xs 40Marsh Large UK Lawyers 75 xs 50Marsh Lawyers UKMarsh Midmarket Portfolio BelgiumMarsh Midmarket Portfolio NetherlandsMarsh Mini LawSouthMarsh Mini UK LawyersMarsh Mini UK LawyersMarsh Mini: Scottish Law Society/ SolicitorsMarsh UK AccountantsMentor D&amp;O (PL)Millers 40x10 UK and Irish Lawyers lineslipNeema KRNord Partner D&amp;O (PL) Ocidental Companhia Portuguesa Seguros, S.A. (PT)Ocidental Companhia Portuguesa Seguros, S.A. (PT)Retro Cyber TMI Section 1Retro Cyber TMI Section 1Retro Cyber TMiM Section 1 + 2Retro Cyber TMiM Section 1 + 2Retro Cyber TMiV Section 1Retro Cyber TMSTH Section 1Retro Cyber/IAR MICO - TMD Section 2Retro Cyber/IAR MICO - TMD Section 2Retro Cyber/IAR TMiV Section 2Retro Cyber/IAR TMST Section 2Retro Cyber/IAR TMST Section 2Retro FL TMIRetro FL TMIRetro FL TMiMRetro FL TMiMRetro FL TMIVRetro FLs TMSTHRetro TMiM TRISeguradoras Unidas S.A. (former Tranquilidade (PT)SegurCaixa Adelas S.A. (ES)Stoïk SME Cyber AgreementStructured Portfolio SolutionTLO UK Barristers Binding AuthorityTM Paris K&amp;RTMNF PiracyTokio Marine Brasil Seguradora Tokio Marine MexicoTokio Marine Singapore Prop. TreatyTrust-Re BahrainUIA ItalyWillis PI ProXS' or . = '&#xd;
+&#xd;
+  Select TMHCC Placing Title&#xd;
+&#xd;
+&#xd;
+&#xd;
+Active Shooter SCRAGEAS PortugalAGEAS PortugalAON Excess AccountantsAON UK Large Lawyers 100 xs 100Aon UK Large Lawyers 15 xs 10AON UK Large Lawyers 20 xs 10AON UK Large Lawyers 70 xs 30AssetSecureCA Seguros FacilityConcordia Polska TUWConcordia Polska TUWCooper Gay MarineDynamic FacilityEPIC EU Lawyers IIIEPIC EU Lawyers III (Brexit replacement fac.)EPIC EU Lawyers IV 75XS 75EPIC EU Lawyers V 100 XS 150ERGO Re-insurance treatyEvent Cancellation Cyber FacilityFINLEX Broker Platform SMARTFinmar IIFinmar II- EUFinmar IIIFurness Underwriting Europe SRLHCCG USHowden Mini UK LawyersHowden Mini UK Lawyers 15 xs 10IPR Furness FacilityIRB Brasil Re. Prop. TreatyITGI Facultative Obligatory AgreementJLT Excess LayerJLT Mini Lawyers 15 xs 10JLT Mini Lawyers 50 xs 25JLT Specialty Ltd Construction 40m xs 10mJLT Specialty Ltd Construction Primary 10mJM Glendinning Mini UK Lawyers 20m x10mK&amp;R SCRK&amp;R SCRK&amp;R SME AON BEKessler Blue LineLimestreet LSLloyds Japan Inc.Lockton Maxi UK LawyersLocktons Mini UK LawyersMapfre Seguros Gerais (PT)Marsh Canadian EngineersMarsh ECHOMarsh India SMEMarsh Large UK Lawyers 100 xs 100Marsh Large UK Lawyers 20 xs 10Marsh Large UK Lawyers 20 xs 30Marsh Large UK Lawyers 30 xs 10Marsh Large UK Lawyers 50 xs 50Marsh Large UK Lawyers 60 xs 40Marsh Large UK Lawyers 75 xs 50Marsh Lawyers UKMarsh Midmarket Portfolio BelgiumMarsh Midmarket Portfolio NetherlandsMarsh Mini LawSouthMarsh Mini UK LawyersMarsh Mini UK LawyersMarsh Mini: Scottish Law Society/ SolicitorsMarsh UK AccountantsMentor D&amp;O (PL)Millers 40x10 UK and Irish Lawyers lineslipNeema KRNord Partner D&amp;O (PL) Ocidental Companhia Portuguesa Seguros, S.A. (PT)Ocidental Companhia Portuguesa Seguros, S.A. (PT)Retro Cyber TMI Section 1Retro Cyber TMI Section 1Retro Cyber TMiM Section 1 + 2Retro Cyber TMiM Section 1 + 2Retro Cyber TMiV Section 1Retro Cyber TMSTH Section 1Retro Cyber/IAR MICO - TMD Section 2Retro Cyber/IAR MICO - TMD Section 2Retro Cyber/IAR TMiV Section 2Retro Cyber/IAR TMST Section 2Retro Cyber/IAR TMST Section 2Retro FL TMIRetro FL TMIRetro FL TMiMRetro FL TMiMRetro FL TMIVRetro FLs TMSTHRetro TMiM TRISeguradoras Unidas S.A. (former Tranquilidade (PT)SegurCaixa Adelas S.A. (ES)Stoïk SME Cyber AgreementStructured Portfolio SolutionTLO UK Barristers Binding AuthorityTM Paris K&amp;RTMNF PiracyTokio Marine Brasil Seguradora Tokio Marine MexicoTokio Marine Singapore Prop. TreatyTrust-Re BahrainUIA ItalyWillis PI ProXS')]</value>
+      <webElementGuid>47ca7b39-4857-41b9-be0e-6158874ed1c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

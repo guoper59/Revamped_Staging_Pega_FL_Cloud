@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>259677_CopySubmissionDandO</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259677</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e44e410-e258-4472-a510-2d1c7ae47705</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18a8ebb8-c36b-40a2-af07-7469db293dbd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c310d64f-0f4b-4b51-ac41-fe9b051d84f3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Qoute'</defaultValue>
+      <description></description>
+      <id>18a8ebb8-c36b-40a2-af07-7469db293dbd</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'366'</defaultValue>
+      <description></description>
+      <id>c310d64f-0f4b-4b51-ac41-fe9b051d84f3</id>
+      <masked>false</masked>
+      <name>expectedPolicyPeriod</name>
+   </variable>
+</TestCaseEntity>

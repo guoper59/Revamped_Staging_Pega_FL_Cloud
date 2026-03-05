@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_MultiQuote</name>
+   <tag></tag>
+   <elementGuidId>8f2ba933-0fb0-4224-8d49-78c069171fd0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;ComProposalQuotesWrapper_pyWorkPage.ApplicationPage_7&quot;] > div.pzbtn-rnd > div.pzbtn-lft > div.pzbtn-rgt > div.pzbtn-mid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/div[(text() = 'Create Multi Quote' or . = 'Create Multi Quote')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 017013006345106907762&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>847a68cb-a83a-41dd-b2a1-b8923dd3a882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-mid</value>
+      <webElementGuid>4775b298-623a-4be1-8ebf-f5a176787d84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>....</value>
+      <webElementGuid>9c1927a9-495c-40ac-a810-c41d2961c799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Multi Quote</value>
+      <webElementGuid>39a9fc6e-21fa-46a0-8914-78011e231bb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PEGA_TABBED2&quot;)/ul[@class=&quot;yui-nav&quot;]/li[@class=&quot;addTab&quot;]/span[@id=&quot;TABSPAN&quot;]/table[@id=&quot;TABHEADER&quot;]/tbody[1]/tr[1]/td[@class=&quot;dataValueWrite&quot;]/span[1]/button[@class=&quot;pzhc&quot;]/div[@class=&quot;pzbtn-rnd&quot;]/div[@class=&quot;pzbtn-lft&quot;]/div[@class=&quot;pzbtn-rgt&quot;]/div[@class=&quot;pzbtn-mid&quot;]</value>
+      <webElementGuid>d3df5359-7e4c-40d5-b74b-e1765df03983</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>db04a216-e66d-4797-9273-9d6793c699c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Quote'])[1]/following::div[7]</value>
+      <webElementGuid>c7b99530-675d-4938-8bbc-fbdaabd19c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Input'])[2]/following::div[8]</value>
+      <webElementGuid>e18357e0-504f-4e14-a5d3-12bd7ede98c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Information'])[1]/preceding::div[2]</value>
+      <webElementGuid>933fbdc6-3c6b-4b08-a662-094553346535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Multi Quote']/parent::*</value>
+      <webElementGuid>bb18424b-03d2-4e89-bbe4-72fcac518bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Create Multi Quote' or . = 'Create Multi Quote')]</value>
+      <webElementGuid>e7c4bd98-72eb-43a7-8441-d37a9c6e9770</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/span/button/div/div/div/div</value>
+      <webElementGuid>d712a040-af10-48cc-ad22-a6431335e67e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='TABHEADER']/tbody/tr/td/span/button/div/div/div/div</value>
+      <webElementGuid>e8a5fd60-1461-4f41-9aac-24b4bdabb2fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

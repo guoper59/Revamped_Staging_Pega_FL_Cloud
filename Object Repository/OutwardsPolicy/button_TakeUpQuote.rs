@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_TakeUpQuote</name>
+   <tag></tag>
+   <elementGuidId>444719a0-6488-4554-b461-46d8e5a7d99f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Take Up Quote']/parent::* | //button[@title='Take Up Quote'] | //div[text()='Take Up Quote']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;QuoteDocSection_pyWorkPage.ApplicationPage.QuoteVersionsList(1)_16&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Take Up Quote&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9f67330a-d597-4d60-9a49-0329cf4afc28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20170201070405047528781</value>
+      <webElementGuid>aa6c213a-0aaf-4f5e-868f-cdd9d4465dc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>Button</value>
+      <webElementGuid>b11817e1-946f-459a-85c9-7e70df7d43ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cd133826-5f9a-40d4-a894-10d6372d5d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>QuoteDocSection_pyWorkPage.ApplicationPage.QuoteVersionsList(1)_16</value>
+      <webElementGuid>3285ca48-f2c6-4b1e-b15c-35ba9b99b76a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;runDataTransform&quot;, [&quot;SetSelectedQuote&quot;, &quot;=&quot;, &quot;pyWorkPage.ApplicationPage.QuoteVersionsList(1)&quot;,&quot;:event&quot;]],[&quot;runActivity&quot;, [&quot;&quot;, &quot;&quot;, &quot;pyWorkPage.ApplicationPage.QuoteVersionsList(1)&quot;, &quot;:event&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX05OTVkYWEzYjVjZDA5NjgyODUwNjYyMTAxYTExOWUyMjU3YTUyZDNiMzdhNzA0MzRiOTE4MjkzZTc1MmJmYzI3MDlhY2JkMTIzZjk0NzhhMzFiMTA0ODQ5YjExMjc2NjQwYTQ0OTgyYWZhMWViNzNiNTYzNWQ1NDFkYWY2ODg3ZGUzZTg3MTFmZjQ0M2E2YzdkN2JkYWNkYTg5N2E4ODE3NGNhOTEzNTViOTNhNDUyYmJkZWU1NTY4YjYwNzc3NjM1ZGJkYWFlNmRiYTgxODY4NzJiYTdmNTgxYjMzNDlkNjBjNjljZWFkYjAzODhlZTI3YTk1M2QxZWY5MzUyYTRm*&quot;]],[&quot;runActivity&quot;, [&quot;&quot;, &quot;&quot;, &quot;pyWorkPage.ApplicationPage.QuoteVersionsList(1)&quot;, &quot;:event&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX05OTVkYWEzYjVjZDA5NjgyODUwNjYyMTAxYTExOWUyMjU3YTUyZDNiMzdhNzA0MzRiOTE4MjkzZTc1MmJmYzI3NGJlNzRlNWQ2YmFmMWNkMDM5Y2JmYzVjNTQ3MTAwNmIwZDI5MmMyNGQ2YTVjZWIwNjcwYjdmYjI5ZGMxNTdmNWI0ZTk5ZTIwZTFmZDhiZjA3YjY2ZjQ2ZGQzMjRhYzA0NzllZjllY2U4OTFkMTU3M2EzZjAxNDJlNzk1YmRjODExNmVmNTVmZmQxMjk1MjRlZWRiYzA2YjMzODljOTdmN2NmYTA5MDExMDBkMDE1OGQ5Yzc3MzNlZTNmZTM2OTNk*&quot;]],[&quot;runActivity&quot;, [&quot;&quot;, &quot;&quot;, &quot;pyWorkPage.ApplicationPage.QuoteVersionsList(1)&quot;, &quot;:event&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX05OTVkYWEzYjVjZDA5NjgyODUwNjYyMTAxYTExOWUyMjU3YTUyZDNiMzdhNzA0MzRiOTE4MjkzZTc1MmJmYzI3NGVkNzVlMTA3ZjM4YTY5MDMwNGY3YTcyZTA1Njg3MGU0NGY0NGYwM2FhNGEwNjRiYmM5OWJlOWE4Y2IzMzMxNDFjNGUwMzdjMDg5OWJkMWFhZDA2ODI5NjI3ODkzOWI4ODUwOTk1YTAzODQ5YTk4NGRlNjI5NWEzYmQ0ZjhmYjYzNDVjYThjZGIxNzc0YzNlMDAyM2I1ZWM5NzNlZWQwNzZiMGIyZTZjM2MyMzY0OTc2MmVjNGJmNjJkZTA1ZTky*&quot;]],[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;InitUWWorksheet&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX01YTI2YzVlNTBjMTNkZWVmOTQzN2M1ODgzOTQ5M2Y3YjU0YzU0Y2RhYjUyODc1OGNkZGY2YTE4MjBjZmZmMWNlZmQ0NjQ3MGYxOWVmZWQwZjRjYzkyZDUwMjFlYWNmMDQ4NWNkNDdiZGU1YThhMWZhZWI5MDZmYTNjY2MxMTBlNzAwZjYwOGM4YjM3NzJiNjgxOWM5NTg2ODJjODg1OWY5OWU2ZDM1ODlhZDY4OGU4ZWIzNjkwZmM0NDkyMjdhNjFhZDVkNzEwZGMxOTg5MzczMzViYmYzMDZmMmE1ZWNhNA%3D%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.QuoteVersionsList(1)&quot;]],[&quot;runScript&quot;, [&quot;ContinueEventsConditionally(\&quot;#~pyWorkPage.ApplicationPage.QuoteVersionsList(1).ContinueActionEvents~#\&quot;)&quot;]],[&quot;runDataTransform&quot;, [&quot;SetWorksheetFalgs&quot;, &quot;=&quot;, &quot;pyWorkPage&quot;,&quot;:event&quot;]],[&quot;setUserStart&quot;,[&quot;FINISHASSIGNMENT&quot;]],[&quot;doFormSubmit&quot;,[&quot;pyActivity=FinishAssignment&quot;,&quot;:this&quot;,&quot;&quot;,&quot;:event&quot;]]]</value>
+      <webElementGuid>5abb1980-dab9-4548-b92f-81bd620c2bfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Take Up Quote</value>
+      <webElementGuid>39ace2e3-7035-4b96-a57f-72069e6c3cc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzhc pzbutton</value>
+      <webElementGuid>951dc8ac-8906-4121-83de-23b952807937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Take Up Quote</value>
+      <webElementGuid>d7493480-e866-4186-bae6-419b943df2f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;INNERDIV-SubSectionQuoteDocWrapperBBTR1&quot;)/table[@class=&quot;repeatReadWrite&quot;]/tbody[1]/tr[1]/td[@class=&quot;dataLabelWrite&quot;]/div[@id=&quot;CT&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-default&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content  auto-width-column layout-content-default content-default&quot;]/div[@id=&quot;CT&quot;]/div[@class=&quot;content-inner set-width-auto&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-default&quot;]/div[@class=&quot;layout-body&quot;]/div[@class=&quot;content  set-width-auto layout-content-inline_middle content-inline_middle&quot;]/div[@class=&quot;content-item content-field item-3 remove-bottom-spacing&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/button[@class=&quot;pzhc pzbutton&quot;]</value>
+      <webElementGuid>9c53393b-e97d-4895-9480-e839f2c147a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/OutwardsPolicy/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>da971560-9f6f-4d44-925a-c87b71db43be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='QuoteDocSection_pyWorkPage.ApplicationPage.QuoteVersionsList(1)_16']</value>
+      <webElementGuid>53141142-231a-4a99-b6e4-68ceab1e8757</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Taken Up Quote'])[1]/following::button[1]</value>
+      <webElementGuid>20c17c60-251c-4d7f-9557-bac460ce14e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate Quote Doc'])[1]/following::button[2]</value>
+      <webElementGuid>3d705bb2-df8a-46b2-8a73-de47bee8fe01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/preceding::button[1]</value>
+      <webElementGuid>817a8bd1-2da7-42f6-a72f-9acfe94809b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/preceding::button[1]</value>
+      <webElementGuid>0b9f55b0-ddda-41ae-83a7-702ad525b502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Take Up Quote']/parent::*</value>
+      <webElementGuid>4df609a3-e85b-4f23-a874-ffbfe13e56c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @name = 'QuoteDocSection_pyWorkPage.ApplicationPage.QuoteVersionsList(1)_16' and @title = 'Take Up Quote' and (text() = 'Take Up Quote' or . = 'Take Up Quote')]</value>
+      <webElementGuid>b80ba1f8-0fbd-442a-a260-3899cb6d651d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/span/button</value>
+      <webElementGuid>3a3e1ffd-2171-4725-b847-3ea5f5bcbc49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CT']/div/div/div/div/div[3]/div/div/span/button</value>
+      <webElementGuid>912c27a2-ec11-41e2-b93c-195371662a09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

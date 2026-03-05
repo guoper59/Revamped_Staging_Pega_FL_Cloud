@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_PendingAuthorityStatus1</name>
+   <tag></tag>
+   <elementGuidId>21e0ce98-44f4-4c84-aae8-4a6a4c5e9f79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'${fieldName}')]&#xd;
+&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>ee8aa4d7-f163-4d8b-9b9d-608cf69c2558</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

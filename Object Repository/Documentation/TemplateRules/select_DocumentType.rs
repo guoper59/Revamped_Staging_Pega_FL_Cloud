@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DocumentType</name>
+   <tag></tag>
+   <elementGuidId>55e5e6cc-46b8-40e6-9338-e809d7cd5748</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ea89381f</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ea89381f']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02002031053030720604968&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1a32b485-7027-4dd3-8703-bb8756fd2bbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;ResetTemplateID,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMH04MDE4MWY5OTNlNzdkYzJhZGI3MDlhZmNmMThmNTI1ODUzYjc2NzZmY2Y2NGE4ZmZjMzQyYjNhNjQxNjhjNjI5MjdkMDI4Y2EyZjM3YjhkYTViNmM4MGMwMWY2MDM2MDM2YzIyMTJmYjE5ZjFhYWYxODNlYzhlZjBlZmU0MWRlNDc4M2FlMzZhNGQzYjJkNWY2YjI3ZTM1NjU3ZTdhYTE1MTkzODZmNDU2ZDY3OGI1NDdjM2U3ODY3ZjJmNmZkOTIwNDkyNDNkOWI3NmU2MTA0YzA0MDcyZTk2MWY2YzMzZGUxYTA3ZDRkNzM5MjQzN2NmMGIyYTEzYzA5YjkwOTFm*&quot;,{},{}],&quot;pyDisplayHarness&quot;]]]</value>
+      <webElementGuid>0195d8a3-20db-4bd9-83e8-fb096f79bc53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>202002031053030720604968</value>
+      <webElementGuid>10a1ad98-8f33-48b5-8d67-1307bea51edc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>de0a74a6-bd2a-4cdd-b45b-d79591b03be5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e7fb8fea-f89b-4101-9c96-4075e2ceae6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ea89381f</value>
+      <webElementGuid>bc65ec53-89d5-4acb-afee-faf49a981ba7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>f82ec959-c1db-4ef0-ad85-967e792a8f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyDisplayHarness$pDocumentType</value>
+      <webElementGuid>129e4954-16bc-45e4-a6cc-f77fefec68e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyDisplayHarness$pDocumentTypeError</value>
+      <webElementGuid>096b6053-3b3c-43e1-aea0-413e8090f395</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select Document Type
+
+Broker BinderNamed InsuredPolicy SlipsQuote LetterRenewal Endorsement
+
+</value>
+      <webElementGuid>c6591053-eab6-4da7-af8d-6e3a56fad268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ea89381f&quot;)</value>
+      <webElementGuid>048b2dea-218f-4b76-8d67-6a366f51526a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Documentation/TemplateRules/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>4cf942da-fc4b-4224-ae80-aae87e729371</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ea89381f']</value>
+      <webElementGuid>69054ff5-237a-4fd9-9738-178a870f195d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/select</value>
+      <webElementGuid>487253f0-4c2c-4859-a165-bf17e739707f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Type'])[1]/following::select[1]</value>
+      <webElementGuid>98f34749-4954-4eb6-9625-18cbd096993c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Template Rules'])[1]/following::select[1]</value>
+      <webElementGuid>5d7b93d1-92c1-430d-881e-b0f47d38a3fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::select[1]</value>
+      <webElementGuid>d0498fb2-06b7-4fe1-9523-83a6cd1b41da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Template'])[1]/preceding::select[1]</value>
+      <webElementGuid>b0cd929a-70a5-45fc-b9b1-8565d1b51e41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>376c40a8-1823-49e3-8ab5-ee98ac6ee047</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'ea89381f' and @name = '$PpyDisplayHarness$pDocumentType' and (text() = '
+
+  Select Document Type
+
+Broker BinderNamed InsuredPolicy SlipsQuote LetterRenewal Endorsement
+
+' or . = '
+
+  Select Document Type
+
+Broker BinderNamed InsuredPolicy SlipsQuote LetterRenewal Endorsement
+
+')]</value>
+      <webElementGuid>0707af15-a8cc-4905-b421-e87b0b18e9da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

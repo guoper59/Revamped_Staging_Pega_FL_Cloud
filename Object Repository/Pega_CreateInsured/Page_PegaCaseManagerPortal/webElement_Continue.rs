@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_Continue</name>
+   <tag></tag>
+   <elementGuidId>a75d098c-63da-41d0-8042-95e663ac4312</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[text()='Continue'] | //*/text()[normalize-space(.)='Continue']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;CaptureBrokerInfoWrapper_pyWorkPage_36&quot;] > div.pzbtn-rnd > div.pzbtn-lft > div.pzbtn-rgt > div.pzbtn-mid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0161215064402013685925&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>64c3cf4a-477e-4a28-b65d-5978ead8c511</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-mid</value>
+      <webElementGuid>406abdeb-23f1-4829-a94b-00af16411966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>....</value>
+      <webElementGuid>8c80e836-1db7-4728-aff1-9c3996fdcb3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>a9e92f98-4ed6-47a1-a415-b981af061c1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-sub_section item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-3 float-right set-width-auto&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-default_with_less_padding&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline  content-inline set-width-auto&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/button[@class=&quot;pzhc&quot;]/div[@class=&quot;pzbtn-rnd&quot;]/div[@class=&quot;pzbtn-lft&quot;]/div[@class=&quot;pzbtn-rgt&quot;]/div[@class=&quot;pzbtn-mid&quot;]</value>
+      <webElementGuid>b243fc21-cebd-4739-8b8c-2b3b2392a9c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>a2f26059-763c-477c-9211-5b52dfd43151</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/button/div/div/div/div</value>
+      <webElementGuid>d4a438fb-e110-4307-85a7-55623afc17a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[2]/following::div[7]</value>
+      <webElementGuid>b4e9b534-ade4-4cce-bd89-134e5207190f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telephone'])[4]/following::div[20]</value>
+      <webElementGuid>65813eaf-44a0-4c04-ac6a-c5f66a96f4c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/preceding::div[6]</value>
+      <webElementGuid>b114711e-320a-448e-b92f-8f1a42a2d682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/preceding::div[6]</value>
+      <webElementGuid>c499e053-d38e-4941-a61c-353837663fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
+      <webElementGuid>0ae0695c-2292-46d3-9605-c8093ecb627f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/button/div/div/div/div</value>
+      <webElementGuid>949d30e7-e12b-4fb5-9677-9f16a6444144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>2b1c3032-2feb-4b9a-9d90-794a7bb7eedd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

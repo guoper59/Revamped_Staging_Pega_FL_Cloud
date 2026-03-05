@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_AddItemLink2</name>
+   <tag></tag>
+   <elementGuidId>67707eac-d54d-4d12-98e7-1d70f5a8e150</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[contains(text(),'Add Item')])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PEGA_GRID28 > #PEGA_GRID_SKIN > #RULE_KEY > table > tbody > tr > td.dataLabelWrite.gridActionAlignLeft > #RULE_KEY > div.layout.layout-none > div.layout-body.clearfix > div.content.layout-content-inline_middle.content-inline_middle > div.content-item.content-layout.item-1 > div.content-inner > div.layout.layout-none > div.layout-body.clearfix > div.content.layout-content-inline_middle.content-inline_middle > div.content-item.content-field.item-2 > div.content-inner > div.field-item.dataValueWrite > span > a[name=&quot;GridAddandDeleteOptions_pyWorkPage.ApplicationPage.SelectedQuote_4&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02109031454360087581&quot;] [data-test-id=&quot;\32 018030913301903194833&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d80edbdb-a77d-4dc9-8f2a-c506383e4035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>2018030913301903194833</value>
+      <webElementGuid>dab7c8c4-ced0-4f13-8e6f-005e55c436c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e576964a-6367-445a-81ac-187cf4c919ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>pd(event);</value>
+      <webElementGuid>a1ae2fca-ab9c-4f6a-bd55-816ee5afa6bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>Link</value>
+      <webElementGuid>05fc6cc9-1ec0-4ede-bf51-eb69866e8876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>GridAddandDeleteOptions_pyWorkPage.ApplicationPage.SelectedQuote_4</value>
+      <webElementGuid>42a344a4-9fc2-4eef-9f0f-eb7ae61ac78d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;doListAction&quot;,[&quot;:event&quot;,[&quot;ADDITEM&quot;,&quot;&quot;, &quot;INSERTAFTER&quot;,&quot;&quot;,&quot;pyNextGenGridModalTemplate&quot;],[&quot;INSERTAFTER&quot;]]],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;Sublimits&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;1&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX01YTMzOGU0NDE4MGY5MDA3OTcwZmU5YTI0ZTIwNjg5M2JiMmRiNDhiZmY2ZWFiZjlmNjZiNGU3MDVlYWYwMzI1NGYzNWU4ZDM2ZTdkNWY0ZjE1OTgxNGU4ZDcwZTE2ZDMyMjJlMjk2Nzc2YTk2MDJiMjVlYmI0NzAwODg3ODA1MA%3D%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;]],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;Deductible&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;1&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX01YTMzOGU0NDE4MGY5MDA3OTcwZmU5YTI0ZTIwNjg5M2JiMmRiNDhiZmY2ZWFiZjlmNjZiNGU3MDVlYWYwMzI1NGYzNWU4ZDM2ZTdkNWY0ZjE1OTgxNGU4ZDcwZTE2ZDMyMjJlMjk2Nzc2YTk2MDJiMjVlYmI0NzAwODg3ODA1MA%3D%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;]]]</value>
+      <webElementGuid>4429811b-7f05-4153-8993-7c0cb8cd0bf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Item</value>
+      <webElementGuid>0dd460dd-b775-4eee-9cf2-a1c8fdb13eda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PEGA_GRID28&quot;)/div[@id=&quot;PEGA_GRID_SKIN&quot;]/div[@id=&quot;RULE_KEY&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;dataLabelWrite gridActionAlignLeft&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content  layout-content-inline_middle content-inline_middle&quot;]/div[@class=&quot;content-item content-layout item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content  layout-content-inline_middle content-inline_middle&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/a[1]</value>
+      <webElementGuid>9a7a162e-4d56-471e-a465-8ae738c51385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>854e7337-2ab6-484c-9be9-1594bd50f242</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

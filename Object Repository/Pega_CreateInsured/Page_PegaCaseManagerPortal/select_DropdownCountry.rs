@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownCountry</name>
+   <tag></tag>
+   <elementGuidId>7d42da61-3624-43ed-bfe6-1f5eec0c160d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[text()='Country']//following-sibling::div//select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#f4efc58f</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'f4efc58f' and @name = '$PpyWorkPage$pSearchStringSSN' and (text() = '&#xd;
+&#xd;
+  Please Select...&#xd;
+&#xd;
+AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua And BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Sint Eustatius, and SabaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBrunei DarussalamBulgariaBurkinaBurundiCambodiaCameroonCanadaCanary IslandsCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCuracaoCyprusCzech RepublicDemocratic Republic of the CongoDenmarkDjiboutiDominicaDominican RepublicDummy RecordEast TimorEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFederated States of MicronesiaFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHeard Island&amp; MCDonald IslandsHoly See(Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle Of ManIsraelItalyIvory CoastJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMidway IslandsMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNeutral ZoneNew CaledoniaNew HebridesNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalau IslandsPalestinian territoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSamoaSan MarinoSao TomeSaudi ArabiaSenegalSerbiaSerbia &amp; MontenegroSeychellesSierra LeoneSingaporeSlovak RepublicSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; the South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt BarthélemySt. HelenaSt. Kitts-NevisSt. LuciaSt. MartinSt. Martin (Dutch Part)St. Pierre et MiquelonSt. VincentSudanSurinameSvalbardSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor- LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States Minor Outlying IslandsUnited States of AmericaUruguayUzbekistanVanuatuVenezuelaVietnamVirgin Islands, U.S.Wallis &amp; FutunaWestern SaharaYemenYugoslavia (former)ZaireZambiaZimbabwe&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Please Select...&#xd;
+&#xd;
+AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua And BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Sint Eustatius, and SabaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBrunei DarussalamBulgariaBurkinaBurundiCambodiaCameroonCanadaCanary IslandsCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCuracaoCyprusCzech RepublicDemocratic Republic of the CongoDenmarkDjiboutiDominicaDominican RepublicDummy RecordEast TimorEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFederated States of MicronesiaFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHeard Island&amp; MCDonald IslandsHoly See(Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle Of ManIsraelItalyIvory CoastJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMidway IslandsMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNeutral ZoneNew CaledoniaNew HebridesNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalau IslandsPalestinian territoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSamoaSan MarinoSao TomeSaudi ArabiaSenegalSerbiaSerbia &amp; MontenegroSeychellesSierra LeoneSingaporeSlovak RepublicSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; the South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt BarthélemySt. HelenaSt. Kitts-NevisSt. LuciaSt. MartinSt. Martin (Dutch Part)St. Pierre et MiquelonSt. VincentSudanSurinameSvalbardSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor- LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States Minor Outlying IslandsUnited States of AmericaUruguayUzbekistanVanuatuVenezuelaVietnamVirgin Islands, U.S.Wallis &amp; FutunaWestern SaharaYemenYugoslavia (former)ZaireZambiaZimbabwe&#xd;
+&#xd;
+') and @ref_element = 'Object Repository/Pega_CreateInsured/Page_Pega Case Manager Portal/iframe_PegaGadget1Ifr']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0170118071845005419987&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>4d9ed2f7-427e-4aac-a26b-ffe5a0cf3cf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;postValue&quot;,[&quot;:event&quot;]]]</value>
+      <webElementGuid>3de54a46-8d05-4372-a12d-d4d674c9f767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20170118071845005419987</value>
+      <webElementGuid>c21de15d-2d98-47f5-9d84-c2a87866bf91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>f8f483b3-c0ce-4f27-a27a-0b3b9935c004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7898aaf1-bca6-478e-86d1-fc215d46ffb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>f4efc58f</value>
+      <webElementGuid>8fed6795-3e5b-4971-a266-fd9f9849a2a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>f7743e02-aa2c-41a2-ac05-2f38291a3db4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pSearchStringSSN</value>
+      <webElementGuid>af70b49c-15d4-41c4-b096-e54c898a2146</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pSearchStringSSNError</value>
+      <webElementGuid>2c2bacec-c170-4c7d-b0ff-8971f540ccc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>&#xd;
+&#xd;
+  Please Select...&#xd;
+&#xd;
+AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua And BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Sint Eustatius, and SabaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBrunei DarussalamBulgariaBurkinaBurundiCambodiaCameroonCanadaCanary IslandsCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCuracaoCyprusCzech RepublicDemocratic Republic of the CongoDenmarkDjiboutiDominicaDominican RepublicDummy RecordEast TimorEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFederated States of MicronesiaFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHeard Island&amp; MCDonald IslandsHoly See(Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle Of ManIsraelItalyIvory CoastJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMidway IslandsMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNeutral ZoneNew CaledoniaNew HebridesNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalau IslandsPalestinian territoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSamoaSan MarinoSao TomeSaudi ArabiaSenegalSerbiaSerbia &amp; MontenegroSeychellesSierra LeoneSingaporeSlovak RepublicSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; the South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt BarthélemySt. HelenaSt. Kitts-NevisSt. LuciaSt. MartinSt. Martin (Dutch Part)St. Pierre et MiquelonSt. VincentSudanSurinameSvalbardSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor- LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States Minor Outlying IslandsUnited States of AmericaUruguayUzbekistanVanuatuVenezuelaVietnamVirgin Islands, U.S.Wallis &amp; FutunaWestern SaharaYemenYugoslavia (former)ZaireZambiaZimbabwe&#xd;
+&#xd;
+</value>
+      <webElementGuid>9e9a0486-2706-4581-8a3f-8480cca45617</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;f4efc58f&quot;)</value>
+      <webElementGuid>c986cab4-5611-4a1a-b2dc-9dcd9e89951f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>9e913d2a-8bc2-46a4-97e4-924f7c160886</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='f4efc58f']</value>
+      <webElementGuid>efae75ad-ad72-4adc-88be-5a0cb719ca08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div/div/div/select</value>
+      <webElementGuid>0e30923c-741a-43ed-b4a3-82b51fdbd122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::select[1]</value>
+      <webElementGuid>518a0096-80b2-40ff-bdc3-bb16fe624c52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Broker'])[1]/following::select[1]</value>
+      <webElementGuid>20b7340b-487a-46cf-a8dd-db7739da987c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/preceding::select[1]</value>
+      <webElementGuid>356c599f-c044-4dbe-8ed1-499890c68dc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Broker'])[2]/preceding::select[1]</value>
+      <webElementGuid>2f322a1e-e971-4fd6-8e42-001d9c582522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>21cd420b-1028-4dbc-bd38-746209b983c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'f4efc58f' and @name = '$PpyWorkPage$pSearchStringSSN' and (text() = '&#xd;
+&#xd;
+  Please Select...&#xd;
+&#xd;
+AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua And BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Sint Eustatius, and SabaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBrunei DarussalamBulgariaBurkinaBurundiCambodiaCameroonCanadaCanary IslandsCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCuracaoCyprusCzech RepublicDemocratic Republic of the CongoDenmarkDjiboutiDominicaDominican RepublicDummy RecordEast TimorEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFederated States of MicronesiaFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHeard Island&amp; MCDonald IslandsHoly See(Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle Of ManIsraelItalyIvory CoastJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMidway IslandsMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNeutral ZoneNew CaledoniaNew HebridesNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalau IslandsPalestinian territoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSamoaSan MarinoSao TomeSaudi ArabiaSenegalSerbiaSerbia &amp; MontenegroSeychellesSierra LeoneSingaporeSlovak RepublicSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; the South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt BarthélemySt. HelenaSt. Kitts-NevisSt. LuciaSt. MartinSt. Martin (Dutch Part)St. Pierre et MiquelonSt. VincentSudanSurinameSvalbardSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor- LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States Minor Outlying IslandsUnited States of AmericaUruguayUzbekistanVanuatuVenezuelaVietnamVirgin Islands, U.S.Wallis &amp; FutunaWestern SaharaYemenYugoslavia (former)ZaireZambiaZimbabwe&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Please Select...&#xd;
+&#xd;
+AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua And BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Sint Eustatius, and SabaBosnia &amp; HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBritish Virgin IslandsBrunei DarussalamBulgariaBurkinaBurundiCambodiaCameroonCanadaCanary IslandsCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCuracaoCyprusCzech RepublicDemocratic Republic of the CongoDenmarkDjiboutiDominicaDominican RepublicDummy RecordEast TimorEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFederated States of MicronesiaFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHeard Island&amp; MCDonald IslandsHoly See(Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle Of ManIsraelItalyIvory CoastJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMidway IslandsMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNeutral ZoneNew CaledoniaNew HebridesNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalau IslandsPalestinian territoriesPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSamoaSan MarinoSao TomeSaudi ArabiaSenegalSerbiaSerbia &amp; MontenegroSeychellesSierra LeoneSingaporeSlovak RepublicSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia &amp; the South Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSt BarthélemySt. HelenaSt. Kitts-NevisSt. LuciaSt. MartinSt. Martin (Dutch Part)St. Pierre et MiquelonSt. VincentSudanSurinameSvalbardSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor- LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks &amp; Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States Minor Outlying IslandsUnited States of AmericaUruguayUzbekistanVanuatuVenezuelaVietnamVirgin Islands, U.S.Wallis &amp; FutunaWestern SaharaYemenYugoslavia (former)ZaireZambiaZimbabwe&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>929f0e43-1dea-4b6f-af75-95af46626e50</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

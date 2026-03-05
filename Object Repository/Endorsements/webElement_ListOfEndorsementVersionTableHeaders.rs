@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_ListOfEndorsementVersionTableHeaders</name>
+   <tag></tag>
+   <elementGuidId>58a54220-6a34-4c73-a1fb-f1ca5faa90c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[contains(@pl_prop,'EndorsementVersions')]//tbody//tr//th[@role='columnheader']//following-sibling::div[contains(@class,'cellIn')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

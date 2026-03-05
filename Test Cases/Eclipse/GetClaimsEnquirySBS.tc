@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetClaimsEnquirySBS</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>19da0991-e765-4da6-b6f2-83e1ce1cc488</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Search Policy By Insured Name And Producing Team&#xd;
+Module: Regression Test Pack/Submission Search &#xd;
+Test Case ADO ID:262196</description>
+   <name>262196_SearchPolicyInsuredNameAndProducingTeam</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262196</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce2e4ab0-8d6c-42b5-a800-4381b7f5540a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22a1f802-3db9-42ed-92d6-2f112083cd59</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>465fea59-ef32-4c0f-acdb-cd71afb695ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>22a1f802-3db9-42ed-92d6-2f112083cd59</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>465fea59-ef32-4c0f-acdb-cd71afb695ae</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

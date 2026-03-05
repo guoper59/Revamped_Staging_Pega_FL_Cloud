@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Create New Other Business Provider&#xd;
+Module: Regression Test Pack/Party Management&#xd;
+Test Case ADOID: 262239</description>
+   <name>262239_CreateNewOtherBusinessProvider</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262239</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f80e0e7e-f2fe-4240-8b06-c18dbd56df2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>185583b2-2100-4d5a-a883-926c70a108bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>63ab09fb-a365-46dd-9c06-ca128d86d4fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff7962c6-4be6-45e5-b87f-3039fb43d8ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56ddebb1-bed1-41f9-8a5c-83409c02d940</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3934522-5c7f-472d-8254-09c112439c66</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party Management'</defaultValue>
+      <description></description>
+      <id>185583b2-2100-4d5a-a883-926c70a108bb</id>
+      <masked>false</masked>
+      <name>partyManagementLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other Business Provider'</defaultValue>
+      <description></description>
+      <id>63ab09fb-a365-46dd-9c06-ca128d86d4fa</id>
+      <masked>false</masked>
+      <name>otherBusinessProviderlink</name>
+   </variable>
+   <variable>
+      <defaultValue>[('name') : 'Name', ('country') : 'Country', ('postCode') : 'Postcode', ('cityName') : 'City', ('addressLine1') : 'Address line 1', ('status') : 'Status', ('searchName') : 'Business Provider']</defaultValue>
+      <description></description>
+      <id>ff7962c6-4be6-45e5-b87f-3039fb43d8ae</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestData'</defaultValue>
+      <description></description>
+      <id>56ddebb1-bed1-41f9-8a5c-83409c02d940</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Files/TestData'</defaultValue>
+      <description></description>
+      <id>c3934522-5c7f-472d-8254-09c112439c66</id>
+      <masked>false</masked>
+      <name>testDataFilePath</name>
+   </variable>
+</TestCaseEntity>

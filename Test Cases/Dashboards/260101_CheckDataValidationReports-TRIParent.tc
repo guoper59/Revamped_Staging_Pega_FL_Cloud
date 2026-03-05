@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin&#xd;
+Description: Check Data Validation reports TRI Parent&#xd;
+Module: Regression Test Pack/Dashboards&#xd;
+Test Case ADO 260101</description>
+   <name>260101_CheckDataValidationReports-TRIParent</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>260101</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>78a38fbd-a2d0-4da1-8429-90c97304478b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef72ce05-d917-44a0-8471-8198cf0cf3b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e10ce370-719a-4652-a321-bf14c5e70bb2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73423f7f-adfc-4d0f-bd04-d1a174b6e333</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Underwriter', 'Underwriting Assistant', 'Producing Team', 'Major Class', 'Insured Country', 'NAIC Division']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Broker Company to be Approved', 'Sanctions Check Directors Unresolved', 'Sanctions Check Insured or Reinsured Unresolved', 'TRI Parent Check']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedDataValidationList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Failed DEC Renewals', 'Renewal Work Basket', 'Open Submissions', 'Open NB Submissions >90 days', 'Open RNS Submissions >120 days', 'Open NB Submissions', 'Open RNB Submissions', 'Submissions with Quote Due within 30 days', 'Submissions in Quoted Status', 'Policy Expires within 7 days', 'Policy Expires within 30 days', 'Policy Expires within 2 months', 'Policy Expires within 4 months', 'Tacit Renewal within 15 days', 'Tacit Renewal within 30 days', 'Policies Signed/Written in the last 30 days', 'Policies in Bound Status']</defaultValue>
+      <description></description>
+      <id>ef72ce05-d917-44a0-8471-8198cf0cf3b6</id>
+      <masked>false</masked>
+      <name>expectedWorkFlowList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Policy Reference', 'Insured Id', 'Insured Name', 'Actual Insured Name', 'Target Name', 'Parent Insured Name', 'Major Class', 'Underwriter', 'UWA', 'Layer Position', 'Effective date', 'Expiry Date', 'Broker Company', 'Broker Contact First Name', 'Broker Contact Last Name', 'Insured Domicile']</defaultValue>
+      <description></description>
+      <id>e10ce370-719a-4652-a321-bf14c5e70bb2</id>
+      <masked>false</masked>
+      <name>expectedHeaderList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dashboards'</defaultValue>
+      <description></description>
+      <id>73423f7f-adfc-4d0f-bd04-d1a174b6e333</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

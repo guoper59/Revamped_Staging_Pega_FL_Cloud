@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: View policy on click on 'Insured' link from submission search&#xd;
+Module: Regression Test Pack/View Mode &#xd;
+Test Case ADO 259890</description>
+   <name>259890_CheckForEndorsementsTab</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259890</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>041ddd10-05f1-4796-b908-a0d86c5c2628</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fef79f33-c472-4233-8910-eb1410d6a094</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0795e29-56aa-4d16-9aee-b52ae6146d60</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d8f8056-105d-4cb3-a757-b1db321e93bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>716ffc45-b5e5-4857-8d17-69ce0d4f7c09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71895d14-3d74-4a23-8e32-4a4907e9cbed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2729686-b7cc-4ec3-97e2-999cb62a0234</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35e4ac83-9a01-4ed2-8d4f-b0cd5b9838e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01f88469-3895-4b52-b3f7-35a244e735fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d19a1f19-8fd7-4dfe-948e-b52581c4c64c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Overview', 'Insured', 'Broker', 'General Data', 'UW Worksheet', 'Underwriting', 'Bind', 'Post Bind', 'Payments', 'Policy Docs', 'Endorsements', 'RI Forms', 'Quality Checks', 'Attachments', 'Closed Reasons', 'Claims', 'Links', 'Policies', 'History', 'Notes','Last entered Transaction', 'Prior Transactions']</defaultValue>
+      <description></description>
+      <id>a87eaceb-f3c6-4466-9086-04eb4559a773</id>
+      <masked>false</masked>
+      <name>expectedHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>['Endorsement Number', 'Endorsement Type', 'Endorsement Creation date', 'Endorsement Inception Date', 'Endorsement Expiry Date', 'Endorsement Status']</defaultValue>
+      <description></description>
+      <id>e0795e29-56aa-4d16-9aee-b52ae6146d60</id>
+      <masked>false</masked>
+      <name>expectedTableHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>[('endorsementStatus') : 'Resolved-Signed', ('endorsementExpiryDate') : '30/11/2023', ('endorsementCreationDate') : '31/01/2023 12:05', ('endorsementType') : 'Broker Details Change', ('endorsementInceptionDate') : '01/12/2022', ('endorsementNumber') : 'F22H6550A001E01']</defaultValue>
+      <description></description>
+      <id>1d8f8056-105d-4cb3-a757-b1db321e93bf</id>
+      <masked>false</masked>
+      <name>endorsementValues</name>
+   </variable>
+   <variable>
+      <defaultValue>['Endorsement Stage', 'Field Name', 'Old Value', 'New Value']</defaultValue>
+      <description></description>
+      <id>716ffc45-b5e5-4857-8d17-69ce0d4f7c09</id>
+      <masked>false</masked>
+      <name>expectedendorsementTableHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>['Underwriting Q1', 'Status', 'NA', 'NTU', 'Underwriting Q1', 'Not Taken Up Reason', 'NA', 'Internal - Quote to other', 'Underwriting Q1', 'Not Taken Up Description', 'NA', 'amend premium', 'Bind (Premium Information)', 'Premium Type', 'Original Premium', 'Additional Premium', 'Bind (Premium Information)', 'Layer Gross Premium', '425,000.00', '425,000.00', '0.00', '0.00', 'Bind (Premium Information)', 'Layer Net Premium', '382,500.00', '382,500.00', '0.00', '0.00', 'Bind (Premium Information)', 'TMHCC Gross Premium', '425,000.00', '425,000.00', '0.00', '0.00', 'Bind (Premium Information)', 'TMHCC Net Premium', '382,500.00', '382,500.00', '0.00', '0.00', 'Bind (Broker Commission On Gross Premium)', 'Layer Broker Commission Amount', '42,500.00', '42,500.00', '0.00', '0.00', 'Bind (Broker Commission On Gross Premium)', 'TMHCC Broker Commission Amount', '42,500.00', '42,500.00', '0.00', '0.00', 'Post Bind Taxes', 'IPT France Premium %', '60.00000', '60.00000', '0.00000', '0.00000', 'Post Bind Taxes', 'IPT France Policy Tax Amount', '22,950.00', '22,950.00', '0.00', '0.00', 'Post Bind Taxes', 'IPT France TMHCC Tax Amount', '22,950.00', '22,950.00', '0.00', '0.00', 'Post Bind Taxes', 'IPT Netherlands Premium %', '40.00000', '40.00000', '0.00000', '0.00000', 'Post Bind Taxes', 'IPT Netherlands Policy Tax Amount', '35,700.00', '35,700.00', '0.00', '0.00', 'Post Bind Taxes', 'IPT Netherlands TMHCC Tax Amount', '35,700.00', '35,700.00', '0.00', '0.00']</defaultValue>
+      <description></description>
+      <id>71895d14-3d74-4a23-8e32-4a4907e9cbed</id>
+      <masked>false</masked>
+      <name>expectedendorsmentTableValues</name>
+   </variable>
+   <variable>
+      <defaultValue>['1', 'Original Premium', '425,000.00', '425,000.00', 'EUR', '425,000.00', '425,000.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '1', 'Brokerage Commission', '-42,500.00', '-42,500.00', 'EUR', '-42,500.00', '-42,500.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '1', 'IPT France', '22,950.00', '22,950.00', 'EUR', '22,950.00', '22,950.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '1', 'IPT Netherlands', '35,700.00', '35,700.00', 'EUR', '35,700.00', '35,700.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '2', 'Additional Premium', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '2', 'Brokerage Commission', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '2', 'IPT France', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023', '2', 'IPT Netherlands', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '04/04/2023', '01/12/2022', '30/11/2023']</defaultValue>
+      <description></description>
+      <id>e2729686-b7cc-4ec3-97e2-999cb62a0234</id>
+      <masked>false</masked>
+      <name>expectedInstallmentValues</name>
+   </variable>
+   <variable>
+      <defaultValue>['Transaction No', 'Type', 'Policy Gross Amount - Original', 'TMHCC Gross Amount - Original', 'Original Currency', 'Policy Gross Amount - Settlement', 'TMHCC Gross Amount - Settlement', 'Settlement Currency', 'Rate Of Exchange', 'Due Date', 'Effective From', 'Effective To']</defaultValue>
+      <description></description>
+      <id>35e4ac83-9a01-4ed2-8d4f-b0cd5b9838e2</id>
+      <masked>false</masked>
+      <name>expectedInstalmentHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>01f88469-3895-4b52-b3f7-35a244e735fe</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>d19a1f19-8fd7-4dfe-948e-b52581c4c64c</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

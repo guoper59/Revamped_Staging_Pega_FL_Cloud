@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin &#xd;
+Description: Verify user is able to create new broker contact&#xd;
+Module: Regression Test Pack/Party Management&#xd;
+Test Case ADO ID:262233</description>
+   <name>262233_CreateNewBrokerContact</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262233</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecea39cb-dccd-463f-ab0f-9332cc92541b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d95a473-22ea-4558-822f-50b3a2340284</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2caf70ac-b97b-4fc2-bf0b-2ebcde5d950c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98bfd435-e3c7-4f51-bbc5-0856310abfe6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>602e2200-1235-4ed3-8b1e-f4eca5a823a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6e0f995-9e3d-4322-9abf-65a9acb5c495</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92b5cc45-a43e-4adb-9dd0-e5be737f9585</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a1871de-56de-46b4-96aa-d56276b5da1c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party Management'</defaultValue>
+      <description></description>
+      <id>0d95a473-22ea-4558-822f-50b3a2340284</id>
+      <masked>false</masked>
+      <name>partyManagementLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Broker Contact'</defaultValue>
+      <description></description>
+      <id>2caf70ac-b97b-4fc2-bf0b-2ebcde5d950c</id>
+      <masked>false</masked>
+      <name>brokerContactLink</name>
+   </variable>
+   <variable>
+      <defaultValue>7</defaultValue>
+      <description></description>
+      <id>98bfd435-e3c7-4f51-bbc5-0856310abfe6</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>[('firstName') : 'First Name', ('surName') : 'Surname', ('email') : 'Email', ('address') : 'Address', ('searchName') : 'Broker Contact', ('country') : 'Country', ('brokerCompanyName') : 'Broker Company Name', ('company') : 'Broker Company', ('name') : 'Name', ('status') : 'Status']</defaultValue>
+      <description></description>
+      <id>602e2200-1235-4ed3-8b1e-f4eca5a823a3</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestData'</defaultValue>
+      <description></description>
+      <id>d6e0f995-9e3d-4322-9abf-65a9acb5c495</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Files/TestData'</defaultValue>
+      <description></description>
+      <id>92b5cc45-a43e-4adb-9dd0-e5be737f9585</id>
+      <masked>false</masked>
+      <name>testDataFilePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'Active'</defaultValue>
+      <description></description>
+      <id>5a1871de-56de-46b4-96aa-d56276b5da1c</id>
+      <masked>false</masked>
+      <name>expectedStatus</name>
+   </variable>
+</TestCaseEntity>

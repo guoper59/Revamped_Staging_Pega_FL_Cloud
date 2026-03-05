@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownBrokerContact</name>
+   <tag></tag>
+   <elementGuidId>b1f52a6b-2e50-458c-9ec2-ca1dc1d9296a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'$PpyWorkPage$pAgentData$pAgentId')]&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#d12bd452</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02106010727300332874&quot;] [data-test-id=&quot;\32 0141230003642011816209&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>34ad3835-49f5-4e2f-8913-36f35da6b5df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;postValue&quot;,[&quot;:event&quot;]],[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;SetHideBrokerContactDetails,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX1jMmMxMDkzNmY3M2ZmYzk1YmRhMjFhOTllZDBhYjhhMWNmMzAxMDA4ZWY3MWM5M2VlYmU3M2IwZjY1MzM3MjlhMDQ3MmY1ZGY3YTRiZmZmYmM3ZDUzZjRhODEzM2ZmZDgyN2JiMjkzMTkxM2Y1OWJkN2M4YmZlN2Q4MjAyMzhiNGEzNzU5YTU2M2QwYzQ4ZmMyNWUyMjgyZjEwYzgyODQ3MTk1MjIyODE2ZWEwYjdmMWZlMmU4NzI1NGMxZGI3MDUxODFlMTFjMGJhYzUyNmNiMjYwZmI4ODQ2ZjhjN2RkZWE5NDk3MzdlZGEzMzg0MDVjZGM4ZTlkOWFlMmVjYzUwZGZlMjUxZWMyODg3ZDJmZWMxZmVmZGI1Y2ZlYzdjNTI%3D*&quot;,{},{}],&quot;pyWorkPage.AgentData&quot;]]]</value>
+      <webElementGuid>90233bb8-7046-41fc-85ec-9b503daadaa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20141230003642011816209</value>
+      <webElementGuid>41993892-e332-41ee-8058-aa2c8f524e65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>e8c2950b-0875-426c-9e2d-efe534f06ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>43066d2d-f507-4033-ab9c-fdb2f211ac7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>32ec5732-753f-4f02-b0a8-ebcd64fd33ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>d12bd452</value>
+      <webElementGuid>06b83fb8-24ed-45ef-a832-95a441f1da78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>7add8125-fc6c-4b5a-8033-277e2e57a0d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pAgentData$pAgentId</value>
+      <webElementGuid>8a3c3063-4bd7-4907-a281-9cc44d6f84e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>validationtype</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>3e08e23e-ba34-4c66-9843-c345371e109d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-expr-id</name>
+      <type>Main</type>
+      <value>355af5353a443c9f174d414f77dc8bb35a95685c_7</value>
+      <webElementGuid>ed5502b8-7c3b-4116-ad76-0c5e394c8dce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-context</name>
+      <type>Main</type>
+      <value>pyWorkPage.AgentData</value>
+      <webElementGuid>103ae607-36a7-4cc1-981d-8112bcbce3e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellid</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>55e575ee-b287-45dc-b0d9-7a82ce7a287e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pAgentData$pAgentIdError</value>
+      <webElementGuid>90a81e47-861a-4bb6-a783-54b18b76e639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select..
+
+Albert  Ferrer FlaqueAna  C. Garijo CalejeroAna  MecaAna  Meca DiezAna  MisolAntonio  de Puig ArboliCarmen  SegoviaConchi  Castillo RodríguezCristina Escribano AlmendralejoFran  Arance de la HerranGloria ZudaireTeijeiroJacqueline  Simón GutiérrezJordina SantiveriLuis  Carles CostaLuis  JimÃ©nez-Asenjo SotomayorMaria Piñero AynesMarina  Pizarro JimenoMarta Grau MachMarta RofesPuigdengolesMaría  Carmen LaguardaMiquel Vinyeta MedinaMiriam SevilOmaira LabordaPedro Castelló MustienesSandra ClopésTBC BECHERTTina  Lafont
+
+</value>
+      <webElementGuid>5a467f49-dab5-4e6d-bd3f-6025ea7247b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;d12bd452&quot;)</value>
+      <webElementGuid>b3ba4ed4-87cb-4410-9409-eeebdb9d05b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>df62b3ae-a015-47c7-a976-87ac7f6e75be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='d12bd452']</value>
+      <webElementGuid>112f67da-47f8-4a1f-97d4-8e1bf8d4b274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::select[1]</value>
+      <webElementGuid>18269b40-5b50-485a-bd2a-6930c2c7af62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Broker Contact Details'])[1]/following::select[1]</value>
+      <webElementGuid>ed87fc4b-8001-45ee-b085-f15e247eaa65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Broker Contact Details'])[1]/preceding::select[1]</value>
+      <webElementGuid>62d853af-fdd2-4ce5-a812-fce7bc235cc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[2]/preceding::select[1]</value>
+      <webElementGuid>bdd930a6-a209-4b61-be81-1a4665f15a8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = '$PpyWorkPage$pAgentData$pAgentId' and (text() = '
+
+  Select..
+
+Albert  Ferrer FlaqueAna  C. Garijo CalejeroAna  MecaAna  Meca DiezAna  MisolAntonio  de Puig ArboliCarmen  SegoviaConchi  Castillo RodríguezCristina Escribano AlmendralejoFran  Arance de la HerranGloria ZudaireTeijeiroJacqueline  Simón GutiérrezJordina SantiveriLuis  Carles CostaLuis  JimÃ©nez-Asenjo SotomayorMaria Piñero AynesMarina  Pizarro JimenoMarta Grau MachMarta RofesPuigdengolesMaría  Carmen LaguardaMiquel Vinyeta MedinaMiriam SevilOmaira LabordaPedro Castelló MustienesSandra ClopésTBC BECHERTTina  Lafont
+
+' or . = '
+
+  Select..
+
+Albert  Ferrer FlaqueAna  C. Garijo CalejeroAna  MecaAna  Meca DiezAna  MisolAntonio  de Puig ArboliCarmen  SegoviaConchi  Castillo RodríguezCristina Escribano AlmendralejoFran  Arance de la HerranGloria ZudaireTeijeiroJacqueline  Simón GutiérrezJordina SantiveriLuis  Carles CostaLuis  JimÃ©nez-Asenjo SotomayorMaria Piñero AynesMarina  Pizarro JimenoMarta Grau MachMarta RofesPuigdengolesMaría  Carmen LaguardaMiquel Vinyeta MedinaMiriam SevilOmaira LabordaPedro Castelló MustienesSandra ClopésTBC BECHERTTina  Lafont
+
+')]</value>
+      <webElementGuid>bdc4fa49-0095-4dd6-90d0-584a61b7a4cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='EXPAND-OUTERFRAME']/div[2]/div/div/div/div/select</value>
+      <webElementGuid>cc650b38-1969-428f-800a-41d07838b383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/select</value>
+      <webElementGuid>2be0f578-31ff-4fd8-9543-beed32b85a4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

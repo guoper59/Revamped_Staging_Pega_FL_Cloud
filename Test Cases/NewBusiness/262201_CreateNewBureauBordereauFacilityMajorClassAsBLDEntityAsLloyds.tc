@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create New Bureau Bordereau Facility Major Class= BLD  Entity = Lloyds&#xd;
+</description>
+   <name>262201_CreateNewBureauBordereauFacilityMajorClassAsBLDEntityAsLloyds</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262201</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a380e319-f062-4912-bb8c-6739f60c4100</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1beef1b-cd28-4309-a189-b36ec8dbc036</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1a29a00-4fa7-466c-b29a-9ff297d5cc00</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('majorClass1') : 'l1$pMajorClass', ('minorClass1') : 'l1$pMinorClass', ('class1') : '$l1$pClass', ('majorClass2') : 'l2$pMajorClass', ('minorClass2') : 'l2$pMinorClass', ('class2') : '$l2$pClass', ('placingTitle') : 'TMHCCPlacingTitle', ('isPrimary') : 'pIsPrimaryOrExcess', ('premiumPercent1') : 'l1$pPremiumSplitPercent', ('premiumPercent2') : 'l2$pPremiumSplitPercent', ('llyodsRiskCode1') : 'l1$pLloydsRiskCode', ('llyodsRiskCode2') : 'l2$pLloydsRiskCode', ('benchmarkLossRatio') : 'BenchmarkLossRatio', ('pricedTechPremium') : 'PricedTechPremium', ('brokerRefernce') : 'BrokerReference']</defaultValue>
+      <description></description>
+      <id>e1beef1b-cd28-4309-a189-b36ec8dbc036</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Original Premium', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>a1a29a00-4fa7-466c-b29a-9ff297d5cc00</id>
+      <masked>false</masked>
+      <name>expectedInstalmentValues</name>
+   </variable>
+</TestCaseEntity>

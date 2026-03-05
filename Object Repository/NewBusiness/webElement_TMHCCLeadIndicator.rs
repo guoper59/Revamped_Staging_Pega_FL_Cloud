@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_TMHCCLeadIndicator</name>
+   <tag></tag>
+   <elementGuidId>c4185300-94ea-42e5-9b4b-7f515d203137</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CT > div.content-inner > div.field-item.dataValueRead > span > img.checkbox.chkBxCtl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='TMHCC Lead']//following-sibling::div//span//img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;True&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f5983917-a132-4ee9-849d-38651d2a79a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>webwb/dhtmlx_iconcheckdis_13603858786.gif!!.gif</value>
+      <webElementGuid>adf6c208-ae4e-4333-afd2-ebb25ec79df1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>True</value>
+      <webElementGuid>dc5d6e47-581b-4cbd-b226-6d17c094122f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox chkBxCtl</value>
+      <webElementGuid>e7c857ed-4034-4a0f-b828-cf1dcb1ce5ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-sub_section item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@id=&quot;EXPAND-OUTERFRAME&quot;]/div[@id=&quot;EXPAND-INNERDIV&quot;]/div[@class=&quot;content  layout-content-default content-default  clearfix&quot;]/div[@class=&quot;content-item content-layout item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content  layout-content-inline_grid_triple content-inline_grid_triple&quot;]/div[@id=&quot;CT&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueRead&quot;]/span[1]/img[@class=&quot;checkbox chkBxCtl&quot;]</value>
+      <webElementGuid>27bfa26a-1453-45ac-8d94-60c5e421f277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>2bd49535-3082-4a0a-a85f-0e3628098281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='True']</value>
+      <webElementGuid>cb3603be-8e13-4521-b709-84a22dc51caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[4]/div/div/span/img</value>
+      <webElementGuid>5c66761f-25a3-49ff-946b-6e9acdc4fd8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'webwb/dhtmlx_iconcheckdis_13603858786.gif!!.gif' and @alt = 'True']</value>
+      <webElementGuid>565839cc-415a-4496-8327-d29188d514b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='CT']/div/div/span/img)[2]</value>
+      <webElementGuid>51e6fda6-75c2-4919-82bf-5d3f1391f3fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

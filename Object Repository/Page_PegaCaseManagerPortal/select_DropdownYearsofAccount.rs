@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownYearsofAccount</name>
+   <tag></tag>
+   <elementGuidId>50798bfa-3deb-414a-932a-d61257dc4ce4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#0659338c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'YearsOfAccount')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0170210172844069793670&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>55a1660d-1692-4695-b968-91872d254a8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20170210172844069793670</value>
+      <webElementGuid>b8a550b3-0437-4a99-a82d-68992809bd32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>dd9a2d52-551f-4981-a489-0100c4213f8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>020ccde5-e567-47c2-89d2-8a1a797a0ded</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>0659338c</value>
+      <webElementGuid>eab16af7-9bfa-471c-9380-ac33360621f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>46dadc2e-4106-4aa5-bd45-d13bc339ff6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pYearsOfAccount</value>
+      <webElementGuid>50685979-231b-40e4-8c0e-1fa27eceee6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pYearsOfAccountError</value>
+      <webElementGuid>d7a3e14d-fdb9-4d39-b35c-8fc10d8dab1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Unknown
+
+20252024202320222021202020192018201720162015201420132012201120102009200820072006200520042003200220012000
+
+</value>
+      <webElementGuid>035f03b5-c228-42c3-b8cc-ca680d8b3c65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;0659338c&quot;)</value>
+      <webElementGuid>d88d1142-db45-4cd0-a707-89668a357a41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>f66a3f2b-b3a9-4d34-924d-e914330d5577</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='0659338c']</value>
+      <webElementGuid>65e9d5e9-7025-42ca-9e90-da9fb1385f56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div/div/div/select</value>
+      <webElementGuid>2d98c281-174e-4a41-9054-a38d9e219517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Year of Account'])[1]/following::select[1]</value>
+      <webElementGuid>a48ccf52-1491-4a04-ade5-5b476c42d3a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submission Search/Creation'])[1]/following::select[1]</value>
+      <webElementGuid>bd4cfb1b-7f0f-4ba7-bf9c-22e7b60ec776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insured name'])[1]/preceding::select[1]</value>
+      <webElementGuid>b8c5fe2c-c3da-4073-a0bf-53aaff5a9d25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parent Insured Name'])[1]/preceding::select[1]</value>
+      <webElementGuid>b0ed4945-c523-44cc-9627-adc2cc2d8bbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>ee5f83f0-24aa-4b6b-ac4b-edf54204cd18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '0659338c' and @name = '$PD_SearchSubmissionCriteria$pYearsOfAccount' and (text() = '&#xd;
+&#xd;
+  Unknown&#xd;
+&#xd;
+20252024202320222021202020192018201720162015201420132012201120102009200820072006200520042003200220012000&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Unknown&#xd;
+&#xd;
+20252024202320222021202020192018201720162015201420132012201120102009200820072006200520042003200220012000&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>69ed3881-76a2-412c-9318-89df13bd9c24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

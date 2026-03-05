@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create new Bureau BLD Policy Lloyds 4141</description>
+   <name>259917_CreateNewBureauBLDPolicyLloyds4141</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6171835-2d65-4dec-bf29-13f4c82ee84c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21624e82-2dcc-49e7-977c-c180121e8d20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>356cdf39-d3f4-4233-9665-ca4e3321cb5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c185bbad-f5f7-44b7-b613-097637242e4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffe3f6b1-9c5c-41bf-a5dc-b124dabd00e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6066aa3a-fc6b-491c-bb42-bf282fbff1a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2edb2f5e-8fcf-4716-bf54-ee4a3a120d5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('majorClass1') : 'l1$pMajorClass', ('minorClass1') : 'l1$pMinorClass', ('class1') : '$l1$pClass', ('majorClass2') : 'l2$pMajorClass', ('minorClass2') : 'l2$pMinorClass', ('class2') : '$l2$pClass', ('placingTitle') : 'TMHCCPlacingTitle', ('isPrimary') : 'pIsPrimaryOrExcess', ('premiumPercent1') : 'l1$pPremiumSplitPercent', ('premiumPercent2') : 'l2$pPremiumSplitPercent', ('llyodsRiskCode1') : 'l1$pLloydsRiskCode', ('llyodsRiskCode2') : 'l2$pLloydsRiskCode', ('benchmarkLossRatio') : 'BenchmarkLossRatio', ('pricedTechPremium') : 'PricedTechPremium', ('brokerRefernce') : 'BrokerReference']</defaultValue>
+      <description></description>
+      <id>21624e82-2dcc-49e7-977c-c180121e8d20</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>['10,000,000.00000', '10,000,000.00000', '10,000,000.00000', '10,000,000.00000']</defaultValue>
+      <description></description>
+      <id>356cdf39-d3f4-4233-9665-ca4e3321cb5e</id>
+      <masked>false</masked>
+      <name>lobDetailsList</name>
+   </variable>
+   <variable>
+      <defaultValue>['BusinessProvider', 'Lawyer']</defaultValue>
+      <description></description>
+      <id>c185bbad-f5f7-44b7-b613-097637242e4c</id>
+      <masked>false</masked>
+      <name>payableToList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Introduction Fee: Solitaire Insurance Brokers GmbH','Lawyer Fee: Altenburger (CH)']</defaultValue>
+      <description></description>
+      <id>ffe3f6b1-9c5c-41bf-a5dc-b124dabd00e8</id>
+      <masked>false</masked>
+      <name>feeTypeList</name>
+   </variable>
+   <variable>
+      <defaultValue>['10','10']</defaultValue>
+      <description></description>
+      <id>6066aa3a-fc6b-491c-bb42-bf282fbff1a0</id>
+      <masked>false</masked>
+      <name>feePercentList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Alessandro Gaiani'</defaultValue>
+      <description></description>
+      <id>2edb2f5e-8fcf-4716-bf54-ee4a3a120d5b</id>
+      <masked>false</masked>
+      <name>underWriterName</name>
+   </variable>
+</TestCaseEntity>

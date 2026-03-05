@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>262200_FieldValidations</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15feff8c-78ba-462a-989e-ace41aae60c7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bead174f-0f10-49c8-b289-1a5a9cd32842</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bead174f-0f10-49c8-b289-1a5a9cd32842</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9824551-4c88-469d-a210-fb19e9f44c2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c501b257-0db3-4540-8cba-73302f9b7dea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e75a673-f6c1-4f64-acf0-bf5cb26d6d7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5760b7d-940b-4ed9-8ffc-c1cc874f9429</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88b3f1c2-574d-4320-bff3-357e21531893</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f417419f-9184-44a1-88e2-d588d98596be</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['100,000.00', '200,000.00', '300,000.00', '400,000.00', '0.00', '500,000.00', '0.00', '600,000.00', '700,000.00', '800,000.00', '0.00', '900,000.00', '0.00', '110,000.00', '0.00', '110,000.00']</defaultValue>
+      <description></description>
+      <id>bead174f-0f10-49c8-b289-1a5a9cd32842</id>
+      <masked>false</masked>
+      <name>expectedLayerSublimitList</name>
+   </variable>
+   <variable>
+      <defaultValue>['AD&amp;D – Insured event', 'AD&amp;D – Insured person', 'Additional Expenses', 'Crisis Response Fees and Expense', 'Crisis Response Fees and Expense', 'Disappearance  &amp;  Investigation Expense', 'Disappearance  &amp;  Investigation Expense', 'Legal Liability', 'Personal Belongings', 'Ransom', 'Ransom', 'Recall Expense', 'Recall Expense', 'Threat Response Expense', 'Threat Response Expense', 'Transit Loss']</defaultValue>
+      <description></description>
+      <id>bead174f-0f10-49c8-b289-1a5a9cd32842</id>
+      <masked>false</masked>
+      <name>expectedSublimitTypeList</name>
+   </variable>
+   <variable>
+      <defaultValue>['10.00', '20.00', '30.00', '40.00', '40.00', '50.00', '50.00', '60.00', '70.00', '80.00', '80.00', '90.00', '90.00', '11.00', '11.00', '11.00']</defaultValue>
+      <description></description>
+      <id>d9824551-4c88-469d-a210-fb19e9f44c2b</id>
+      <masked>false</masked>
+      <name>expectedSublimitPercentList</name>
+   </variable>
+   <variable>
+      <defaultValue>'EEL'</defaultValue>
+      <description></description>
+      <id>c501b257-0db3-4540-8cba-73302f9b7dea</id>
+      <masked>false</masked>
+      <name>expectedDeductibleBasis</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deductible for Ransom'</defaultValue>
+      <description></description>
+      <id>6e75a673-f6c1-4f64-acf0-bf5cb26d6d7a</id>
+      <masked>false</masked>
+      <name>expectedDeductibleType</name>
+   </variable>
+   <variable>
+      <defaultValue>['250,000.00', '1,000,000.00']</defaultValue>
+      <description></description>
+      <id>a5760b7d-940b-4ed9-8ffc-c1cc874f9429</id>
+      <masked>false</masked>
+      <name>expectedPerInsuredPersonList</name>
+   </variable>
+   <variable>
+      <defaultValue>['250,000.00', '250,000.00']</defaultValue>
+      <description></description>
+      <id>88b3f1c2-574d-4320-bff3-357e21531893</id>
+      <masked>false</masked>
+      <name>expectedPerInsuredEventList</name>
+   </variable>
+   <variable>
+      <defaultValue>['250,000.00', '']</defaultValue>
+      <description></description>
+      <id>f417419f-9184-44a1-88e2-d588d98596be</id>
+      <masked>false</masked>
+      <name>expectedAggValueList</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create New Bureau Bordereau Facility Major Class= BLD  Entity = Lloyds&#xd;
+</description>
+   <name>262201_CreateNewBureauBordereauFacilityMajorClassAsBLDEntityAsLloyds</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7d13997-7d68-44ba-8f31-f70f5c1cfa1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a831cc7f-897f-4fed-89f4-276d0ef3ec3f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bdb6bb56-d5cb-4bca-b301-8546d6a1fc1e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('majorClass1') : 'l1$pMajorClass', ('minorClass1') : 'l1$pMinorClass', ('class1') : '$l1$pClass', ('majorClass2') : 'l2$pMajorClass', ('minorClass2') : 'l2$pMinorClass', ('class2') : '$l2$pClass', ('placingTitle') : 'TMHCCPlacingTitle', ('isPrimary') : 'pIsPrimaryOrExcess', ('premiumPercent1') : 'l1$pPremiumSplitPercent', ('premiumPercent2') : 'l2$pPremiumSplitPercent', ('llyodsRiskCode1') : 'l1$pLloydsRiskCode', ('llyodsRiskCode2') : 'l2$pLloydsRiskCode', ('benchmarkLossRatio') : 'BenchmarkLossRatio', ('pricedTechPremium') : 'PricedTechPremium', ('brokerRefernce') : 'BrokerReference']</defaultValue>
+      <description></description>
+      <id>a831cc7f-897f-4fed-89f4-276d0ef3ec3f</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Original Premium', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>bdb6bb56-d5cb-4bca-b301-8546d6a1fc1e</id>
+      <masked>false</masked>
+      <name>expectedInstalmentValues</name>
+   </variable>
+</TestCaseEntity>

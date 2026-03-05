@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>263883_VerifyProgrammeIDSearchForInsuredViaUtilitiesForBusinessAdmin</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>263883</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0addab97-558e-4d96-936e-d16f5c7af521</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc2c11a7-7771-4ce0-b135-508dc45f70a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b7198afc-c0da-4d54-b980-82d42852a774</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>cc2c11a7-7771-4ce0-b135-508dc45f70a5</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>b7198afc-c0da-4d54-b980-82d42852a774</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

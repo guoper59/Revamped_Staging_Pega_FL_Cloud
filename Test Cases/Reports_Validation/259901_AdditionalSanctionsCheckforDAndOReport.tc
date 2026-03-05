@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Additional Sanctions check for D&amp;O Report&#xd;
+Module: Regression Test Pack/Reports&#xd;
+Test Case ADO ID:259901</description>
+   <name>259901_AdditionalSanctionsCheckforDAndOReport</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259901</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d2c0d4f7-4656-4679-907f-bfc94705c02a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc80baf1-a65e-4ddc-807b-df96121c88bc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f3e6526-1a52-4f01-bd86-8da90d6e4b10</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9e7e602-ff75-496d-9bac-cdd9724752a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Case ID', 'Status', 'Created on', 'Resolved on', 'Insured Name', 'Insured Domicile', 'Policy Reference', 'Underwriter']</defaultValue>
+      <description></description>
+      <id>fc80baf1-a65e-4ddc-807b-df96121c88bc</id>
+      <masked>false</masked>
+      <name>expectedHeaderList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reports'</defaultValue>
+      <description></description>
+      <id>8f3e6526-1a52-4f01-bd86-8da90d6e4b10</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>d9e7e602-ff75-496d-9bac-cdd9724752a4</id>
+      <masked>false</masked>
+      <name>credentialsTestData</name>
+   </variable>
+</TestCaseEntity>

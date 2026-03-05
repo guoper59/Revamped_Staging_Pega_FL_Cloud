@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Search Policy By Reference&#xd;
+Module: Regression Test Pack/Submission Search &#xd;
+Test Case ADO 262231</description>
+   <name>262231_SearchPolicyReference</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262231</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac74ca89-5a28-4b37-b3ed-da6ba098ab69</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f4fa15be-8ec1-42d3-b7bc-18b8c88c019e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Credentials</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9cfc5ef-ab74-47f4-84ee-8d18ea76e099</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d9da29f-80ea-4294-898d-7a28df454c61</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>d9cfc5ef-ab74-47f4-84ee-8d18ea76e099</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>1d9da29f-80ea-4294-898d-7a28df454c61</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

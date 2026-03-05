@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create New Non Bureau Proportional Treaty with fees and taxes Cyber TME Spanish Branch</description>
+   <name>262194_CreateNewNonBureauProportionalTreatyFeesAndTaxesCyberTMESpanishBranch</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262194</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e94c1e5-a116-45c6-9379-088f542b4c79</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>146c68b9-033b-434c-b8b7-455148054807</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>510b7540-1054-49f4-bd3b-4a551be093e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e7cee77-3e93-43fe-9aae-9fc26495875c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca7b9354-af36-4c98-bac1-a64c34698e4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc396ae1-82a9-47f4-b45b-6c64c2cc86d7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bca11416-2fe1-4fee-a6e4-04665763b64a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Vaishali Voo', 'Vvoo@tmhcc.com', 'Test Specialist']</defaultValue>
+      <description></description>
+      <id>146c68b9-033b-434c-b8b7-455148054807</id>
+      <masked>false</masked>
+      <name>contactDetailsList</name>
+   </variable>
+   <variable>
+      <defaultValue>['ContactName', 'Email', 'Position']</defaultValue>
+      <description></description>
+      <id>510b7540-1054-49f4-bd3b-4a551be093e7</id>
+      <masked>false</masked>
+      <name>contactFieldList</name>
+   </variable>
+   <variable>
+      <defaultValue>['BusinessProvider']</defaultValue>
+      <description></description>
+      <id>1e7cee77-3e93-43fe-9aae-9fc26495875c</id>
+      <masked>false</masked>
+      <name>payableToList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Introduction Fee: Tokio Marine Insurans (Malaysia) Berhad']</defaultValue>
+      <description></description>
+      <id>ca7b9354-af36-4c98-bac1-a64c34698e4d</id>
+      <masked>false</masked>
+      <name>feeTypeList</name>
+   </variable>
+   <variable>
+      <defaultValue>['10']</defaultValue>
+      <description></description>
+      <id>cc396ae1-82a9-47f4-b45b-6c64c2cc86d7</id>
+      <masked>false</masked>
+      <name>feePercentList</name>
+   </variable>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'IPT Malaysia', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Introduction Fee: Tokio Marine Insurans (Malaysia) Berhad', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>bca11416-2fe1-4fee-a6e4-04665763b64a</id>
+      <masked>false</masked>
+      <name>expectedInstalmentValues</name>
+   </variable>
+</TestCaseEntity>

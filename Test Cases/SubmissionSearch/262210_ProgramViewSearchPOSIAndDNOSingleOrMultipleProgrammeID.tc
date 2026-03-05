@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Description: Program View_Search POSI + DNO Single or Multiple Programme ID via Submission search&#xd;
+Test Case ADO ID : 262210</description>
+   <name>262210_ProgramViewSearchPOSIAndDNOSingleOrMultipleProgrammeID</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262210</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1cac31a-e8ce-42f6-9573-e687b234f443</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4207ff52-8e47-44b2-aa8c-69421ad42533</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1984c881-5f8b-43b7-93a3-5c3b695af524</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>4207ff52-8e47-44b2-aa8c-69421ad42533</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>1984c881-5f8b-43b7-93a3-5c3b695af524</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

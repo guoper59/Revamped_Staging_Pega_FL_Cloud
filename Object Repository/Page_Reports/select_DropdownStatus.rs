@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownStatus</name>
+   <tag></tag>
+   <elementGuidId>4ff9bd9e-caf1-4091-ada6-1efbe180b544</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='7b2efd09']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#7b2efd09</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0171221152419095179895&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>aad1a0d3-94c2-4f46-aed5-22bc45db71da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;postValue&quot;,[&quot;:event&quot;]],[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX0xZmZjNDc0ODI2ZDdmNzM0YzRhNzEzMzMyMmM1MzI4NWZhZDBmOWVjMDFiNThiZGI1YWJmM2UxMTY3ZjIyMTgyZGQ4ZjZkMjQ0ZjEzMGI3MTgwNTRhMmE4MDI1M2UyYTdlYTVjMmRmNWI4YTQ2YzY2ZTQ3M2JmZWI3ZDAzYTRjNmY0MTliMTQ3ZDcyOTNhOTBjNjljZWUzNmI1ZWU4ZjZjNWM0N2ZiODg2MDgyMzRlNGU2YTdiMmY0ZjMyZDAwNzk%3D*&quot;,{},{}],&quot;pyDisplayHarness&quot;]]]</value>
+      <webElementGuid>b50e2f88-6906-4c17-b6c1-332e10ddcc7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20171221152419095179895</value>
+      <webElementGuid>3a2dc013-2796-488a-bf11-1e4bb743dd9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>fbeeb73d-6ff6-48b3-babc-543032eb88d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cbdcc8e2-df42-48f5-b7a8-65bd6774cba7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>7b2efd09</value>
+      <webElementGuid>6da6f5f2-136a-4bba-9d14-d9700e0263b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>64547819-0f4e-45d8-82b2-17b79616f68e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyDisplayHarness$pCCStatus</value>
+      <webElementGuid>c197f331-484c-4fe3-86d5-6cae277635ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyDisplayHarness$pCCStatusError</value>
+      <webElementGuid>b144489a-6830-43cb-9f57-0927f2af7c52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select
+
+InitiatedResolved-NotCertainResolved-NotRequiredInProgressResolvedSentforResolutionResolved-Withdrawn
+
+</value>
+      <webElementGuid>2540ca1d-a3dd-4bb9-9364-03bcaae56a21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;7b2efd09&quot;)</value>
+      <webElementGuid>e98ed393-5d8c-4288-9d42-687af84de784</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Reports/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>c21a1123-f362-47b0-b369-0d4906960d7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='7b2efd09']</value>
+      <webElementGuid>60a1326a-2878-4fcb-8865-6ee19b6bf8ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::select[1]</value>
+      <webElementGuid>3f6d48e1-1614-4c5b-81da-9390c7067ede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Dates'])[1]/following::select[1]</value>
+      <webElementGuid>7640a577-7293-4230-96fb-f28ad9d28b56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::select[1]</value>
+      <webElementGuid>f6d85311-90c3-4af4-9c36-0a35dd698968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Case ID'])[1]/preceding::select[1]</value>
+      <webElementGuid>5369f8fe-0130-48b7-abde-2ada1e246bc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = '$PpyDisplayHarness$pCCStatus' and (text() = '
+
+  Select
+
+InitiatedResolved-NotCertainResolved-NotRequiredInProgressResolvedSentforResolutionResolved-Withdrawn
+
+' or . = '
+
+  Select
+
+InitiatedResolved-NotCertainResolved-NotRequiredInProgressResolvedSentforResolutionResolved-Withdrawn
+
+')]</value>
+      <webElementGuid>bdb1e0d8-3bb9-4cbb-b2d0-322bf826db33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>33fb7cd9-a641-401e-b4f3-65fb494c770f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[4]/div/div/div/div/div/div/div/div/div/div/div/div/select</value>
+      <webElementGuid>3b38a7db-0bc6-4a3e-ae93-126022144fec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description:Verify Broker Binder Templates WORD/PDF&#xd;
+Module: Regression Test Pack/Documentation&#xd;
+Test Case ADO ID:260058</description>
+   <name>260058_CheckforBrokerBinderTemplatesWORDOrPDF</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>260058</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9fd57b1-bad1-4819-8d3d-5a3d2d4312c3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>260468a1-dbc0-419a-a500-fe014a4fd809</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ca779ca-9a06-451f-8ed8-42d9500311d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e90954d6-d405-462a-bd9f-a5e27055fdab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Quote Letter', 'Broker Binder', 'Policy Slip']</defaultValue>
+      <description></description>
+      <id>260468a1-dbc0-419a-a500-fe014a4fd809</id>
+      <masked>false</masked>
+      <name>expectedPolicyDocsList</name>
+   </variable>
+   <variable>
+      <defaultValue>'CreateSubmission'</defaultValue>
+      <description></description>
+      <id>5ca779ca-9a06-451f-8ed8-42d9500311d9</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>e90954d6-d405-462a-bd9f-a5e27055fdab</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

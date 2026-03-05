@@ -1,0 +1,133 @@
+# templates/katalon-job-template.yml
+# ======================================
+# Reusable Katalon job template
+# ======================================
+ 
+parameters:
+  - name: jobName
+    type: string
+  - name: displayName
+    type: string
+  - name: collectionPath
+    type: string
+  - name: executionProfile
+ #   type: string 
+ # - name: agentName
+ 
+jobs:
+- job: ${{ parameters.jobName }}
+  displayName: ${{ parameters.displayName }}
+  timeoutInMinutes: 880
+  pool:
+    name: TMHCC_QE_NI_POOL
+    demands:
+      - katalon-licensed-agent -equals true
+      #- agent.name -equals ${{ parameters.agentName }}
+ 
+  variables:
+    - group: Katalon_Secrets
+ 
+  steps:
+    - task: katalonTask@1
+      displayName: "Execute ${{ parameters.displayName }}"
+      inputs:
+        version: '10.0.1'
+        executeArgs: >
+          katalonc -noSplash -runMode=console -retry=2
+          -testSuiteCollectionPath="Test Suites/Collection/${{ parameters.collectionPath }}"
+          -browserType="Chrome (headless)"
+          -executionProfile=${{ parameters.executionProfile }}
+          -apiKey="$(katalonAPIKey)"
+          -orgID="1559289"
+          -executionId=ADO_Run_$(Build.BuildId)
+          --config -proxy.auth.option=NO_PROXY
+          -proxy.system.option=NO_PROXY
+          -proxy.system.applyToDesiredCapabilities=true
+          -webui.autoUpdateDrivers=true
+ 
+    - task: PowerShell@2
+      displayName: 'Delete All Collection Folders'
+      condition: always()
+      inputs:
+        targetType: 'inline'
+        script: |
+          try {
+              $searchRoot = "$(System.DefaultWorkingDirectory)"
+              Write-Host "🔍 Scanning under: $searchRoot"
+              $collectionFolders = Get-ChildItem -Path $searchRoot -Recurse -Force | Where-Object {
+                  $_.PSIsContainer -and $_.Name -ieq "collection"
+              }
+ 
+              if ($collectionFolders.Count -eq 0) {
+                  Write-Host "✅ No folders named 'collection' found."
+              } else {
+                  foreach ($folder in $collectionFolders) {
+                      Write-Host "🗑️ Deleting: $($folder.FullName)"
+                      Remove-Item -Path $folder.FullName -Recurse -Force
+                  }
+                  Write-Host "✅ All 'collection' folders deleted successfully."
+              }
+          } catch {
+              Write-Host "❌ Error occurred: $_"
+              exit 0
+          }
+ 
+    - task: PublishTestResults@2
+      condition: always()
+      inputs:
+        testResultsFormat: 'JUnit'
+        testResultsFiles: '**/JUnit_Report.xml'
+        SearchFolder: '$(System.DefaultWorkingDirectory)/reports'
+        testRunTitle: ${{ parameters.displayName }}
+        failTaskOnFailedTests: false
+ 
+    - task: PublishPipelineArtifact@1
+      condition: always()
+      inputs:
+        targetPath: '$(System.DefaultWorkingDirectory)/reports'
+        artifactName: ${{ parameters.displayName }}
+        publishLocation: 'pipeline'
+ 
+    - task: PowerShell@2
+      displayName: 'Copy reports folder in D Drive and delete unwanted files'
+      condition: always()
+      inputs:
+        targetType: 'inline'
+        script: |
+          # Define paths
+          $sourcePath = "$(System.DefaultWorkingDirectory)\reports"
+          $destinationPath = "D:\Automation_Run_Reports\FinancialLines_Katalon_Automation_TestSuite"
+ 
+          Write-Output "Source Path: $sourcePath"
+          Write-Output "Destination Path: $destinationPath"
+ 
+          # Ensure destination exists
+          New-Item -ItemType Directory -Force -Path $destinationPath | Out-Null
+ 
+          # Copy reports
+          Copy-Item -Path "$sourcePath\*" -Destination $destinationPath -Recurse -Force
+          Write-Output "✅ Copied reports to $destinationPath"
+ 
+          # Cleanup temporary files
+          $tempPath = "C:\Users\svc-ADO-Agents\AppData\Local\Temp"
+          $limit = (Get-Date).AddDays(0)
+          Get-ChildItem -Path $tempPath -Recurse -Force |
+            Where-Object { !$_.PSIsContainer -and $_.CreationTime -lt $limit } |
+            Remove-Item -Force -ErrorAction SilentlyContinue
+ 
+          # Remove empty folders
+          Get-ChildItem -Path $tempPath -Recurse -Force |
+            Where-Object { $_.PSIsContainer -and (Get-ChildItem -Path $_.FullName -Recurse -Force | Where-Object { !$_.PSIsContainer }) -eq $null } |
+            Remove-Item -Force -Recurse -ErrorAction SilentlyContinue
+ 
+          # Delete old results (>30 days)
+          $limit = (Get-Date).AddDays(-30)
+          $resultPath = "D:\Automation_Run_Reports\FinancialLines_Katalon_Automation_TestSuite"
+          Get-ChildItem -Path $resultPath -Recurse -Force |
+            Where-Object { !$_.PSIsContainer -and $_.CreationTime -lt $limit } |
+            Remove-Item -Force -ErrorAction SilentlyContinue
+ 
+          # Remove empty result directories
+          Get-ChildItem -Path $resultPath -Recurse -Force |
+            Where-Object { $_.PSIsContainer -and (Get-ChildItem -Path $_.FullName -Recurse -Force | Where-Object { !$_.PSIsContainer }) -eq $null } |
+            Remove-Item -Force -Recurse -ErrorAction SilentlyContinue

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_AllowSubmission</name>
+   <tag></tag>
+   <elementGuidId>c8209f55-14d1-4026-b1a7-3779e4df9a5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;DisplayAllowSubmissionButton_pyWorkPage.SubmissionData_51&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Allow submission']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02112291407020452572&quot;] [data-test-id=&quot;\32 01701181235120120327907&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bb3328fb-0ed1-4e25-873a-0a45f49e3a39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>201701181235120120327907</value>
+      <webElementGuid>8bef099c-1068-4ec0-aba7-fa3ac1470bdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;InvokeCreatePackageFromClearanceEval&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX01YTI2YzVlNTBjMTNkZWVmOTQzN2M1ODgzOTQ5M2Y3YjU0YzU0Y2RhYjUyODc1OGNkZGY2YTE4MjBjZmZmMWNlZmQ0NjQ3MGYxOWVmZWQwZjRjYzkyZDUwMjFlYWNmMDQ4NWNkNDdiZGU1YThhMWZhZWI5MDZmYTNjY2MxMTBlN2YxMDMxOTJmZWUzNjMyMzljOTMzZjQ2Yzk0YjA5NmFjNTZiNThkMmEwNTM0YzMxYjBkMzk5NDNiYTM5ZGNhMzI0Yzg3MjBhYTk1MTZjMjU3ZDI2Zjg5NTc5YzJhN2Q5ZDg0NDEwNGIyMTIzMWM1MDQ2ZTc5YWZkODBhY2FhNTk3ZGZkZTEwMjAxZDUyNGZkZmU4NzM5MDIyY2RkN2E2N2U%3D*&quot;,{},{}],&quot;pyWorkPage.SubmissionData&quot;]],[&quot;runScript&quot;, [&quot;ContinueEventsConditionally(\&quot;#~pyWorkPage.SubmissionData.ContinueActionEvents~#\&quot;)&quot;]],[&quot;runActivity&quot;, [&quot;&quot;, &quot;&quot;, &quot;pyWorkPage.SubmissionData&quot;, &quot;:event&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX05OTVkYWEzYjVjZDA5NjgyODUwNjYyMTAxYTExOWUyMjU3YTUyZDNiMzdhNzA0MzRiOTE4MjkzZTc1MmJmYzI3OTVlNmRhYzY1ZWM3MGZmYTJlNjhiZjVjZTJiOTc5ODNmZjhiYzRhYTI4MWViYzBjNGZhNjk2YjJmODNjNTU2OWQ1MGNhYzRhN2Q3OGVkMDEzYWMzY2IzZjViZTI2ZTZjYjQzNzAwYTU1NmMzM2MwN2YyOTAwNGRjM2UzZDY5YjU1Zjg1MTU5ZjRhMWQwZDI3MmNmMzYxMDM1YWNmYzEwZTAxMzA2YWM0ZmM3ZGFlOWRlN2U4NDc1ZWNiMWJiYzc2NTkxMDRjOTM1ZTZmMWNjM2QzZWVkNDAxMThlNmJmZmYxMWQyODIwNTg3ZTViOGMxMjA4MGM0OGVmYjZmNjJhMA%3D%3D*&quot;]],[&quot;processAction&quot;, [&quot;DisplayPolicyReference&quot;,&quot;true&quot;,&quot;:event&quot;,&quot;pyWorkPage.SubmissionData&quot;,&quot;Rule-HTML-Section&quot;,&quot;&quot;,&quot;PolicyModalTemplate&quot;,&quot;%7B%22mobile%22%3A%7B%22reveal%22%3A%7B%22effect%22%3A%22anim-null%22%7D%2C%22isCustomDismiss%22%3A%22true%22%2C%22dismiss%22%3A%7B%22effect%22%3A%22anim-null%22%7D%7D%7D&quot;,&quot;true&quot;,&quot;HCC-CL-LL-Data-Submission-Com&quot;,&quot;HCC-CL-LL-Data-Submission-Com&quot;,&quot;false&quot;,&quot;false&quot;,&quot;&quot;,&quot;&quot;]]]</value>
+      <webElementGuid>89c55ed9-7c5a-4ec6-a31c-ecd4fbd706ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>DisplayAllowSubmissionButton_pyWorkPage.SubmissionData_51</value>
+      <webElementGuid>40a7b915-fb1f-4730-88f1-f9aa6a07e766</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Strong pzhc pzbutton</value>
+      <webElementGuid>0ee5de7f-ae28-4819-8de2-0f660c924cba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3442ec47-afa3-4ed9-becf-3fca59a803f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Allow submission</value>
+      <webElementGuid>c0697086-b734-47b2-8b6f-bd6752828e94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/span[@class=&quot;inspector-span&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body&quot;]/div[@class=&quot;content layout-content-inline_middle  content-inline_middle auto-width-column&quot;]/div[@class=&quot;content-item content-layout item-1 remove-bottom-spacing float-right set-width-auto&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_middle  content-inline_middle set-width-auto&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/button[@class=&quot;Strong pzhc pzbutton&quot;]</value>
+      <webElementGuid>fe7065c4-5a33-4304-ad76-015bc7b05fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/OutwardsPolicy/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>4b6d1a87-568b-462d-8f9c-817ce15e426e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='DisplayAllowSubmissionButton_pyWorkPage.SubmissionData_51']</value>
+      <webElementGuid>deda6669-ea6a-47a4-a6be-25126019cf79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::button[1]</value>
+      <webElementGuid>8a1d4d07-822c-479d-ac23-afea6c6166e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PAS'])[10]/following::button[2]</value>
+      <webElementGuid>fd271d13-1db6-43bb-94a1-c5cba8bcb8d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/preceding::button[1]</value>
+      <webElementGuid>bd671790-1324-4579-80b8-05b6c8257315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/preceding::button[1]</value>
+      <webElementGuid>d029d9c3-5457-40ca-9dc7-174458af69b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Allow submission']/parent::*</value>
+      <webElementGuid>f3dd0b14-263f-4aa0-a51e-c818bf00d131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'DisplayAllowSubmissionButton_pyWorkPage.SubmissionData_51' and @type = 'button' and (text() = 'Allow submission' or . = 'Allow submission')]</value>
+      <webElementGuid>e6c38d4f-09bb-44a0-bb60-25076d3e950c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/div/div/div/div/div/div/div/div[2]/div/div/span/button</value>
+      <webElementGuid>97f27e71-45e2-488c-9403-c14b4404e6ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div/div/div/div/div/div[2]/div/div/span/button</value>
+      <webElementGuid>ccc81c48-f826-4d59-b129-313b91c4e9c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

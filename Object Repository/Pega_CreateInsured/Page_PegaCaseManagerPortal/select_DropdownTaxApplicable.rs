@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownTaxApplicable</name>
+   <tag></tag>
+   <elementGuidId>6797bd73-702a-4ac1-b583-3867a3618cba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#4b37c805</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'TaxApplicable')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02108101024290417622&quot;] [data-test-id=&quot;\32 01702281209070758182761&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>2cee8bc8-192e-434a-ae54-47ab00051ccf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;postValue&quot;,[&quot;:event&quot;]],[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;ValidateTaxapplicable&quot;, &quot;=&quot;, &quot;&quot;, &quot;ResetTaxSplits,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX1jMmMxMDkzNmY3M2ZmYzk1YmRhMjFhOTllZDBhYjhhMWNmMzAxMDA4ZWY3MWM5M2VlYmU3M2IwZjY1MzM3MjlhMDQ3MmY1ZGY3YTRiZmZmYmM3ZDUzZjRhODEzM2ZmZDgyN2JiMjkzMTkxM2Y1OWJkN2M4YmZlN2Q4MjAyMzhiNGM0NzI2NjUzYjM3NTEzNDIyZjczYTlkY2ZmYjVjMGFlNGFhNjcxYzJmN2QwOTMwNWJlNzExMTk1ZjdiMjM0ZTA1Y2M5NWFlM2IzNjRiZDhlM2JmNjA2NDYwNzg0YTFkYjNlZjY1ZjRkODI2YWI3NTdlOGNjZTA3NmQ0MDcwMDVkYTVmYzZmN2QyMTBmNDUwYWQxMjk3MjQ1YTM5Zjg3NTY%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;]],[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;SetDirtyFlag,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX1jMmMxMDkzNmY3M2ZmYzk1YmRhMjFhOTllZDBhYjhhMWNmMzAxMDA4ZWY3MWM5M2VlYmU3M2IwZjY1MzM3MjlhMDQ3MmY1ZGY3YTRiZmZmYmM3ZDUzZjRhODEzM2ZmZDgyN2JiMjkzMTkxM2Y1OWJkN2M4YmZlN2Q4MjAyMzhiNGE4MDdlYWYyN2Q3NWM2MTE4ODdmOTIxMTE2NGIxMjIwYjhlYjJlYmU1YWQzYjdlZmFlN2U2YTFiYzhiODY2YWJjNjM4MjU2NzYwZDhiNzczZWU0MzMwMjZiMGJlNTE3Zg%3D%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;]],[&quot;runActivity&quot;, [&quot;&quot;, &quot;&quot;, &quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;, &quot;:event&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX03ZDk4ZDJlYzc5OTUzZDllMmYyNjMzYmU3YjdkYTI3MzJkMTExNWJjZDY3OGQ2ODBmZDg3Y2QzZjFkMDA1Yzc2NTYyOGZlZWU3MDZkYWJlMTFmNWFmNjIxYTBhNjlmNjIwOTU4NjgxNjUwOWM2MjI1ZGU4ZmQ2ZGQwMDQyODQ5ZTYzODNjY2Q3ODlkZTRmZDU4ZjEzN2UyYTQ3NzhkODg5OWNhOWIyOTliODUyMjBmMDUyZmY2YjMyMjkyODdhMjNlMThkNGFhODAyYjA2YzdkOTgyZGJmODZiMGFjZGM4NGE3Mzg4ZGYzNmY1ODEyOTVmNDBjYWM4ZDEwZmQ2ZGM5ZmJkMDY0ODE4ZTUwNDI4OTY5MjQwMjlhNTI1ZjFkMGY0M2E2ZmY2NTcxZmJhMTBhYTNiNGE2M2E3ZGJmMzFjZDI1MDljNzRiYTkwM2MyYzc1ZDU0ODA4MDU3MmZiZWYyOTE1MWQzY2FiZTc4MTBiODBiMDBlYzNlOTZhNTE2ZDU5NTMxZjVmYzQ4ZDJiOGEwYTc3ODkxMWNlNTYyZTY3Y2ZlNDA0NzkzNTEzOGE3NGQyMzI0MjQwNjFmYTU3MjhhMTI1YTY5YzA1N2MwNTdlNDY0YWJiNWYwYTU0YWQ1OTFjMjU0N2UwMDRhMGQxYmY1ZDBlMDMxNjlkNTY1ZDEwMw%3D%3D*&quot;]],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;Financials&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;1&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX1jMmMxMDkzNmY3M2ZmYzk1YmRhMjFhOTllZDBhYjhhMWNmMzAxMDA4ZWY3MWM5M2VlYmU3M2IwZjY1MzM3MjlhMDQ3MmY1ZGY3YTRiZmZmYmM3ZDUzZjRhODEzM2ZmZDhiZWQ5MWIxMzgwYTljM2ZlMTczMmY0MzQ0MTYwNjM3Ng%3D%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;]]]</value>
+      <webElementGuid>1e6008cd-fcc5-4526-9e33-524fb240bf4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>201702281209070758182761</value>
+      <webElementGuid>a737fba0-a19d-4509-9e61-f2bd9a2a201e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>48f20f03-66a9-497c-a672-d1935b08c349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>73c7ea8d-f94b-4993-91c2-9b02df42bef6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>4b37c805</value>
+      <webElementGuid>94a31a79-734f-401c-9efa-9c21235d7ab3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>4d0d06e3-27e3-4d29-be3c-cff7e38413da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pApplicationPage$pSelectedQuote$pTaxApplicable</value>
+      <webElementGuid>987cee79-f2c5-453a-919e-3223db8bb1eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pApplicationPage$pSelectedQuote$pTaxApplicableError</value>
+      <webElementGuid>441e2219-b321-44cc-b4a2-be9e372993b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select...
+
+BureauMultiple Territory Taxes applyNo Taxes ApplySingle Territory Taxes apply - no splitTax to be advised
+
+</value>
+      <webElementGuid>a31c96ac-f437-49b2-9627-6e90c9ddfd75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;4b37c805&quot;)</value>
+      <webElementGuid>75aa36ba-620e-4f25-9f92-b16165a591c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>d90de4a6-7c55-46fa-8566-1aacbfe1a5b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='4b37c805']</value>
+      <webElementGuid>34a82314-f10e-4869-9f6e-954ac448bce2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax Applicable'])[1]/following::select[1]</value>
+      <webElementGuid>c1fcd411-3005-4f04-b9d6-4a9cfedc5e03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Taxes'])[1]/following::select[1]</value>
+      <webElementGuid>126ae461-3f35-4d1f-89db-e53adb125bd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instalments'])[1]/preceding::select[1]</value>
+      <webElementGuid>271babec-e5ef-4294-92de-0665d1a9843b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of Instalments'])[1]/preceding::select[1]</value>
+      <webElementGuid>76af14bc-4cb9-4a13-b326-047e50d6173c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = '$PpyWorkPage$pApplicationPage$pSelectedQuote$pTaxApplicable' and (text() = '
+
+  Select...
+
+BureauMultiple Territory Taxes applyNo Taxes ApplySingle Territory Taxes apply - no splitTax to be advised
+
+' or . = '
+
+  Select...
+
+BureauMultiple Territory Taxes applyNo Taxes ApplySingle Territory Taxes apply - no splitTax to be advised
+
+')]</value>
+      <webElementGuid>38e24695-e89b-41d3-af53-d0967da39bd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div/div/div/select</value>
+      <webElementGuid>7e8de440-3ba2-4135-b3b4-c196b6f2a77a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>c66a7c79-af8c-487b-8422-92b8628b0eef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

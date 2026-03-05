@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Definition_TABSPAN</name>
+   <tag></tag>
+   <elementGuidId>12f356d8-1819-41b6-b3c2-01869eb75447</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[@id='TABSPAN'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Tab2 > #TABANCHOR > #TABSPAN</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=tab[name=&quot;Load Management&quot;i] >> #TABSPAN</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8cdcc1e8-2f10-4f28-88e2-37ece580cdc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>TABSPAN</value>
+      <webElementGuid>0d307c5f-2f7e-47e3-81fb-c0e14729e929</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textOut tab-span tab-span-t tab-span-t-ns </value>
+      <webElementGuid>8303e521-8e1a-4498-bc6e-14879644fe5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Load Management</value>
+      <webElementGuid>4dbc94a2-54c6-40a3-b7fe-2485b021fef4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Tab2&quot;)/span[@id=&quot;TABANCHOR&quot;]/span[@id=&quot;TABSPAN&quot;]</value>
+      <webElementGuid>17ed02ee-9415-4249-86c0-5af0a7efef76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Login_Page/Page_Pega Dev Studio/iframe_Security guide not configured_PegaGa_477f98</value>
+      <webElementGuid>957d3511-254a-4a53-bcdb-e7be7ed18046</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//span[@id='TABSPAN'])[4]</value>
+      <webElementGuid>33927161-41bf-4dad-906b-638345208f5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//span[@id='TABANCHOR']/span)[2]</value>
+      <webElementGuid>265639c4-863c-451b-b79a-00e0c034a6f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Definition'])[1]/following::span[2]</value>
+      <webElementGuid>72ebde4d-5710-47d9-9321-27c895e13de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/following::span[6]</value>
+      <webElementGuid>c9c89b09-2d08-4bd0-ab6c-893efaca19be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security'])[1]/preceding::span[3]</value>
+      <webElementGuid>0bdef047-36f1-47a0-98b8-223407036bda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/span/span</value>
+      <webElementGuid>a138e6a8-e81a-4ce9-8823-94ea7cc1e3ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'TABSPAN' and (text() = 'Load Management' or . = 'Load Management')]</value>
+      <webElementGuid>3d6239d7-9fdf-460f-b690-7627f489a6ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

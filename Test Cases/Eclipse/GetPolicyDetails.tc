@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetPolicyDetails</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>774ed1e3-f073-4ef1-bf51-064cf5e900bd</testCaseGuid>
+</TestCaseEntity>

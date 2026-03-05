@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin&#xd;
+Description: Verify documentation maintenance activity&#xd;
+Module: Regression Test Pack/Documentation&#xd;
+Test Case ADO ID:259731</description>
+   <name>259731_CheckDocumentationMaintenanceActivity</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259731</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6e55298-98f5-4b47-b884-52149eecaba2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5b4f168a-22bf-4206-8a67-196dc8021fca</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Documentation</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e20880d2-e253-4894-82eb-71e69e8a48ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e5f513d-471b-421d-8bc8-e0b1b1e2d90c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1179cea7-7c83-4cf2-b6bb-7aeef7038ee1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f2a80d6-9580-4f5d-be1a-36834d46e29d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>e20880d2-e253-4894-82eb-71e69e8a48ee</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['Template ID', 'Producing Team', 'Major Class', 'Minor Class', 'Placing Type', 'Sub Placing Type', 'Entity', 'Legal Branch', 'Language Available', 'Format Available', 'Format ID']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Copy', 'Delete', 'Add']</defaultValue>
+      <description></description>
+      <id>9e5f513d-471b-421d-8bc8-e0b1b1e2d90c</id>
+      <masked>false</masked>
+      <name>expectedListLinks</name>
+   </variable>
+   <variable>
+      <defaultValue>'Documentation'</defaultValue>
+      <description></description>
+      <id>1179cea7-7c83-4cf2-b6bb-7aeef7038ee1</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Files/Documentation'</defaultValue>
+      <description></description>
+      <id>0f2a80d6-9580-4f5d-be1a-36834d46e29d</id>
+      <masked>false</masked>
+      <name>testDataFilePath</name>
+   </variable>
+</TestCaseEntity>

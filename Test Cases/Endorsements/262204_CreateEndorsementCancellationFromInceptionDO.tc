@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>262204_CreateEndorsementCancellationFromInceptionDO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>420ad3ea-ab34-46e6-82fe-c583c30af9a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14b3e3c8-5496-427c-ab36-ecafb3112bf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97441adc-adc6-4313-9ffa-ca2ad9850279</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ecf74d01-437a-47c5-9a48-19a6c015dfe6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Policy Information', 'Participation', 'Limit Information', 'Broker Commission On Gross Premium', 'Other Commission &amp; Fees', 'Premium Information', 'Terms &amp; Conditions']</defaultValue>
+      <description></description>
+      <id>14b3e3c8-5496-427c-ab36-ecafb3112bf3</id>
+      <masked>false</masked>
+      <name>expectedHeadersList</name>
+   </variable>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '10,000.00', '5,500.00', 'EUR', '10,000.00', '5,500.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '-1,000.00', '-550.00', 'EUR', '-1,000.00', '-550.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>97441adc-adc6-4313-9ffa-ca2ad9850279</id>
+      <masked>false</masked>
+      <name>expectedInstallmentValues</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bound'</defaultValue>
+      <description></description>
+      <id>ecf74d01-437a-47c5-9a48-19a6c015dfe6</id>
+      <masked>false</masked>
+      <name>expecteduwQCStatus</name>
+   </variable>
+</TestCaseEntity>

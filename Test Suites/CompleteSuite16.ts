@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CompleteSuite16</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>8c556e4e-284c-49a4-ac6f-939d7d898b5a</testSuiteGuid>
+   <testCaseLink>
+      <guid>3106ad93-02e0-467a-b3fe-576bc581f1ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewBusiness/262201_CreateNewBureauBordereauFacilityMajorClassAsBLDEntityAsLloyds</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e1beef1b-cd28-4309-a189-b36ec8dbc036</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a1a29a00-4fa7-466c-b29a-9ff297d5cc00</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15baf4ac-8293-4828-ba28-ffc6550e0cfe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewBusiness/262205_CreateNewNonBureauTriInsurancePolicy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb76e2bc-3cd7-477a-acec-faedbf135623</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>116a087b-3d6c-4edf-9809-8b900cdda317</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>67ca53d7-0175-4635-ac06-3a254f58fa2b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c05518d6-3007-4926-ade2-e3189e52a978</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

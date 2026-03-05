@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetPolicyEnquirySBS</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1c98cfa-77ec-48a5-acf6-dc0989dd8f6e</testCaseGuid>
+</TestCaseEntity>

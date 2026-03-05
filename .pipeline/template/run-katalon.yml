@@ -1,0 +1,86 @@
+parameters:
+  - name: ProjectPath
+    type: string
+    default: '$(System.DefaultWorkingDirectory)/FinancialLines_Katalon_Automation.prj'
+  - name: testSuiteCollectionPath
+    type: string
+  - name: maxRetries
+    type: number
+    default: 12
+  - name: retryIntervalMinutes
+    type: number
+    default: 10
+  - name: executionProfile
+    type: string
+    
+steps:
+  - task: PowerShell@2
+    displayName: 'Run Katalon Test Suite Collection'
+    inputs:
+      targetType: 'inline'
+      script: |
+        $ProjectPath = "${{ parameters.ProjectPath }}"
+        $testSuiteCollectionPath = "${{ parameters.testSuiteCollectionPath }}"
+        $maxRetries = ${{ parameters.maxRetries }}
+        $retryIntervalMinutes = ${{ parameters.retryIntervalMinutes }}
+        $executionProfile = "${{ parameters.executionProfile }}"
+        
+        $katalonVersion = "$(katalonVersion)"
+        $UserProfile = $env:USERPROFILE
+        $katalonBasePath = "$UserProfile\.katalon\$katalonVersion"
+        $katalonExePath = "$katalonBasePath\Katalon_Studio_Engine_Windows_64-$katalonVersion\katalonc.exe"
+
+        Write-Host "Using Project Path: $ProjectPath"
+        Write-Host "Using Test Suite Path: $testSuitePath"
+        Write-Host "Checking for Katalon executable at: $katalonExePath"
+
+        if (!(Test-Path $katalonExePath)) {
+          Write-Host "Downloading Katalon version $katalonVersion..."
+          if (!(Test-Path $katalonBasePath)) { New-Item -ItemType Directory -Path $katalonBasePath | Out-Null }
+          $releaseJsonUrl = "https://raw.githubusercontent.com/katalon-studio/katalon-studio/master/releases.json"
+          $releaseData = Invoke-RestMethod -Uri $releaseJsonUrl
+          $release = $releaseData | Where-Object { $_.os -eq "Windows 64" -and $_.version -eq $katalonVersion }
+          if ($null -eq $release) { throw "Katalon version $katalonVersion not found." }
+          $zipUrl = $release.url
+          $zipFilePath = "$katalonBasePath\katalon.zip"
+          Invoke-WebRequest -Uri $zipUrl -OutFile $zipFilePath
+          Expand-Archive -Path $zipFilePath -DestinationPath $katalonBasePath
+          Remove-Item $zipFilePath
+        }
+
+        if (!(Test-Path $katalonExePath)) { throw "Katalon executable still not found." }
+
+        $tempDir = New-Item -ItemType Directory -Path ([System.IO.Path]::GetTempPath() + [System.Guid]::NewGuid().ToString())
+        $executionId = "ADO_Run_$(Build.BuildId)"
+        $cmd = "`"$katalonExePath`" -projectPath=`"$ProjectPath`" -noSplash -runMode=console -retry=0 -retryStrategy=immediately -testSuiteCollectionPath=`"$testSuiteCollectionPath`" -executionProfile=`"$executionProfile`" -browserType=`"Chrome (headless)`" -apiKey=`"$(katalonAPIKey)`" -orgID=`"$(orgID)`" -executionId=$executionId --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -studioAssist.provider=katalon_ai"
+
+        Push-Location $tempDir.FullName
+        $success = $false
+        
+
+        for ($i = 0; $i -lt $maxRetries; $i++) {
+            Write-Host "🔁 Attempt $($i + 1) of $maxRetries to run Katalon test suite..."
+
+            # Execute the command and stream output
+            & cmd.exe /c $cmd
+            $exitCode = $LASTEXITCODE
+
+            if ($exitCode -eq 0) {
+                Write-Host "✅ Test suite executed successfully."
+                $success = $true
+                break
+            }
+            elseif ($exitCode -eq 2) {
+                Write-Host "⚠️ License not available. Retrying in $retryIntervalMinutes minutes..."
+                Start-Sleep -Seconds ($retryIntervalMinutes * 60)
+            }
+            else {
+                Write-Host "❌ Test execution failed with unexpected exit code: $exitCode"
+                exit $exitCode
+            }
+        }
+
+            
+        Pop-Location
+        if (-not $success) { exit 2 }
+        Remove-Item -Path $tempDir.FullName -Recurse -Force

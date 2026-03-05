@@ -1,0 +1,40 @@
+# azure-pipelines.yml
+# ======================================
+# Main pipeline that calls reusable Katalon job template
+# ======================================
+ 
+trigger:
+  - none
+ 
+jobs:
+  - template: template.yml
+    parameters:
+      jobName: QASmokeCollection1
+      displayName: 'QASmokeCollection1'
+      collectionPath: 'QASmokeCollection1'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP012_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: QASmokeCollection2
+      displayName: 'QASmokeCollection2'
+      collectionPath: 'QASmokeCollection2'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP013_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: QASmokeCollection3
+      displayName: 'QASmokeCollection3'
+      collectionPath: 'QASmokeCollection3'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP014_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: QASmokeCollection4
+      displayName: 'QASmokeCollection4'
+      collectionPath: 'QASmokeCollection4'
+      executionProfile: 'FinancialLinesCloud_SIT'
+     # agentName: 'UKDOCTWDVOAP015_Agent'

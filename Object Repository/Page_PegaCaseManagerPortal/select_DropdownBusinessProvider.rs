@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownBusinessProvider</name>
+   <tag></tag>
+   <elementGuidId>92337bf7-9d37-461f-a122-55dc971ccaf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#d84cfd95</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'BusinessProvider')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0161215121903093078392&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e5365fbe-a17a-417e-9d4d-d7711323f586</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20161215121903093078392</value>
+      <webElementGuid>9e2bf690-97a0-4522-af06-e45bdaba2163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>5d0a9eba-48ce-4f66-9792-fd7c755444b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b310a78b-1724-4515-a39b-5812d8357270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>d84cfd95</value>
+      <webElementGuid>6ef1f0ef-ad2b-46f3-b79d-e52fc57c9ecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>815464a1-0843-430a-8101-cd9d1fdd9784</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pBusinessProvider</value>
+      <webElementGuid>d2ec3346-9f65-4020-831f-84b4bb9bab11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pBusinessProviderError</value>
+      <webElementGuid>55f40911-54d4-417e-b6d7-192f71b40fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select Business Provider
+
+Affinity Insurance: LawNetAffinity Insurance: LawSouthAffinity Insurance: Scottish AdvocatesAIG Europe SAAxaBIPAR PolicyBlended CyberCyber Fac Out FacilityDelta Fac Out FacilityDO NOT USEDual Stamp PolicyDynamic Reinsurance LLCFirst TitleGenerali Italia S.p.A.HCCEHornbach Versicherungs-Service GmbHHyundai Marine &amp; Fire Insurance Co., LtdIFFCO-Tokio General Insurance Co. Ltd. (Haryana)Macquarie Capital (Europe) LimitedMacquarie Corporate Holdings Pty LimitedMacquarie Corporate Holdings Pty Limited (UK Branch)Macquarie Infrastructure and Real Assets (Europe) LimitedMacquarie Infrastructure Reinsurance Company LimitedPGE Asekuracja S.A.RENOMIA - SRBA INSURANCE BROKER SRLSHIK 01Solitaire Insurance Brokers GmbHSpectra-Broker Sp. z o.o.Tokio Marine &amp; Fire Insurance CoTokio Marine &amp; Nichido  Fire Insurance Co. Ltd. (Dubai)Tokio Marine &amp; Nichido Fire Insurance Co. Ltd (Japan)Tokio Marine &amp; Nichido Fire Insurance Co. Ltd. (Shanghai)Tokio Marine Asia Pte Ltd (Singapore)Tokio Marine Brasil Seguradora S.A. (Sao Paolo)Tokio Marine Cia. de Seguros S.A. de C.V. (TMX) (Mexico D.F.)Tokio Marine DAMPTokio Marine Europe (Milan) - Rappresentanza Generale per l'ItaliaTokio Marine Europe España (Barcelona)Tokio Marine Europe S.A. (Amstelveen)Tokio Marine Europe S.A. (Brussels)Tokio Marine Europe S.A. (Düsseldorf)Tokio Marine Europe S.A. (London)Tokio Marine Europe S.A. (Paris)Tokio Marine Financial Solutions Ltd (Cayman Islands)Tokio Marine Holdings Inc. (Tokyo)Tokio Marine Insurance Vietnam Company LimitedTokio Marine Insurans( Malaysia)BerhadTokio Marine Kiln Europe S.A. (Frankfurt)Tokio Marine Kiln Insurance Limited UK (London)Tokio Marine Management (Australasia) Pty Ltd (Sydney)Tokio Marine Management (New York)Tokio Marine Newa Insurance Co. Ltd. (Taipei City)Tokio Marine Safety Insurance (Thailand)Universal-Investment-Gesellschaft mbHZurich Compañía de Seguros S. A.
+
+</value>
+      <webElementGuid>1ced84ec-56da-4080-9d6f-9d4d94aa821c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;d84cfd95&quot;)</value>
+      <webElementGuid>c009e83b-8d38-404b-8636-cb1d6aeb6bf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>1c9e7104-cdbe-4c46-84cf-eee8d272049e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='d84cfd95']</value>
+      <webElementGuid>69ce730c-ef81-43f1-920f-9c243c48f156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[11]/div/div/select</value>
+      <webElementGuid>cf474c24-0e9a-4194-8510-a77f60bcc271</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Provider'])[1]/following::select[1]</value>
+      <webElementGuid>ec0b831c-4632-4070-ba61-585ea636a4a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coverholder'])[1]/following::select[1]</value>
+      <webElementGuid>46b80a81-5e04-4e8b-b7ea-87ac322faa15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TMHCC Placing Title'])[1]/preceding::select[1]</value>
+      <webElementGuid>bf76d88b-edf2-495d-ae2e-ce2ba4e6ebbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Placing Type'])[1]/preceding::select[2]</value>
+      <webElementGuid>5abf4cc9-d92f-4dc3-992c-43f2f9c32c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/select</value>
+      <webElementGuid>4f997165-7f92-4781-9b8c-0a246ec7b564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'd84cfd95' and @name = '$PD_SearchSubmissionCriteria$pBusinessProvider' and (text() = concat(&quot;&#xd;
+&#xd;
+  Select Business Provider&#xd;
+&#xd;
+Affinity Insurance: LawNetAffinity Insurance: LawSouthAffinity Insurance: Scottish AdvocatesAIG Europe SAAxaBIPAR PolicyBlended CyberCyber Fac Out FacilityDelta Fac Out FacilityDO NOT USEDual Stamp PolicyDynamic Reinsurance LLCFirst TitleGenerali Italia S.p.A.HCCEHornbach Versicherungs-Service GmbHHyundai Marine &amp; Fire Insurance Co., LtdIFFCO-Tokio General Insurance Co. Ltd. (Haryana)Macquarie Capital (Europe) LimitedMacquarie Corporate Holdings Pty LimitedMacquarie Corporate Holdings Pty Limited (UK Branch)Macquarie Infrastructure and Real Assets (Europe) LimitedMacquarie Infrastructure Reinsurance Company LimitedPGE Asekuracja S.A.RENOMIA - SRBA INSURANCE BROKER SRLSHIK 01Solitaire Insurance Brokers GmbHSpectra-Broker Sp. z o.o.Tokio Marine &amp; Fire Insurance CoTokio Marine &amp; Nichido  Fire Insurance Co. Ltd. (Dubai)Tokio Marine &amp; Nichido Fire Insurance Co. Ltd (Japan)Tokio Marine &amp; Nichido Fire Insurance Co. Ltd. (Shanghai)Tokio Marine Asia Pte Ltd (Singapore)Tokio Marine Brasil Seguradora S.A. (Sao Paolo)Tokio Marine Cia. de Seguros S.A. de C.V. (TMX) (Mexico D.F.)Tokio Marine DAMPTokio Marine Europe (Milan) - Rappresentanza Generale per l&quot; , &quot;'&quot; , &quot;ItaliaTokio Marine Europe España (Barcelona)Tokio Marine Europe S.A. (Amstelveen)Tokio Marine Europe S.A. (Brussels)Tokio Marine Europe S.A. (Düsseldorf)Tokio Marine Europe S.A. (London)Tokio Marine Europe S.A. (Paris)Tokio Marine Financial Solutions Ltd (Cayman Islands)Tokio Marine Holdings Inc. (Tokyo)Tokio Marine Insurance Vietnam Company LimitedTokio Marine Insurans( Malaysia)BerhadTokio Marine Kiln Europe S.A. (Frankfurt)Tokio Marine Kiln Insurance Limited UK (London)Tokio Marine Management (Australasia) Pty Ltd (Sydney)Tokio Marine Management (New York)Tokio Marine Newa Insurance Co. Ltd. (Taipei City)Tokio Marine Safety Insurance (Thailand)Universal-Investment-Gesellschaft mbHZurich Compañía de Seguros S. A.&#xd;
+&#xd;
+&quot;) or . = concat(&quot;&#xd;
+&#xd;
+  Select Business Provider&#xd;
+&#xd;
+Affinity Insurance: LawNetAffinity Insurance: LawSouthAffinity Insurance: Scottish AdvocatesAIG Europe SAAxaBIPAR PolicyBlended CyberCyber Fac Out FacilityDelta Fac Out FacilityDO NOT USEDual Stamp PolicyDynamic Reinsurance LLCFirst TitleGenerali Italia S.p.A.HCCEHornbach Versicherungs-Service GmbHHyundai Marine &amp; Fire Insurance Co., LtdIFFCO-Tokio General Insurance Co. Ltd. (Haryana)Macquarie Capital (Europe) LimitedMacquarie Corporate Holdings Pty LimitedMacquarie Corporate Holdings Pty Limited (UK Branch)Macquarie Infrastructure and Real Assets (Europe) LimitedMacquarie Infrastructure Reinsurance Company LimitedPGE Asekuracja S.A.RENOMIA - SRBA INSURANCE BROKER SRLSHIK 01Solitaire Insurance Brokers GmbHSpectra-Broker Sp. z o.o.Tokio Marine &amp; Fire Insurance CoTokio Marine &amp; Nichido  Fire Insurance Co. Ltd. (Dubai)Tokio Marine &amp; Nichido Fire Insurance Co. Ltd (Japan)Tokio Marine &amp; Nichido Fire Insurance Co. Ltd. (Shanghai)Tokio Marine Asia Pte Ltd (Singapore)Tokio Marine Brasil Seguradora S.A. (Sao Paolo)Tokio Marine Cia. de Seguros S.A. de C.V. (TMX) (Mexico D.F.)Tokio Marine DAMPTokio Marine Europe (Milan) - Rappresentanza Generale per l&quot; , &quot;'&quot; , &quot;ItaliaTokio Marine Europe España (Barcelona)Tokio Marine Europe S.A. (Amstelveen)Tokio Marine Europe S.A. (Brussels)Tokio Marine Europe S.A. (Düsseldorf)Tokio Marine Europe S.A. (London)Tokio Marine Europe S.A. (Paris)Tokio Marine Financial Solutions Ltd (Cayman Islands)Tokio Marine Holdings Inc. (Tokyo)Tokio Marine Insurance Vietnam Company LimitedTokio Marine Insurans( Malaysia)BerhadTokio Marine Kiln Europe S.A. (Frankfurt)Tokio Marine Kiln Insurance Limited UK (London)Tokio Marine Management (Australasia) Pty Ltd (Sydney)Tokio Marine Management (New York)Tokio Marine Newa Insurance Co. Ltd. (Taipei City)Tokio Marine Safety Insurance (Thailand)Universal-Investment-Gesellschaft mbHZurich Compañía de Seguros S. A.&#xd;
+&#xd;
+&quot;))]</value>
+      <webElementGuid>8b4d5ed6-9e3f-4f8a-8359-301188afff5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

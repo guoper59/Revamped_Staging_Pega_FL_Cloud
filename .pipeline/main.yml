@@ -1,0 +1,129 @@
+trigger:
+  - none
+
+jobs:
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite1'
+      testSuiteCollectionPath: 'Test Suites/TS01'
+      testRunTitle: 'Suite1'
+      artifactName: 'Suite1_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite2'
+      testSuiteCollectionPath: 'Test Suites/TS02'
+      testRunTitle: 'Suite2'
+      artifactName: 'Suite2_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite3'
+      testSuiteCollectionPath: 'Test Suites/TS03'
+      testRunTitle: 'Suite3'
+      artifactName: 'Suite3_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite4'
+      testSuiteCollectionPath: 'Test Suites/TS04'
+      testRunTitle: 'Suite4'
+      artifactName: 'Suite4_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite5'
+      testSuiteCollectionPath: 'Test Suites/TS05'
+      testRunTitle: 'Suite5'
+      artifactName: 'Suite5_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite6'
+      testSuiteCollectionPath: 'Test Suites/TS06'
+      testRunTitle: 'Suite6'
+      artifactName: 'Suite6_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite7'
+      testSuiteCollectionPath: 'Test Suites/TS07'
+      testRunTitle: 'Suite7'
+      artifactName: 'Suite7_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite8'
+      testSuiteCollectionPath: 'Test Suites/TS08'
+      testRunTitle: 'Suite8'
+      artifactName: 'Suite8_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite9'
+      testSuiteCollectionPath: 'Test Suites/TS09'
+      testRunTitle: 'Suite9'
+      artifactName: 'Suite9_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite10'
+      testSuiteCollectionPath: 'Test Suites/TS10'
+      testRunTitle: 'Suite10'
+      artifactName: 'Suite10_Output'
+  
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite11'
+      testSuiteCollectionPath: 'Test Suites/TS01'
+      testRunTitle: 'Suite11'
+      artifactName: 'Suite11_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite12'
+      testSuiteCollectionPath: 'Test Suites/TS02'
+      testRunTitle: 'Suite12'
+      artifactName: 'Suite12_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite13'
+      testSuiteCollectionPath: 'Test Suites/TS03'
+      testRunTitle: 'Suite13'
+      artifactName: 'Suite13_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite14'
+      testSuiteCollectionPath: 'Test Suites/TS04'
+      testRunTitle: 'Suite14'
+      artifactName: 'Suite14_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite15'
+      testSuiteCollectionPath: 'Test Suites/TS05'
+      testRunTitle: 'Suite15'
+      artifactName: 'Suite15_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite16'
+      testSuiteCollectionPath: 'Test Suites/TS06'
+      testRunTitle: 'Suite16'
+      artifactName: 'Suite16_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite17'
+      testSuiteCollectionPath: 'Test Suites/TS07'
+      testRunTitle: 'Suite17'
+      artifactName: 'Suite17_Output'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Suite18'
+      testSuiteCollectionPath: 'Test Suites/TS08'
+      testRunTitle: 'Suite18'
+      artifactName: 'Suite18_Output'

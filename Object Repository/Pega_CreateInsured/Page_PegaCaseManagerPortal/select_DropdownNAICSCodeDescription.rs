@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownNAICSCodeDescription</name>
+   <tag></tag>
+   <elementGuidId>d1e5dd19-4e99-4b0c-b4cc-623bb7db6f45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'NAICSCodeDescription')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#2c5c2518</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 014123000364201141489&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c21b95cd-2b88-4e8c-b0f0-2af6201cccf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;runDataTransform&quot;, [&quot;SetNewInsuredSelection&quot;, &quot;=&quot;, &quot;pyWorkPage.NewCustomerInfo.CustomerInfo&quot;,&quot;:event&quot;]],[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;SetNAICSCode,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmI4ZTVhYTJhOTY0NzRlODQ3ZWUxNmRlYmE4OGI2YjY4YTRmNWFkYTg3MjliYWEwYjgwMTMxOWQ0YjgyNzg1OGY5NjA2NjBiNTQ3MjllZDFmZjllNjE5ZmJhMjhjY2ExOGNkNjVkYjM5MDg0NjhlOTk5Yjg3YjdhOGVkZWIwYTQ1OWJmNGI5ZTEwYzFlMDc5M2UwMjc1OWU0MDA5ODFjMDlm*&quot;,{},{}],&quot;pyWorkPage.NewCustomerInfo.CustomerInfo&quot;]]]</value>
+      <webElementGuid>695e76e7-cccc-483c-bc5b-28fb2f2cfb1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>2014123000364201141489</value>
+      <webElementGuid>969d2815-4fba-4b67-9a9c-e98d1f96ec0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>a389b156-aac7-40ce-8753-d5e5b0f15b53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d0a53e07-5725-4b8d-b57a-c7224233b978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>2c5c2518</value>
+      <webElementGuid>f5b62042-8344-428b-985c-ed7044664333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>83ed6129-3fa2-4d42-8cc5-32b1f966adc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pNAICSCodeDescription</value>
+      <webElementGuid>ad5a2885-d8ec-48b9-bb52-e49d08f34189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-expr-id</name>
+      <type>Main</type>
+      <value>f62713672da8cd292afa4bfdecfea1b7077df056_321</value>
+      <webElementGuid>7a5fbe01-62cd-4704-ab25-29a59a600587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-context</name>
+      <type>Main</type>
+      <value>pyWorkPage.NewCustomerInfo.CustomerInfo</value>
+      <webElementGuid>6cfbeed1-6564-4cd7-896e-fb0c2c447601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellid</name>
+      <type>Main</type>
+      <value>56</value>
+      <webElementGuid>854f4bb0-2b1f-4a75-9b12-441e39883f8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pNAICSCodeDescriptionError</value>
+      <webElementGuid>8a4b9f44-8110-4e59-a198-040f523fe631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select..
+
+Central BanksCommercial/ Universal BanksFundsGeneral Insurers/LMAIFAs, Agents and Other AdvisersInsurance BrokersInvestment BanksLife InsuranceNon Life InsurancePension Fund Managers/ Wealth ManagersPrivate BanksPrivate Equity/Venture Capital CompaniesReal Estate Investment TrustsReinsuranceSaving InstitutionsSpecialised Lenders/ Leasing CompaniesTrading Platforms/ Stock ExchangesTrust/Fund Administrators
+
+</value>
+      <webElementGuid>1fdd797e-7303-4cf3-a270-0ade0e3dcfee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;2c5c2518&quot;)</value>
+      <webElementGuid>5dcdc208-51df-4b35-8332-e9c98a59c83b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>f4c746c9-592a-4344-976f-886a2b34bd9f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='2c5c2518']</value>
+      <webElementGuid>ec0c66c7-8785-4174-908a-a83a2b11aeab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[4]/div/div/select</value>
+      <webElementGuid>7577ec01-0a82-44c6-a6fa-bb38fb82cb2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::select[1]</value>
+      <webElementGuid>4be4c9ba-47a5-4ee1-9ab1-47003ab78d25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::select[1]</value>
+      <webElementGuid>8c2b59b6-3078-452f-b984-d99f4498b6db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/select</value>
+      <webElementGuid>04db5ae4-eed0-40d6-b012-3840da392c13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '2c5c2518' and @name = '$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pNAICSCodeDescription' and (text() = '&#xd;
+&#xd;
+  Select..&#xd;
+&#xd;
+Central BanksCommercial/ Universal BanksFundsGeneral Insurers/LMAIFAs, Agents and Other AdvisersInsurance BrokersInvestment BanksLife InsuranceNon Life InsurancePension Fund Managers/ Wealth ManagersPrivate BanksPrivate Equity/Venture Capital CompaniesReal Estate Investment TrustsReinsuranceSaving InstitutionsSpecialised Lenders/ Leasing CompaniesTrading Platforms/ Stock ExchangesTrust/Fund Administrators&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Select..&#xd;
+&#xd;
+Central BanksCommercial/ Universal BanksFundsGeneral Insurers/LMAIFAs, Agents and Other AdvisersInsurance BrokersInvestment BanksLife InsuranceNon Life InsurancePension Fund Managers/ Wealth ManagersPrivate BanksPrivate Equity/Venture Capital CompaniesReal Estate Investment TrustsReinsuranceSaving InstitutionsSpecialised Lenders/ Leasing CompaniesTrading Platforms/ Stock ExchangesTrust/Fund Administrators&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>cc34dc0e-4564-44e5-a5a5-e05b63d2bc18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

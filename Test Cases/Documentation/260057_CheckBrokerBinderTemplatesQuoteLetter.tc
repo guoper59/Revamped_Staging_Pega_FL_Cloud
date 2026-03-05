@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>260057_CheckBrokerBinderTemplatesQuoteLetter</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>260057</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3da1b3b8-7b1a-4973-a553-1199a7f5f2ee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ebaa194-905e-4e8b-ad66-e4f3a25728d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40c3d7fc-8a5e-4370-9fcf-bc1830b1d587</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Quote Letter', 'Broker Binder', 'Policy Slip']</defaultValue>
+      <description></description>
+      <id>8ebaa194-905e-4e8b-ad66-e4f3a25728d9</id>
+      <masked>false</masked>
+      <name>expectedPolicyDocsList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Documentation'</defaultValue>
+      <description></description>
+      <id>40c3d7fc-8a5e-4370-9fcf-bc1830b1d587</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

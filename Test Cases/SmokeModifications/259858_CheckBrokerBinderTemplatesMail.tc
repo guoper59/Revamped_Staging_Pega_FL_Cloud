@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>259858_CheckBrokerBinderTemplatesMail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9b5a799-f94d-4df6-b446-377bb829df49</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4f3b16d8-d090-4cfa-bbcc-9933fee5cb6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61d802f9-3e95-4270-a070-70aaae41acdb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2bca220b-2a48-4dd6-a5c3-93a2a8a9da6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Quote Letter', 'Broker Binder', 'Policy Slip']</defaultValue>
+      <description></description>
+      <id>4f3b16d8-d090-4cfa-bbcc-9933fee5cb6d</id>
+      <masked>false</masked>
+      <name>expectedPolicyDocsList</name>
+   </variable>
+   <variable>
+      <defaultValue>['From', 'To', 'Cc', 'Bcc', 'Subject', 'Attachments', 'Mail Body']</defaultValue>
+      <description></description>
+      <id>61d802f9-3e95-4270-a070-70aaae41acdb</id>
+      <masked>false</masked>
+      <name>expectedHeaderList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Documentation'</defaultValue>
+      <description></description>
+      <id>2bca220b-2a48-4dd6-a5c3-93a2a8a9da6b</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

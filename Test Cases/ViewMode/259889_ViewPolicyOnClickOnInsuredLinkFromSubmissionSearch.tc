@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: View policy on click on 'Insured' link from submission search&#xd;
+Module: Regression Test Pack/View Mode &#xd;
+Test Case ADO 259889</description>
+   <name>259889_ViewPolicyOnClickOnInsuredLinkFromSubmissionSearch</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259889</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7388c8eb-b50f-4771-a06a-d2b037f5a10e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a87eaceb-f3c6-4466-9086-04eb4559a773</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ff73233-41e0-4af8-9745-273f93322114</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25c3d28f-98fa-492d-90a1-7e90e730f3f9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Overview', 'Insured', 'Broker', 'General Data', 'UW Worksheet', 'Underwriting', 'Bind', 'Post Bind', 'Payments', 'Policy Docs', 'Endorsements', 'RI Forms', 'Quality Checks', 'Attachments', 'Closed Reasons', 'Claims', 'Links', 'Policies', 'History', 'Notes','Last entered Transaction', 'Prior Transactions']</defaultValue>
+      <description></description>
+      <id>a87eaceb-f3c6-4466-9086-04eb4559a773</id>
+      <masked>false</masked>
+      <name>expectedHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>8ff73233-41e0-4af8-9745-273f93322114</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>25c3d28f-98fa-492d-90a1-7e90e730f3f9</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

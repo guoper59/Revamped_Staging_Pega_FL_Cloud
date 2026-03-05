@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownPrivatePublic</name>
+   <tag></tag>
+   <elementGuidId>fb7283c6-79b2-4dd9-8cf9-6d982942e541</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#1e790acf</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'PublicOrPrivate' )]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Public/Private*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>49f971fe-c404-4c10-9afe-3df6475c41b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;runDataTransform&quot;, [&quot;SetNewInsuredSelection&quot;, &quot;=&quot;, &quot;pyWorkPage.NewCustomerInfo.CustomerInfo&quot;,&quot;:event&quot;]]]</value>
+      <webElementGuid>3efb7d57-009d-4e41-90b9-4f3f4814d072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>201610311401410841139600</value>
+      <webElementGuid>e1bf2150-2b34-41a1-823f-13781bb567d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>cdb4b8ed-1f8f-4f3e-b843-91cde99afb75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>75920d77-f910-4f03-8ce5-13cd1d5f92e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>1e790acf</value>
+      <webElementGuid>979b307e-3c01-4922-a1d6-e374213771be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>41d409a8-45a3-4344-b9fc-ec79d1bf2eac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pPublicOrPrivate</value>
+      <webElementGuid>31e1b35f-cc4d-4391-be41-bb9bae374255</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pPublicOrPrivateError</value>
+      <webElementGuid>08e6a335-571c-4350-909e-ce8a75bfc682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select..
+
+PrivatePublic
+
+</value>
+      <webElementGuid>c5624455-334f-4fbc-be4a-050c73d81374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1e790acf&quot;)</value>
+      <webElementGuid>ec1888e8-0cee-4a27-9e0b-b1868ae09fe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>ca163fb8-2c92-482b-ba4d-62b4573d56f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='1e790acf']</value>
+      <webElementGuid>53435462-a4bd-4889-8d73-b54cfe43cbbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[5]/div/div/select</value>
+      <webElementGuid>2ce353b2-0ea5-4b68-956a-b80691b93a4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::select[1]</value>
+      <webElementGuid>d94dcda0-fa9b-4f5c-ba84-4ee6bc51f049</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/preceding::select[1]</value>
+      <webElementGuid>aa9fe203-c451-418a-9159-f8f0ab41db5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/select</value>
+      <webElementGuid>98a809fc-f786-4a37-afb4-b27117662e98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '1e790acf' and @name = '$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pPublicOrPrivate' and (text() = '&#xd;
+&#xd;
+  Select..&#xd;
+&#xd;
+PrivatePublic&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Select..&#xd;
+&#xd;
+PrivatePublic&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>fd1d087a-6ecf-4ddd-9f79-c137a6873181</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

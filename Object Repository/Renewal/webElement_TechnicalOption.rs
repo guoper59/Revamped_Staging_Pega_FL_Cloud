@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_TechnicalOption</name>
+   <tag></tag>
+   <elementGuidId>f8f4f7ec-dfa9-498b-aeaf-7f300f4ad2bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.rowContent.gridCellSelected > li.cellCont.rowHandle.gridColumn > div.oflowDiv > #iconExpandCollapse > a.expandNode</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Technical'])[1]/preceding::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Technical Activity Batch Process Binary File Broadcast Circumstance Definition C&quot;i >> internal:attr=[title=&quot;Expand to show child rows&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b949e163-9bf8-4d5f-9d0b-7db32abedaed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>656d841e-7646-40a9-974b-fa31fa8ea73c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return false;</value>
+      <webElementGuid>1b5e61f7-ec3f-40eb-a793-83cf965cc589</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expandNode</value>
+      <webElementGuid>27aeb523-a5c3-4453-a045-d5bdb878cded</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>54cfe244-bd44-456f-90e7-2a0f30953bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Expand to show child rows</value>
+      <webElementGuid>39acf1c0-1463-4e6b-95e2-13c86957723b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> </value>
+      <webElementGuid>cebae872-e99e-4871-96c6-9aa74d66320b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gridNode0&quot;)/li[@id=&quot;$PD_RulesExplorerData$ppxResults$l15&quot;]/ul[@class=&quot;rowContent gridCellSelected&quot;]/li[@class=&quot;cellCont  rowHandle  gridColumn&quot;]/div[@class=&quot;oflowDiv&quot;]/div[@id=&quot;iconExpandCollapse&quot;]/a[@class=&quot;expandNode&quot;]</value>
+      <webElementGuid>52342910-793d-40d2-994a-1b8cdf74f9a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick='return false;'])[48]</value>
+      <webElementGuid>66334272-5e80-4218-ad79-c5fb1dea1d20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SysAdmin'])[1]/following::a[67]</value>
+      <webElementGuid>2c3edd31-f0f9-4cc4-bcf3-592ef0953834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Survey'])[1]/following::a[68]</value>
+      <webElementGuid>b1860622-5e49-432f-bbb4-6826071d35cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Technical'])[1]/preceding::a[1]</value>
+      <webElementGuid>0c1c49de-90ce-41e9-98d7-529b5720d9ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Interface'])[1]/preceding::a[38]</value>
+      <webElementGuid>009a9374-9d25-4e9d-b1d6-a9f2cfd12828</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[95]</value>
+      <webElementGuid>14fdba12-25c3-4357-af45-a489a642b87a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @title = 'Expand to show child rows' and (text() = ' ' or . = ' ')]</value>
+      <webElementGuid>c36765db-9838-4a94-9a76-8dbf28d8e21c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[16]/ul/li/div/div/a</value>
+      <webElementGuid>213b0777-47f2-4193-a492-9995970a6a18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='iconExpandCollapse']/a)[48]</value>
+      <webElementGuid>ec6b230a-8973-4efc-8c02-21fb2351b88a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,80 @@
+# azure-pipelines.yml
+# ======================================
+# Main pipeline that calls reusable Katalon job template
+# ======================================
+
+trigger:
+  - none
+
+jobs:
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection1'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection1'
+      testRunTitle: 'Collection1_SIT'
+      artifactName: 'Collection1_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection2'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection2'
+      testRunTitle: 'Collection2_SIT'
+      artifactName: 'Collection2_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection3'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection3'
+      testRunTitle: 'Collection3_SIT'
+      artifactName: 'Collection3_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection4'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection4'
+      testRunTitle: 'Collection4_SIT'
+      artifactName: 'Collection4_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection5'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection5'
+      testRunTitle: 'Collection5_SIT'
+      artifactName: 'Collection5_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+ 
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection6'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection6'
+      testRunTitle: 'Collection6_SIT'
+      artifactName: 'Collection6_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+ 
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection7'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection7'
+      testRunTitle: 'Collection7_SIT'
+      artifactName: 'Collection7_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+ 
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection8'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection8'
+      testRunTitle: 'Collection8_SIT'
+      artifactName: 'Collection8_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      collectionName: 'Collection9'
+      testSuiteCollectionPath: 'Test Suites/Collection/Collection9'
+      testRunTitle: 'Collection9_SIT'
+      artifactName: 'Collection9_SIT'  
+      executionProfile: 'FinancialLinesCloud_SIT'  

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UserName</name>
+   <tag></tag>
+   <elementGuidId>494921f2-3811-4548-93bd-774a45136887</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/a[@data-test-id='2014100609491604327565'] | //button[@data-test-id='px-opr-image-ctrl']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.pi.pi-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 014100609491604327565&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>fbf1ee1e-6501-4e96-944b-e39c6ba67842</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-user</value>
+      <webElementGuid>aec92c83-530e-4de6-9705-2bb46f0aa086</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;showMenu&quot;,[{&quot;dataSource&quot;:&quot;pyCaseManager&quot;, &quot;isNavNLDeferLoaded&quot;:&quot;false&quot;, &quot;isNavTypeCustom&quot;:&quot;false&quot;, &quot;className&quot;:&quot;Data-Portal&quot;,&quot;UITemplatingStatus&quot;:&quot;Y&quot;,&quot;menuAlign&quot;:&quot;left&quot;,&quot;format&quot;:&quot;menu-format-header-menu&quot; , &quot;loadBehavior&quot;:&quot;&quot;, &quot;ellipsisAfter&quot;:&quot;999&quot;,&quot;usingPage&quot;:&quot;pyDisplayHarness&quot;, &quot;useNewMenu&quot;:&quot;true&quot;, &quot;isMobile&quot;:&quot;false&quot;, &quot;navPageName&quot;:&quot;pyNavigation1740588885428&quot;},&quot;:event&quot;]]]</value>
+      <webElementGuid>b779863f-cb3a-4921-b27e-a2658634f848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l1&quot;)/div[@class=&quot;screen-layout-region-content&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-portal_header  float-right set-width-auto&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-portal_header_group_secondary  content-portal_header_group_secondary set-width-auto&quot;]/div[@class=&quot;content-item content-field item-2 remove-top-spacing remove-bottom-spacing operator-menu with-icon&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/a[@class=&quot;Header_nav&quot;]/i[@class=&quot;pi pi-user&quot;]</value>
+      <webElementGuid>46edc307-e010-4a49-9a84-d2d6b6dc2c9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span/a/i</value>
+      <webElementGuid>8dff0602-508d-41f8-9a02-32f07cf69044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[2]/div/div/span/a/i</value>
+      <webElementGuid>8d97d068-f992-4475-be98-c5b702a9c2dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

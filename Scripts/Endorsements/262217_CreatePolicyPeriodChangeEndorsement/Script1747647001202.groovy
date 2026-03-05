@@ -1,0 +1,741 @@
+/**
+ * ============================================================================
+ * Test Case ID : 262217
+ * Title         : Create Policy Period Change Endorsement
+ * Folder        : Scripts/Endorsements/262217_CreatePolicyPeriodChangeEndorsement
+ * ============================================================================
+ *
+ * DESCRIPTION:
+ *   Automated Katalon Studio test case. Refer to TestPack_for_NotebookLM.md
+ *   for full step-by-step documentation.
+ *
+ * PRECONDITIONS:
+ *   - Valid test data configured in GlobalVariable
+ *   - Application URL and credentials set in GlobalVariable
+ *
+ * ============================================================================
+ */
+
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebElement
+
+import com.genericutils.helper.GenericUtils
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.submission.helper.SubmissionHelper
+
+import internal.GlobalVariable as GlobalVariable
+
+String taxCodeValue = findTestData(testData).getValue('Tax code', rowNumber)
+
+String testData = 'NewBusiness'
+
+//Finding Row number from Test Data.
+int rowNumber = common.FileUtils.findRowNumber('Data Files/' + testData, GlobalVariable.testCaseID)
+
+WebUI.comment('RowNumber: ' + rowNumber)
+
+String timeStamp = GenericUtils.getCurrentTimestamp()
+
+WebUI.navigateToUrl(GlobalVariable.applicationUrl, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.login.helper.LoginHelper.loginToApplication'(findTestData(testData).getValue('UserName', rowNumber), 
+    findTestData(testData).getValue('Password', rowNumber), findTestData(testData).getValue('Role', rowNumber))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PegaCaseManagerPortal/input_PolicyReference'), GlobalVariable.timeOutValue, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Object Repository/Dashboards/hoverSidebar'))
+//
+//Click on the 'Create' button.
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_Create'))
+
+//Wait for the 'Insured' element to be visible
+WebUI.click(findTestObject('Object Repository/Page_PegaCaseManagerPortal/Pega_SubmissionSearch/label_Title'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Insured'), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Insured'))
+
+String InsuredName = 'AUTO_' + GenericUtils.getCurrentTimestamp()
+
+GlobalVariable.insuredName = InsuredName
+
+WebUI.setText(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_BusinessUnit'), InsuredName)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_SearchName'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/radioButton_InsuredType', [('insuredType') : 'K&R Insured']), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/radioButton_InsuredType', [('insuredType') : 'K&R Insured']))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__Address1'), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__Address1'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__Address1'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__Address1'), findTestData(
+        testData).getValue('Addressline', rowNumber))
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__ZipCode'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__ZipCode'), findTestData(
+        testData).getValue('PostCode', rowNumber))
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__City'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input__City'), findTestData(
+        testData).getValue('City', rowNumber))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/select_DropdownCountry'), findTestData(testData).getValue(
+        'Country', rowNumber), false)
+
+if (!(findTestData(testData).getValue('ActualInsured', rowNumber).equals(''))) {
+    WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/input_FieldName', [('fieldName') : 'Actual Insured']), 
+        findTestData(testData).getValue('ActualInsured', rowNumber))
+}
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_IsParent'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownNAICDivision'), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownNAICDivision'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownNAICDivision'), 
+    findTestData(testData).getValue('NAIC Division', rowNumber), false)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownNAICSCodeDescription'), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownNAICSCodeDescription'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownNAICSCodeDescription'), 
+    findTestData(testData).getValue('NAIC Description', rowNumber), false)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownPrivatePublic'), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownPrivatePublic'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownPrivatePublic'), 
+    findTestData(testData).getValue('Public/Private', rowNumber), false)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/radioButton_ReinsuredInformation', 
+        [('optionToSelect') : 'No']), GlobalVariable.timeOutValue)
+
+WebUI.check(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/radioButton_ReinsuredInformation', 
+        [('optionToSelect') : 'No']))
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Continue'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Broker'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Broker'))
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Broker'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/select_DropdownCountry'), findTestData(testData).getValue(
+        'CountryName', rowNumber), false)
+
+WebUI.sendKeys(findTestObject('Object Repository/PartyManagement/Page_UpdateInsured/input_MinimumCharacters', [('input') : 'Broker']), 
+    findTestData(testData).getValue('Broker', rowNumber))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_KRAutoCompleteResult', [('projectName') : brokerValue]), GlobalVariable.timeOutValue)
+
+WebUI.mouseOver(findTestObject('Object Repository/NewBusiness/webElement_KRAutoCompleteResult', [('projectName') : brokerValue]))
+
+WebUI.enhancedClick(findTestObject('Object Repository/NewBusiness/webElement_KRAutoCompleteResult', [('projectName') : brokerValue]))
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownBrokerContact'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownBrokerContact'), 
+    findTestData(testData).getValue('Broker Contact', rowNumber), false)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/webElement_Continue'))
+
+SubmissionHelper.enterGeneralData(testData, rowNumber)
+
+//
+//
+//
+if (WebUI.getText(findTestObject('Object Repository/NewBusiness/input_FieldName', [('fieldName') : 'Quote Due Date'])).isEmpty()) {
+    KeywordUtil.logInfo('Quote Date is empty')
+}
+
+WebUI.verifyElementNotChecked(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValuesCheckbox', 
+        [('labelName') : 'Is SME ?']), GlobalVariable.timeoutShort)
+
+WebUI.verifyElementNotChecked(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValuesCheckbox', 
+        [('labelName') : 'Notes']), GlobalVariable.timeoutShort)
+
+WebUI.verifyElementNotChecked(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValuesCheckbox', 
+        [('labelName') : 'Is Master']), GlobalVariable.timeoutShort)
+
+WebUI.verifyElementNotChecked(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValuesCheckbox', 
+        [('labelName') : 'Is Local']), GlobalVariable.timeoutShort)
+
+WebUI.verifyElementNotChecked(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValuesCheckbox', 
+        [('labelName') : 'Is Tied In']), GlobalVariable.timeoutShort)
+
+String policyPeriod = WebUI.getAttribute(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValues', 
+        [('labelName') : 'Policy Period ']), 'value')
+
+GenericUtils.verifyMatch('Policy Period Value is', policyPeriod, findTestData(testData).getValue('PolicyPeriod', rowNumber), 
+    'EQUAL')
+
+String bureauIndicator = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_BureauIndicator'), 
+    'alt')
+
+GenericUtils.verifyMatch('Bureau Indicator is not ticked ', bureauIndicator, 'False', 'EQUAL')
+
+String caseID = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_CaseID'))
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Continue'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/OutwardsPolicy/webElement_PolicyReference'), 180)
+
+String policyRef = WebUI.getText(findTestObject('Object Repository/OutwardsPolicy/webElement_PolicyReference'))
+
+GlobalVariable.PolicyRef = policyRef
+
+KeywordUtil.logInfo(policyRef)
+
+WebUI.click(findTestObject('Object Repository/OutwardsPolicy/button_OK'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/NewBusiness/button_DynamicText', [('buttonName') : 'Collapse all']), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/NewBusiness/button_DynamicText', [('buttonName') : 'Expand all']), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/NewBusiness/webElement_OpenQuote'), GlobalVariable.timeOutValue, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/select_DynamicDropDown', [('dropDownLabel') : 'Original Currency']))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/NewBusiness/select_DynamicDropDown', [('dropDownLabel') : 'Original Currency']), 
+    findTestData(testData).getValue('Original Currency', rowNumber), false)
+
+WebUI.setText(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_TMHCCWrittenParticipation'), 
+    findTestData(testData).getValue('TMHCC Written Participation%', rowNumber))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerEELLimit'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerEELLimit'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerEELLimit'), findTestData(
+        testData).getValue('Layer EEL Limit', rowNumber))
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerAGGLimit'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerAGGLimit'))
+
+WebUI.clearText(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerAGGLimit'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerAGGLimit'), findTestData(
+        testData).getValue('Layer AGG Limit', rowNumber))
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+for (int i = 1; i < 17; i++) {
+    WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_DeMinimisField', [('attributeName') : 'Sublimit %'
+                , ('fieldName') : i + '$pSublimitPercentage']))
+
+    WebUI.setText(findTestObject('Object Repository/NewBusiness/webElement_DeMinimisField', [('attributeName') : 'Sublimit %'
+                , ('fieldName') : i + '$pSublimitPercentage']), sublimitList[(i - 1)])
+}
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_FeeTextArea', [('fieldName') : 'Deductibles %']), 
+    GlobalVariable.timeOutValue)
+
+WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/webElement_FeeTextArea', [('fieldName') : 'Deductibles %']), 
+    findTestData(testData).getValue('Deductibles%', rowNumber))
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+for (int i = 1; i < 2; i++) {
+    WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_OtherCommisionAddItem'), GlobalVariable.timeOutValue)
+
+    WebUI.click(findTestObject('Object Repository/NewBusiness/button_OtherCommisionAddItem'))
+
+    WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', 
+            [('headerName') : 'Payable To', ('fieldName') : i + '$ppyNote']), GlobalVariable.timeOutValue)
+
+    WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', [('headerName') : 'Payable To'
+                , ('fieldName') : i + '$ppyNote']))
+
+    WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+    WebUI.selectOptionByLabel(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', [('headerName') : 'Payable To'
+                , ('fieldName') : i + '$ppyNote']), payableToList[(i - 1)], false)
+
+    WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', 
+            [('headerName') : 'Fee Type', ('fieldName') : i + '$pFeeType']), GlobalVariable.timeOutValue)
+
+    WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', [('headerName') : 'Fee Type'
+                , ('fieldName') : i + '$pFeeType']))
+
+    WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+    WebUI.selectOptionByLabel(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', [('headerName') : 'Fee Type'
+                , ('fieldName') : i + '$pFeeType']), feeTypeList[(i - 1)], false)
+
+    WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionTextArea', [('headerName') : 'Fee %'
+                , ('fieldName') : i + '$pFeePercentage']), GlobalVariable.timeOutValue)
+
+    WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionTextArea', [('headerName') : 'Fee %'
+                , ('fieldName') : i + '$pFeePercentage']), feePercentList[(i - 1)])
+}
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_CommissionPercentage'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_CommissionPercentage'), 
+    findTestData(testData).getValue('Commission', rowNumber))
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_PremiumCalculate'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_PremiumCalculate'))
+
+WebUI.waitForPageLoad(GlobalVariable.timeOutValue)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerGrossPremium'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerGrossPremium'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+WebUI.sendKeys(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_LayerGrossPremium'), 
+    findTestData(testData).getValue('Layer Gross Premium', rowNumber))
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+for (int i = 1; i < 6; i++) {
+    WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_FeeTextArea', [('fieldName') : premiumBreakDownList[
+                (i - 1)]]))
+
+    WebUI.setText(findTestObject('Object Repository/NewBusiness/webElement_FeeTextArea', [('fieldName') : premiumBreakDownList[
+                (i - 1)]]), premiumBreakDownValueList[(i - 1)])
+}
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_AddItemKR'), GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_AddItemKR'))
+
+for (int i = 1; i < 3; i++) {
+    WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', 
+            [('headerName') : 'R Endorsements', ('fieldName') : i + '$ppyLabel']), GlobalVariable.timeOutValue)
+
+    WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', [('headerName') : 'R Endorsements'
+                , ('fieldName') : i + '$ppyLabel']))
+
+    WebUI.selectOptionByLabel(findTestObject('Object Repository/NewBusiness/webElement_OtherCommissionFieldValues', [('headerName') : 'R Endorsements'
+                , ('fieldName') : i + '$ppyLabel']), endorsementsList[(i - 1)], false)
+}
+
+WebUI.waitForPageLoad(GlobalVariable.timeoutShort)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/select_DynamicDropDown', [('dropDownLabel') : 'Territorial Scope ']), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/select_DynamicDropDown', [('dropDownLabel') : 'Territorial Scope ']))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/NewBusiness/select_DynamicDropDown', [('dropDownLabel') : 'Territorial Scope ']), 
+    findTestData(testData).getValue('Territorial Scope', rowNumber), false)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_ApplicableLaw'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.setText(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/input_ApplicableLaw'), findTestData(
+        testData).getValue('Applicable Law', rowNumber))
+
+//Verifying the values
+String orderValue = WebUI.getAttribute(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValues', 
+        [('labelName') : 'Order %']), 'value')
+
+GenericUtils.verifyMatch('Order Value is', orderValue, findTestData(testData).getValue('Order%', rowNumber), 'EQUAL')
+
+String estimatedSigningValue = WebUI.getAttribute(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValues', 
+        [('labelName') : 'Estimated Signing %']), 'value')
+
+GenericUtils.verifyMatch('Estimated Signing Value is', estimatedSigningValue, findTestData(testData).getValue('Estimated Signing %', 
+        rowNumber), 'EQUAL')
+
+String calculatedLineValue = WebUI.getAttribute(findTestObject('Object Repository/Documentation/PolicyCreation/input_DynamicValues', 
+        [('labelName') : 'Calculated Line %']), 'value')
+
+GenericUtils.verifyMatch('Calculated line Value is', calculatedLineValue, findTestData(testData).getValue('Calculated Line %', 
+        rowNumber), 'EQUAL')
+
+String tmhccAggLimitValue = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_ReadLimitInformation', 
+        [('headerName') : 'TMHCC AGG Limit']))
+
+GenericUtils.verifyMatch('TMHCC Agg Limit Value is', tmhccAggLimitValue, findTestData(testData).getValue('TMHCC AGG Limit', 
+        rowNumber), 'EQUAL')
+
+String layerCommissionValue = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_ReadBrokerCommissionValue', 
+        [('headerName') : 'Layer Broker Commission Amount']))
+
+GenericUtils.verifyMatch('Layer Commission Value is', layerCommissionValue, findTestData(testData).getValue('LayerBrokerCommissionAmount', 
+        rowNumber), 'EQUAL')
+
+String tmhccBrokerCommissionValue = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_ReadBrokerCommissionValue', 
+        [('headerName') : 'TMHCC Broker Commission Amount']))
+
+GenericUtils.verifyMatch('TMHCC Broker Commission Value is', tmhccBrokerCommissionValue, findTestData(testData).getValue(
+        'TMHCCBrokerCommissionAmount', rowNumber), 'EQUAL')
+
+String tmhccGrossPremium = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_ReadBrokerCommissionValue', 
+        [('headerName') : 'TMHCC Gross Premium']))
+
+GenericUtils.verifyMatch('TMHCC Gross Premium Value is', tmhccGrossPremium, findTestData(testData).getValue('TMHCCGrossPremium', 
+        rowNumber), 'EQUAL')
+
+String tmhccNetPremium = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_ReadBrokerCommissionValue', 
+        [('headerName') : 'TMHCC Net Premium']))
+
+GenericUtils.verifyMatch('TMHCC Net Premium Value is', tmhccNetPremium, findTestData(testData).getValue('TMHCCNetPremium', 
+        rowNumber), 'EQUAL')
+
+String actualPreventionAllowance = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_ReadKRExpenseValues', 
+        [('fieldName') : 'Prevention allowance (%)']), 'value')
+
+GenericUtils.verifyMatch('Prevention Allowance Value is', actualPreventionAllowance, findTestData(testData).getValue('PreventionAllowance', 
+        rowNumber), 'EQUAL')
+
+String actualThreatResponseDays = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_ReadKRExpenseValues', 
+        [('fieldName') : 'Threat Response Expense Indemnity Period (days)']), 'value')
+
+GenericUtils.verifyMatch('Threat Response Days Value is', actualThreatResponseDays, findTestData(testData).getValue('ThreatResponseDays', 
+        rowNumber), 'EQUAL')
+
+String actualThreatResponseHours = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_ReadKRExpenseValues', 
+        [('fieldName') : 'Threat Response Expense Waiting Period (hours)']), 'value')
+
+GenericUtils.verifyMatch('Threat Response Hours Value is', actualThreatResponseHours, findTestData(testData).getValue('ThreatResponseHours', 
+        rowNumber), 'EQUAL')
+
+String actualDisappearanceDays = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_ReadKRExpenseValues', 
+        [('fieldName') : 'Disappearance & Investigation Expense Indemnity Period (days)']), 'value')
+
+GenericUtils.verifyMatch('Disappearance & Investigation Expense Days Value is', actualDisappearanceDays, findTestData(testData).getValue(
+        'DisappearanceDays', rowNumber), 'EQUAL')
+
+String actualDisappearanceHours = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_ReadKRExpenseValues', 
+        [('fieldName') : 'Disappearance & Investigation Expense Waiting Period (hours)']), 'value')
+
+GenericUtils.verifyMatch('Disappearance & Investigation Expense Hours Value is', actualDisappearanceHours, findTestData(
+        testData).getValue('DisappearanceHours', rowNumber), 'EQUAL')
+
+WebUI.switchToFrame(findTestObject('Object Repository/Dashboards/iframe_PegaGadget1Ifr'), GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+//Verifying Data Validation field names
+List<WebElement> layerSublimitValue = WebUI.findWebElements(findTestObject('Object Repository/NewBusiness/webElement_ReadDynamicTableValues', 
+        [('headerName') : 'Layer Sublimit']), GlobalVariable.timeOutValue)
+
+List<WebElement> layerSublimitList = new ArrayList<String>()
+
+for (WebElement e : layerSublimitValue) {
+
+    layerSublimitList.add(e.getAttribute('value'))
+}
+
+GenericUtils.compareLists(layerSublimitList, expectedLayerSublimitList)
+
+List<WebElement> sublimitPercentValue = WebUI.findWebElements(findTestObject('Object Repository/NewBusiness/webElement_ReadDynamicTableValues', 
+        [('headerName') : 'Sublimit %']), GlobalVariable.timeOutValue)
+
+List<WebElement> sublimitPercentList = new ArrayList<String>()
+
+for (WebElement e : sublimitPercentValue) {
+
+    sublimitPercentList.add(e.getAttribute('value'))
+}
+
+GenericUtils.compareLists(sublimitPercentList, expectedSublimitPercentList)
+
+List<WebElement> perInsuredPersonValue = WebUI.findWebElements(findTestObject('Object Repository/NewBusiness/webElement_CAEndorsementValue', 
+        [('headerName') : 'Per Insured Person']), GlobalVariable.timeOutValue)
+
+List<WebElement> perInsuredPersonList = new ArrayList<String>()
+
+for (WebElement e : perInsuredPersonValue) {
+
+    perInsuredPersonList.add(e.getAttribute('value'))
+}
+
+GenericUtils.compareLists(perInsuredPersonList, expectedPerInsuredPersonList)
+
+List<WebElement> perInsuredEventValue = WebUI.findWebElements(findTestObject('Object Repository/NewBusiness/webElement_CAEndorsementValue', 
+        [('headerName') : 'Per Insured Event']), GlobalVariable.timeOutValue)
+
+List<WebElement> perInsuredEventList = new ArrayList<String>()
+
+for (WebElement e : perInsuredEventValue) {
+
+    perInsuredEventList.add(e.getAttribute('value'))
+}
+
+GenericUtils.compareLists(perInsuredEventList, expectedPerInsuredEventList)
+
+List<WebElement> inTheAggValue = WebUI.findWebElements(findTestObject('Object Repository/NewBusiness/webElement_ReadDynamicTableValues', 
+        [('headerName') : 'In the AGG']), GlobalVariable.timeOutValue)
+
+List<WebElement> aggValueList = new ArrayList<String>()
+
+for (WebElement e : inTheAggValue) {
+
+    aggValueList.add(e.getAttribute('value'))
+}
+
+GenericUtils.compareLists(aggValueList, expectedAggValueList)
+
+WebUI.switchToDefaultContent()
+
+String deductibleBasis = WebUI.getText(findTestObject('Object Repository/NewBusiness/webElement_DeductibleSelectedDropDown', 
+        [('dropDownName') : 'DeductibleBasis']))
+
+GenericUtils.verifyMatch('Deductibles Basis Value is', deductibleBasis, expectedDeductibleBasis, 'EQUAL')
+
+String deductibleType = WebUI.getText(findTestObject('Object Repository/NewBusiness/webElement_DeductibleSelectedDropDown', 
+        [('dropDownName') : 'DeductibleType']))
+
+GenericUtils.verifyMatch('Deductibles Type Value is', deductibleType, expectedDeductibleType, 'EQUAL')
+
+String actualDeductiblesAmount = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_FeeTextArea', 
+        [('fieldName') : 'Deductibles Amount']), 'value')
+
+GenericUtils.verifyMatch('Deductibles Amount Value is', actualDeductiblesAmount, findTestData(testData).getValue('DeductiblesAmountValue', 
+        rowNumber), 'EQUAL')
+
+String actualAATpercentage = WebUI.getAttribute(findTestObject('Object Repository/NewBusiness/webElement_ReadKRExpenseValues', 
+        [('fieldName') : 'AAT Percentage (%)']), 'value')
+
+GenericUtils.verifyMatch('AAT Percentage Value is', actualAATpercentage, findTestData(testData).getValue('AatPercentage', 
+        rowNumber), 'EQUAL')
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_CompleteQuote'), GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_CompleteQuote'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_Continue'), 25)
+WebUI.scrollToElement(findTestObject('Object Repository/NewBusiness/button_Continue'), GlobalVariable.timeOutValue)
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Continue'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_FinalTakeUpQuote'), 25)
+WebUI.scrollToElement(findTestObject('Object Repository/NewBusiness/button_FinalTakeUpQuote'), GlobalVariable.timeOutValue)
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_FinalTakeUpQuote'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/OutwardsPolicy/select_DynamicDropDown', [('dropDownLabel') : 'UW Authority ']), 
+    findTestData(testData).getValue('UW Authority', rowNumber), false)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownIsTacItRenewal'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownIsTacItRenewal'), 
+    findTestData(testData).getValue('IsTacitRenewal', rowNumber), false)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Continue'))
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Continue'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownTaxApplicable'), 
+    GlobalVariable.timeoutShort)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownTaxApplicable'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownTaxApplicable'), 
+    findTestData(testData).getValue('Tax Applicable', rowNumber), false)
+
+WebUI.sendKeys(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_InputTaxesDetail', [('fieldName') : 'Tax Code']),
+	taxCodeValue)
+
+WebUI.clearText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_InputTaxesDetail', [('fieldName') : 'Tax Code']))
+
+WebUI.setText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_InputTaxesDetail', [('fieldName') : 'Tax Code']),
+	taxCodeValue)
+
+WebUI.sendKeys(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_InputTaxesDetail', [('fieldName') : 'Tax Code']), Keys.chord(Keys.BACK_SPACE))
+
+String currentText =  taxCodeValue.substring(0, taxCodeValue.length()-1)
+
+WebUI.mouseOver(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_AutoCompleteResult', [('optionToSelect') : currentText ] ))
+
+WebUI.enhancedClick(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_AutoCompleteResult', [('optionToSelect') : currentText ] ))
+
+WebUI.sendKeys(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_InputTaxesDetail', [('fieldName') : 'Premium % ']), 
+    findTestData(testData).getValue('Tax Premium', rowNumber))
+
+WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/input_FieldName', [('fieldName') : 'Number of Instalments']), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/input_FieldName', [('fieldName') : 'Number of Instalments']), 
+    '1')
+
+WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/input_FieldName', [('fieldName') : 'Number of Instalments']), 
+    Keys.chord(Keys.TAB))
+
+for (int i = 1; i < 2; i++) {
+
+    WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_MultipleDueDate', [('fieldName') : i + 
+                '$pDueDate']), GlobalVariable.timeOutValue)
+
+    WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/webElement_MultipleDueDate', [('fieldName') : i + '$pDueDate']), 
+        installmentsDueDateList[(i - 1)])
+
+    WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/webElement_MultipleDueDate', [('fieldName') : i + '$pDueDate']), 
+        Keys.chord(Keys.TAB))
+}
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_GenerateInstallments'), 25)
+WebUI.scrollToElement(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_GenerateInstallments'), GlobalVariable.timeOutValue)
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_GenerateInstallments'))
+
+//Installments Validations
+List<WebElement> actualInstalment = WebUI.findWebElements(findTestObject('Object Repository/Pega_CreateInsured/webElement_tblValue', 
+        [('tableName') : 'Instalment']), GlobalVariable.timeoutShort)
+
+List<WebElement> actualInstalmentValues = new ArrayList<String>()
+
+WebUI.switchToFrame(findTestObject('Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr'), GlobalVariable.timeoutShort)
+
+for (int i = 0; i < actualInstalment.size(); i++) {
+    String value = actualInstalment.get(i).getText().trim( // Trim spaces
+        )
+
+    if (!(value.equals(''))) {
+        actualInstalmentValues.add(value)
+    }
+}
+
+WebUI.switchToDefaultContent()
+
+KeywordUtil.logInfo(actualInstalmentValues)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_CreateUnderwriting'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_CreateUnderwriting'))
+
+//Status Validations to be added
+String uwQCStatus = WebUI.getText(findTestObject('Object Repository/NewBusiness/webElement_UWQCStatus'))
+
+GenericUtils.verifyMatch('UW QC Status is', uwQCStatus, 'To Be Approved', 'EQUAL')
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_InitiateContractCertanity'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownPolicySlipInsurance'), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownPolicySlipInsurance'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/select_DropdownPolicySlipInsurance'), 
+    findTestData(testData).getValue('PolicySlip', rowNumber), false)
+
+WebUI.check(findTestObject('Object Repository/NewBusiness/checkBox_SelectYesContract'))
+
+WebUI.click(findTestObject('Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/btn_Save'))
+
+WebUI.click(findTestObject('Object Repository/Documentation/PolicyCreation/button_CloseTop'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/OutwardsPolicy/webElement_CaseContentsOptions', [('linkToClick') : 'Bind Policy']), 
+    GlobalVariable.timeoutShort, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Object Repository/OutwardsPolicy/webElement_CaseContentsOptions', [('linkToClick') : 'Bind Policy']), 
+    GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/OutwardsPolicy/webElement_CaseContentsOptions', [('linkToClick') : 'Bind Policy']))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/NewBusiness/button_SubmitPostBind'), GlobalVariable.timeOutValue, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Object Repository/NewBusiness/button_SubmitPostBind'), GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_SubmitPostBind'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_Finalise'), GlobalVariable.timeOutValue, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Finalise'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_FinalisePolicyPrompt'), 
+    GlobalVariable.timeOutValue, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Documentation/PolicyCreation/button_Proceed'))
+
+String signedStatus = WebUI.getText(findTestObject('Object Repository/Documentation/PolicyCreation/webElement_Status'))
+
+KeywordUtil.logInfo(signedStatus)
+WebUI.mouseOver(findTestObject('Object Repository/Dashboards/hoverSidebar'))
+
+WebUI.click(findTestObject('Object Repository/PartyManagement/Page_SubmissionSearchCreation/webElement_Options', [('optionToSelect') : 'Work Basket']))
+
+//Clicking Dashboard option from left side menu
+WebUI.click(findTestObject('Object Repository/PartyManagement/Page_SubmissionSearchCreation/webElement_Options', [('optionToSelect') : 'Quality Check']))
+
+WebUI.check(findTestObject('Object Repository/NewBusiness/checkbox_ViewAllCases'))
+
+//Filtering the policy
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_PolicyFilter'), GlobalVariable.timeoutShort)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_PolicyFilter'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/NewBusiness/webElement_ClearFilter'), GlobalVariable.timeOutValue, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Object Repository/NewBusiness/input_SearchTextInFilter', [('fieldName') : 'Search Text']), 
+    GlobalVariable.PolicyRef)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Apply'))
+
+//Clicking on task link
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_TaskLink'), GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_TaskLink'))
+
+WebUI.check(findTestObject('Object Repository/NewBusiness/checkbox_UnderwriterDecision', [('optionToSelect') : 'Yes']))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_Approve'), GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Approve'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_Close'), GlobalVariable.timeOutValue)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Close'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/webElement_TaskLink'), GlobalVariable.timeoutShort)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/webElement_TaskLink'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/NewBusiness/button_Complete'), GlobalVariable.timeoutShort)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Complete'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/NewBusiness/webElement_SuccessMessage'), GlobalVariable.timeOutValue, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/NewBusiness/button_Close'))
+
+WebUI.callTestCase(findTestCase('Test Cases/Endorsements/262217_CreatePolicyPeriodChangeEndorsement_SubTestCase_Part1'), [('testData') : testData, ('rowNumber') : rowNumber], 
+    FailureHandling.STOP_ON_FAILURE)

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>262186SubTestCase0</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b737aaa-60ff-4c2d-aafa-c1ec39a46f81</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47c32742-98df-4333-9914-ddc2984a2889</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a254ba3b-dce7-4043-8db8-3cbd39c781ed</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'No'</defaultValue>
+      <description></description>
+      <id>47c32742-98df-4333-9914-ddc2984a2889</id>
+      <masked>false</masked>
+      <name>option_No</name>
+   </variable>
+   <variable>
+      <defaultValue>'EUR'</defaultValue>
+      <description></description>
+      <id>a254ba3b-dce7-4043-8db8-3cbd39c781ed</id>
+      <masked>false</masked>
+      <name>currencyType</name>
+   </variable>
+</TestCaseEntity>

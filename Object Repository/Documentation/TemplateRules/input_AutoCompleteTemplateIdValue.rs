@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_AutoCompleteTemplateIdValue</name>
+   <tag></tag>
+   <elementGuidId>2e0ae52c-57c1-40f0-8fdc-1c0cce356eab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.autocompleteAGleft.gridCell.cellHover > div.oflowDiv</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr//td//div//child::div//span//span[contains(.,'${TemplateID}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Local_DO_ABC_TME_SP$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7eb19bdc-b166-405c-bc50-9ba28405632e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oflowDiv</value>
+      <webElementGuid>619a49bd-d848-45aa-9bd4-9a4568f87f69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Local_DO_ABC_TME_SP</value>
+      <webElementGuid>ab00afcb-6963-46ce-bd02-367543091535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PD_TemplateID_pa1065927528191788pz$ppxResults$l24&quot;)/td[@class=&quot;autocompleteAGleft gridCell    cellHover&quot;]/div[@class=&quot;oflowDiv&quot;]</value>
+      <webElementGuid>7d326d40-6ed7-4890-afbf-60c7e4f85f42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Documentation/TemplateRules/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>1721def9-5989-4825-b504-71e3f870585c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='$PD_TemplateID_pa1065927528191788pz$ppxResults$l24']/td/div</value>
+      <webElementGuid>a3ccd767-e5f7-4482-8221-b793dbf08ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TemplateID'])[1]/following::div[1]</value>
+      <webElementGuid>8d9b97ca-417b-4d77-8126-e335bd635b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pl'])[1]/following::div[21]</value>
+      <webElementGuid>241554a3-dcba-4608-bdb9-904d5d546248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div/div/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>8be68bda-5c24-4064-83b3-0d01e301f55a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Local_DO_ABC_TME_SP' or . = 'Local_DO_ABC_TME_SP')]</value>
+      <webElementGuid>29b4234d-ee35-42f2-b653-5ded50890fa1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

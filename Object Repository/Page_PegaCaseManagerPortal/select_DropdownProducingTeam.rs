@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownProducingTeam</name>
+   <tag></tag>
+   <elementGuidId>4ae86f8f-1d05-4694-a29e-6d9ddb6d3bb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#98029b5d</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[text()='Producing Team']/following::select[contains(@name,'ProducingTeam')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 01610070553050952188346&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>4b81f229-90c4-4b9d-92e3-cbd91eb7d4ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-loadmode</name>
+      <type>Main</type>
+      <value>LazyLoad</value>
+      <webElementGuid>61914347-3422-42c9-bc2e-a7e3f82544d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-config</name>
+      <type>Main</type>
+      <value>[&quot;DP&quot;,&quot;D_MasterRefData&quot;,&quot;false&quot;,&quot;.Description&quot;,&quot;.RefValue&quot;,&quot;&quot;,&quot;&quot;,&quot;{\&quot;Lob\&quot;:\&quot;FL\&quot;,\&quot;GroupId\&quot;:\&quot;1\&quot;,\&quot;EffectiveDate\&quot;:\&quot;2017-01-01\&quot;,\&quot;RefType\&quot;:\&quot;ProducingTeam\&quot;,\&quot;Filter\&quot;:\&quot;\&quot;,\&quot;EffectiveDateNotRequired\&quot;:\&quot;\&quot;,\&quot;Filter1\&quot;:\&quot;\&quot;,\&quot;Filter2\&quot;:\&quot;\&quot;}&quot;,&quot;asc&quot;]</value>
+      <webElementGuid>b20c0783-0b0a-4e68-9e3d-57ed4bf7a570</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>201610070553050952188346</value>
+      <webElementGuid>33cc2193-2519-41ef-b5a2-da9bbeb9ba2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>d6d6b261-aa46-40b1-a758-0d730d4a212e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>672af706-8c59-4ca2-97de-082d461b9cec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>98029b5d</value>
+      <webElementGuid>12125df1-127d-4bc2-a60e-026e164725ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>7b57e551-f255-4592-b6dc-09a36c7b32e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pProducingTeam</value>
+      <webElementGuid>177c7dd9-36ce-475e-851d-f9ad0ac7f799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pProducingTeamError</value>
+      <webElementGuid>817174c3-649a-4a0a-ab34-688f851cf881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select Producing Team
+
+
+
+FL  - New York - TRIFL - Barcelona - AsiaFL - Barcelona - Benelux &amp; Nordic CountriesFL - Barcelona - CyberFL - Barcelona - FranceFL - Barcelona - Germany &amp; AustriaFL - Barcelona - IberiaFL - Barcelona - LatamFL - Barcelona - Local PoliciesFL - Barcelona - ROWFL - Barcelona - Southern Europe, Middle East &amp; IsraelFL - Barcelona - Switzerland &amp; CEEFL - Barcelona - TRIFL - Barcelona – KRFL - Farmington - CanadaFL - London - CDOFL - London - CPIFL - London - CyberFL - London - FIFL - London - TRIFL - MilanFL - Milan - CyberFL - MunichFL - Munich - CyberFL - Munich - TRIFL - SingaporeFL - Singapore - CyberFL - Singapore - TRIFL - Sydney - TRI</value>
+      <webElementGuid>64b12b56-68b0-4258-be8b-7534900f7945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;98029b5d&quot;)</value>
+      <webElementGuid>83965f9f-0806-4f9f-a05d-2d2bad4f8b69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>2dd1b598-adef-4482-880e-8efb2081896a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='98029b5d']</value>
+      <webElementGuid>3fea3369-a62b-40c2-aeda-bab5b045632f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[7]/div/div/select</value>
+      <webElementGuid>59615a9c-1353-46d2-9a7b-ba307a9adb82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Producing Team'])[1]/following::select[1]</value>
+      <webElementGuid>d4a5154c-dffd-4666-8f20-e9b0372d2d7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Major Class'])[1]/following::select[1]</value>
+      <webElementGuid>0d5b14f8-2d14-4495-9831-fdd270383e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reinsured'])[1]/preceding::select[1]</value>
+      <webElementGuid>2ac02d5d-a8ff-4bf8-9333-a888c9348bf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quote Reference'])[1]/preceding::select[2]</value>
+      <webElementGuid>65d2ab17-5cb1-4146-a33a-714f5b8b2200</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/select</value>
+      <webElementGuid>a313e7b7-3466-460e-8c5c-bba529d629ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '98029b5d' and @name = '$PD_SearchSubmissionCriteria$pProducingTeam' and (text() = '&#xd;
+&#xd;
+  Select Producing Team&#xd;
+&#xd;
+&#xd;
+&#xd;
+FL  - New York - TRIFL - Barcelona - AsiaFL - Barcelona - Benelux &amp; Nordic CountriesFL - Barcelona - CyberFL - Barcelona - FranceFL - Barcelona - Germany &amp; AustriaFL - Barcelona - IberiaFL - Barcelona - LatamFL - Barcelona - Local PoliciesFL - Barcelona - ROWFL - Barcelona - Southern Europe, Middle East &amp; IsraelFL - Barcelona - Switzerland &amp; CEEFL - Barcelona - TRIFL - Barcelona – KRFL - Farmington - CanadaFL - London - CDOFL - London - CPIFL - London - CyberFL - London - FIFL - London - TRIFL - MilanFL - Milan - CyberFL - MunichFL - Munich - CyberFL - Munich - TRIFL - SingaporeFL - Singapore - CyberFL - Singapore - TRIFL - Sydney - TRI' or . = '&#xd;
+&#xd;
+  Select Producing Team&#xd;
+&#xd;
+&#xd;
+&#xd;
+FL  - New York - TRIFL - Barcelona - AsiaFL - Barcelona - Benelux &amp; Nordic CountriesFL - Barcelona - CyberFL - Barcelona - FranceFL - Barcelona - Germany &amp; AustriaFL - Barcelona - IberiaFL - Barcelona - LatamFL - Barcelona - Local PoliciesFL - Barcelona - ROWFL - Barcelona - Southern Europe, Middle East &amp; IsraelFL - Barcelona - Switzerland &amp; CEEFL - Barcelona - TRIFL - Barcelona – KRFL - Farmington - CanadaFL - London - CDOFL - London - CPIFL - London - CyberFL - London - FIFL - London - TRIFL - MilanFL - Milan - CyberFL - MunichFL - Munich - CyberFL - Munich - TRIFL - SingaporeFL - Singapore - CyberFL - Singapore - TRIFL - Sydney - TRI')]</value>
+      <webElementGuid>f4503f1b-42e3-45d2-b996-596d614afe7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

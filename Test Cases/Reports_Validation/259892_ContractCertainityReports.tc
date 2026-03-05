@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Verify Contract Certainity Reports&#xd;
+Module: Regression Test Pack/Reports&#xd;
+Test Case ADO ID:259892</description>
+   <name>259892_ContractCertainityReports</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259892</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5f18bc2-e1cb-4b43-8fd9-d68b5b449821</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9753f8d-f6f5-4c7f-8764-2b4cf024b5c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46d20c0e-c958-45d2-b525-eec736d971a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa39e08e-df0c-49f4-8c2e-3858c1531c72</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Case ID', 'Status', 'Producing Team', 'Policy Reference', 'Created on', 'Resolved on']</defaultValue>
+      <description></description>
+      <id>d9753f8d-f6f5-4c7f-8764-2b4cf024b5c3</id>
+      <masked>false</masked>
+      <name>expectedHeaderList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reports'</defaultValue>
+      <description></description>
+      <id>46d20c0e-c958-45d2-b525-eec736d971a5</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>aa39e08e-df0c-49f4-8c2e-3858c1531c72</id>
+      <masked>false</masked>
+      <name>CredentialstestData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description:Verify Policy Slip Templates&#xd;
+Module: Regression Test Pack/Documentation&#xd;
+Test Case ADO ID:259455</description>
+   <name>259455_CheckForPolicySlipTemplates</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>259455</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51b08c4a-9d2e-4c0b-8fe5-c950da801dcc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a6d89ae-fd35-4b10-b747-fbaf723301ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9dd115a3-eb15-476e-87dc-1389355fb466</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e61f40a5-c7ca-481e-94b9-4ef836e9101e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Quote Letter', 'Broker Binder', 'Policy Slip']</defaultValue>
+      <description></description>
+      <id>8a6d89ae-fd35-4b10-b747-fbaf723301ec</id>
+      <masked>false</masked>
+      <name>expectedPolicyDocsList</name>
+   </variable>
+   <variable>
+      <defaultValue>'CreateSubmission'</defaultValue>
+      <description></description>
+      <id>9dd115a3-eb15-476e-87dc-1389355fb466</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>e61f40a5-c7ca-481e-94b9-4ef836e9101e</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

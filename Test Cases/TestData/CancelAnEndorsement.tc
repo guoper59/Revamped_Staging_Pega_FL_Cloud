@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CancelAnEndorsement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f9fa34a-d321-47a6-9ba6-0332e3a4b60f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9b48667-5d65-4aa2-8905-be7287910f58</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Your action has been completed.'</defaultValue>
+      <description></description>
+      <id>b9b48667-5d65-4aa2-8905-be7287910f58</id>
+      <masked>false</masked>
+      <name>expectedSuccessMessage</name>
+   </variable>
+</TestCaseEntity>

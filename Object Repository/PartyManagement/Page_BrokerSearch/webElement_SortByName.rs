@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_SortByName</name>
+   <tag></tag>
+   <elementGuidId>55c2c6cd-44ca-461e-8344-f8dd58b23b8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[@data-attribute-name='Name']//div//div//following::span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PEGA_GRID13 > #PEGA_GRID_SKIN > #PEGA_GRID_CONTENT > #gridLayoutTable > tbody > tr > td.mainGridTableCell > #gridBody_right > #bodyTbl_right > tbody > tr.cellCont > #a2 > div.oflowDiv</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Name Click to sort&quot;s] >> div >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cb2734ac-1c81-4d43-8a2b-56b7581afd70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oflowDiv</value>
+      <webElementGuid>31e0e7c5-4b8b-4749-a934-5c3e832f0344</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NameEnter to sort</value>
+      <webElementGuid>242ecd46-24f4-47f7-945e-dbdefaba49b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PEGA_GRID13&quot;)/div[@id=&quot;PEGA_GRID_SKIN&quot;]/div[@id=&quot;PEGA_GRID_CONTENT&quot;]/table[@id=&quot;gridLayoutTable&quot;]/tbody[1]/tr[1]/td[@class=&quot;mainGridTableCell&quot;]/div[@id=&quot;gridBody_right&quot;]/table[@id=&quot;bodyTbl_right&quot;]/tbody[1]/tr[@class=&quot;cellCont&quot;]/th[@id=&quot;a2&quot;]/div[@class=&quot;oflowDiv&quot;]</value>
+      <webElementGuid>779dac1e-1bc0-4cc2-8225-0cf04061ef1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/PartyManagement/Page_BrokerSearch/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>381d8f6b-3ca6-44e3-9f88-5ba02e6fa52c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//th[@id='a2']/div)[2]</value>
+      <webElementGuid>d0db7f52-a036-4358-b3f5-28065f13b1bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter to sort'])[16]/following::div[1]</value>
+      <webElementGuid>5576258e-b77f-41db-86b8-41759b9616bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::div[2]</value>
+      <webElementGuid>271fc384-c22e-4a28-8019-7734ca553206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr/th[3]/div</value>
+      <webElementGuid>8dc21193-85a0-499a-a6c4-086187a0fee0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'NameEnter to sort' or . = 'NameEnter to sort')]</value>
+      <webElementGuid>160aa3f0-050a-4076-ac96-919cfcff166b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

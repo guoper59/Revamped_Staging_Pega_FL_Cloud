@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_SelectRuleSet</name>
+   <tag></tag>
+   <elementGuidId>41a5a153-dd36-4de7-921a-23d2f955d1a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='HCC-CL-LL-Work'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 01704040320550048263-R1&quot;] >> internal:text=&quot;RetreiveRenewalPolicies&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>36775ed7-4575-4598-969d-c53da815dc67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oflowDivM </value>
+      <webElementGuid>15567aef-0a5d-497c-9100-666abf215095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RetreiveRenewalPolicies </value>
+      <webElementGuid>067a6168-9b49-4d8c-b8f2-5541ea85179b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PpgRepPgSubSectionpzViewInstancesB$ppxResults$l1&quot;)/td[@class=&quot;gridCell    gridCellSelected&quot;]/div[@class=&quot;oflowDivM&quot;]</value>
+      <webElementGuid>49d7a4de-f5db-4ef3-8961-a7fee06ea87c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Renewal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>0e6a3628-fe2a-4c80-8713-5b07f18a466e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HCC-CL-LL-Work'])[1]/following::div[1]</value>
+      <webElementGuid>a7a40c65-c94f-463c-9441-8347fc51204a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter to sort'])[5]/following::div[2]</value>
+      <webElementGuid>0f5e2952-7a5e-472c-a7c6-f2b2aae48194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UTILITY'])[1]/preceding::div[1]</value>
+      <webElementGuid>bdd67ddd-f7c8-4dbf-8955-001274ae8462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vipin@:01-01-01'])[1]/preceding::div[2]</value>
+      <webElementGuid>1cdf6d14-2f6d-4858-bb6e-ac64384dfbce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RetreiveRenewalPolicies']/parent::*</value>
+      <webElementGuid>85a0d1d6-f06b-434e-b940-8e0998860152</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'RetreiveRenewalPolicies ' or . = 'RetreiveRenewalPolicies ')]</value>
+      <webElementGuid>e650e268-17f0-46cc-b990-608d7caf2524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]/div</value>
+      <webElementGuid>775f0c66-3b56-4874-a934-118cf7a5b6ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='$PpgRepPgSubSectionpzViewInstancesB$ppxResults$l1']/td[2]/div</value>
+      <webElementGuid>4d8be0dc-91e0-4455-90f9-ffb362ccc439</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

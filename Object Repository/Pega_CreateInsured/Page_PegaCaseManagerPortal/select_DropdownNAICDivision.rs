@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownNAICDivision</name>
+   <tag></tag>
+   <elementGuidId>a706f95e-2892-49ca-83c3-f7cb2ed487e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'NAICDivision')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#bf058d41</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;NAIC Division*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>9e8db5ca-5546-4e52-9f20-4298a8278e60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;runDataTransform&quot;, [&quot;SetNewInsuredSelection&quot;, &quot;=&quot;, &quot;pyWorkPage.NewCustomerInfo.CustomerInfo&quot;,&quot;:event&quot;]]]</value>
+      <webElementGuid>a6bd3918-cbf7-441d-976f-81187c72bc0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>201610311401410841139600</value>
+      <webElementGuid>7397b713-7995-457c-a998-3f51e04827d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>e660f5cf-f2eb-4303-b922-e1bc1b57046f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>024f51e4-82e1-40b0-8b44-28f9a74c8017</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>bf058d41</value>
+      <webElementGuid>3740b4c6-df1c-40ac-8a0e-713b95b768f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>91cbd267-b252-4a02-9e43-03b51d221376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pNAICDivision</value>
+      <webElementGuid>28591bce-1e91-4094-9dc9-8794e759aa51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pNAICDivisionError</value>
+      <webElementGuid>1210a1af-f5ef-42e8-a14e-e238c6d657df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select..
+
+CommercialFinancial
+
+</value>
+      <webElementGuid>a57bc373-e9c1-44c9-8b80-db0ba2117442</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bf058d41&quot;)</value>
+      <webElementGuid>dddc218c-f0bb-4391-aaa2-ce9423062d43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>a7cd3c3f-401d-409f-9257-272bcf963610</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='bf058d41']</value>
+      <webElementGuid>8cc42852-a5bb-41e3-8c6c-387bbe802cf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div/select</value>
+      <webElementGuid>c8c9bd71-678b-4318-891f-c643611eabe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::select[1]</value>
+      <webElementGuid>92b34c73-4476-4e52-ab57-8ec500171237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/preceding::select[1]</value>
+      <webElementGuid>ddad632f-35d3-4bbc-9aa6-7dd275e8e4e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/select</value>
+      <webElementGuid>0c2dddba-1eb6-4c5e-861a-7d79348cb53d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'bf058d41' and @name = '$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pNAICDivision' and (text() = '&#xd;
+&#xd;
+  Select..&#xd;
+&#xd;
+CommercialFinancial&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Select..&#xd;
+&#xd;
+CommercialFinancial&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>e67fd561-c8aa-48f6-a58b-f3c1015bbbb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

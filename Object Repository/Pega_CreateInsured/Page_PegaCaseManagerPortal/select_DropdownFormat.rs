@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownFormat</name>
+   <tag></tag>
+   <elementGuidId>f770108a-7ff7-4f6f-a3d1-8445bed9896d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'SelectFormat')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#7e96507b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Select Format*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>67ee244b-9e6a-42d2-a34d-91a393cfa51e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;ResetLangTemplate,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MDQ5YzNjY2FiMDdjOWY5MDNlYzQxZmNhMzRmZjMxMTIxNDc0YjgwOTVkYWUxMzZjYWFhYjc5MjgzZTFkOTMwOGJlZjBjZDhjZjI0MjVjZjY5ZWQ4Yjc4ZmNlMTczNGIwMmM3YzJhMmRmMjJiOTk1NzU4OWRlNDU2NjA2MjFiZWY1ODI1OTJhYjYzNDJlMzkwYWIzYmJkNzg5NjU3NDFiNTJhYjg3ZTM3MzMyNmNlYTUxOGY5ZDg1ZDM0MmVlMjliYWE2MjQ4Yjc4MmIzZTJhNTJjYjM4ZGQ4ZjYwOGY1OWE1MWRiYmFmMDcyZTJiMjg5MWNlMGRmNDAyMzI1ZDJm*&quot;,{},{}],&quot;pyWorkPage&quot;]]]</value>
+      <webElementGuid>835b5bc0-d4cd-4ca1-bc65-ab79f3f96e90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20191015153515005061889</value>
+      <webElementGuid>37703a15-149c-49ea-bb80-4f89e767221c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>8944f4fd-3242-4499-a473-bb310cfbc763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>6c1a5031-e3a6-4a43-8437-74eae3e65259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>7e96507b</value>
+      <webElementGuid>89524a58-5f07-4a3c-ab1c-f2dc34259f4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>dfa1b7b8-8b1f-4801-89d2-aab7b07f521f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pSelectFormat</value>
+      <webElementGuid>04b066df-03f9-4e18-a132-756b57265863</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-expr-id</name>
+      <type>Main</type>
+      <value>9b0ed1f1c95b006761b3610eac2d39fdbf836565_7</value>
+      <webElementGuid>f3f01020-c17e-417c-bfca-1a85caaa0b58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-context</name>
+      <type>Main</type>
+      <value>pyWorkPage</value>
+      <webElementGuid>4b539ed4-7692-4ed3-92ee-610d1b27d347</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellid</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4aad8294-0dcb-43a6-ad5e-08e56c16d37b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pSelectFormatError</value>
+      <webElementGuid>801c5cd9-c4ce-4492-9a52-d5fd74d940fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select Format
+
+Download PDF/WordEmail
+
+</value>
+      <webElementGuid>4d86d5c4-d798-4aed-874c-5c037488bcc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;7e96507b&quot;)</value>
+      <webElementGuid>48090d09-272b-4c02-a332-f5a5695aabc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>34a013ea-38b5-4895-aa72-77ca971394e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='7e96507b']</value>
+      <webElementGuid>e96dc925-01de-4789-a3da-3d70b3deb379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
+      <webElementGuid>59fcd074-6f97-4671-8342-eabad0255814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::select[1]</value>
+      <webElementGuid>875f8e14-959d-4c2a-86bd-11fafdf2ff4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = '$PpyWorkPage$pSelectFormat' and (text() = '&#xd;
+&#xd;
+  Select Format&#xd;
+&#xd;
+Download PDF/WordEmail&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Select Format&#xd;
+&#xd;
+Download PDF/WordEmail&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>f7dfdcd2-9bde-42aa-b68b-a9d7f7ce6987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div/div/div/select</value>
+      <webElementGuid>70ec486e-b0a2-4a6c-86fb-782e0e8efeab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>27a618f3-8019-479e-85a4-4f3e0e953919</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

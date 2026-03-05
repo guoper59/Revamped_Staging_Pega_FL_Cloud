@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>262199_CancelAdditionalPremiumEndorsementCyber</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c07a0d5-991d-431f-bc5c-66e197622390</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d856cca2-fedd-4d36-b153-ec10d07e5b92</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10.00'</defaultValue>
+      <description></description>
+      <id>d856cca2-fedd-4d36-b153-ec10d07e5b92</id>
+      <masked>false</masked>
+      <name>sublimitList</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>263886_ProgrammViewVerifyModlifybuttonfromProgrammeIDSearchResultsforBusinessAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3039963b-3cb5-4341-9f3e-995814a53e5a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba612b83-6712-4902-b000-d8a463928333</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test test'</defaultValue>
+      <description></description>
+      <id>ba612b83-6712-4902-b000-d8a463928333</id>
+      <masked>false</masked>
+      <name>cmmnt</name>
+   </variable>
+</TestCaseEntity>

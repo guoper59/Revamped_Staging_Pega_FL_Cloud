@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownProgrammeView</name>
+   <tag></tag>
+   <elementGuidId>80cb0f7f-66af-452b-bce6-cfc06f955392</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#677742a6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[contains(@name,'ProgrammeView')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Programme View&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5ea610a1-b46f-4049-8085-b3a042a7dca9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>2020091609050105532185</value>
+      <webElementGuid>95f3d4af-3152-4909-b8ce-c025a720eb6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>5d81d7dd-5a3e-48b8-b53b-221682bcec1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3d3e06e2-bd47-48b4-acc7-cb8e8a294361</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>677742a6</value>
+      <webElementGuid>88581caf-5cb1-45fa-9a0f-223708ee17b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>0938c4fb-d77a-4927-af08-a7b0d3d44183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pProgrammeView</value>
+      <webElementGuid>edb7e6ad-bc0a-484f-93ee-58956cd16091</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PD_SearchSubmissionCriteria$pProgrammeViewError</value>
+      <webElementGuid>4e92142d-9a4b-4b6a-bb64-e1567430267a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+  Select a Value
+
+Single LOBMulti LOB
+
+</value>
+      <webElementGuid>03490ddd-d3b4-4dce-830f-31fe866506dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;677742a6&quot;)</value>
+      <webElementGuid>5c2a96dc-a091-4c2a-89e9-347fe145a99a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>a8d96377-b4a5-4a3b-ac1a-e1f0d2c10c9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='677742a6']</value>
+      <webElementGuid>6201db13-7c10-44a8-96f6-91f9961a9b1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[14]/div/div/select</value>
+      <webElementGuid>7acaddf0-0ab1-430e-b373-90f2268a3607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programme View'])[1]/following::select[1]</value>
+      <webElementGuid>d5881b21-9fbb-4881-9082-1e54252905e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Placing Type'])[1]/following::select[2]</value>
+      <webElementGuid>e62c2606-cca6-4058-aaa0-e7f5e1201cb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Broker Country'])[1]/preceding::select[1]</value>
+      <webElementGuid>4152ae00-5dd8-440f-9016-0dd2b5c11408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Broker City'])[1]/preceding::select[2]</value>
+      <webElementGuid>3434d1b7-a256-4179-9269-4709cf11af2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div/div/select</value>
+      <webElementGuid>2317662d-8eed-4587-9918-461450dbd3e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '677742a6' and @name = '$PD_SearchSubmissionCriteria$pProgrammeView' and (text() = '&#xd;
+&#xd;
+  Select a Value&#xd;
+&#xd;
+Single LOBMulti LOB&#xd;
+&#xd;
+' or . = '&#xd;
+&#xd;
+  Select a Value&#xd;
+&#xd;
+Single LOBMulti LOB&#xd;
+&#xd;
+')]</value>
+      <webElementGuid>eac2287c-0d55-47af-96db-7fb4f0433cab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

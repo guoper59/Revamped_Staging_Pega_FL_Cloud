@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Description: Check for Claims Tab&#xd;
+Test Case ADO ID : 259891</description>
+   <name>259891_CheckforClaimsTab</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>002b9ead-8d11-4e75-9dd7-02cea5b168f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>747abc06-3854-4b08-8d38-aff6e941f51c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b8392d5-0beb-48b6-a83d-6016110333aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7bf4f5a-0e01-457c-a32a-5e641ca9823b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>923ae89d-0119-4f8d-906a-5927c47f2a76</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Overview', 'Insured', 'Broker', 'General Data', 'Underwriting', 'Bind', 'Post Bind', 'Payments', 'Policy Docs', 'Endorsements', 'RI Forms', 'Quality Checks', 'Attachments', 'Closed Reasons', 'Claims', 'Links', 'Policies', 'History', 'Notes']</defaultValue>
+      <description></description>
+      <id>a87eaceb-f3c6-4466-9086-04eb4559a773</id>
+      <masked>false</masked>
+      <name>expectedHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>['Claims Status', 'Claims ID', 'Opened Date', 'Notified Date', 'Claims Title', 'Claims Handler Name', 'Date of Loss', 'Loss Location', 'Last Movement Date', 'Description', 'USD TMHCC Paid Claims amount', 'USD TMHCC Total Claims amount', 'Policy Ori. Ccy', 'Exchange Rate', 'Ori. TMHCC Paid Claims amount', 'Ori. TMHCC Out standing Claims Amount', 'Ori. TMHCC  Total Claims Amount']</defaultValue>
+      <description></description>
+      <id>e0795e29-56aa-4d16-9aee-b52ae6146d60</id>
+      <masked>false</masked>
+      <name>expectedTableHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>[('ClaimsStatus') : 'Closed', ('ClaimsID') : '1098737', ('OpenedDate') : '25/10/2019', ('NotifiedDate') : '24/10/2019', ('ClaimsTitle') : 'Cyber attack Transavia', ('ClaimsHandlerName') : 'Anne-Charlotte Defer', ('DateofLoss') : '21/10/2019', ('LossLocation') : 'NL (Netherlands)', ('LastMovementDate') : '23/12/2022', ('Description') : 'Tooltip', ('USDTMHCCPaidClaimsamount') : '185,190.13', ('USDTMHCCTotalClaimsamount') : '185,190.13', ('PolicyOri.Ccy') : 'EUR', ('ExchangeRate') : '1.08516', ('Ori.TMHCCPaidClaimsamount') : '170,657.33', ('Ori.TMHCCOutstandingClaimsAmount') : '0.00', ('Ori.TMHCCTotalClaimsAmount') : '6,000.00']</defaultValue>
+      <description></description>
+      <id>1d8f8056-105d-4cb3-a757-b1db321e93bf</id>
+      <masked>false</masked>
+      <name>ClaimValuesRow1</name>
+   </variable>
+   <variable>
+      <defaultValue>[('ClaimsStatus') : 'Closed', ('ClaimsID') : '1134039', ('OpenedDate') : '02/08/2022', ('NotifiedDate') : '01/01/1970', ('ClaimsTitle') : 'Use of preventive consulting services', ('ClaimsHandlerName') : 'Anne-Charlotte Defer', ('DateofLoss') : '20/09/2019', ('LossLocation') : 'Netherlands', ('LastMovementDate') : '04/08/2022', ('Description') : 'Tooltip', ('USDTMHCCPaidClaimsamount') : '6,525.75', ('USDTMHCCTotalClaimsamount') : '6,525.75', ('PolicyOri.Ccy') : 'EUR', ('ExchangeRate') : '1.08763', ('Ori.TMHCCPaidClaimsamount') : '6,000.00', ('Ori.TMHCCOutstandingClaimsAmount') : '0.00', ('Ori.TMHCCTotalClaimsAmount') : '6,000.00']</defaultValue>
+      <description></description>
+      <id>716ffc45-b5e5-4857-8d17-69ce0d4f7c09</id>
+      <masked>false</masked>
+      <name>ClaimValuesRow2</name>
+   </variable>
+</TestCaseEntity>

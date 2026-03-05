@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Create New Bureau Bordereau Facility Major Class= BLD  Entity = Lloyds&#xd;
+Module: Regression Test Pack/New Business&#xd;
+Test Case ADO 262225</description>
+   <name>262225_CreateNewBureauProportionalTreaty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>747c52f1-3eef-407c-8e33-69d6a951417e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c7780fb-ad57-4fae-9499-da452e327a74</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1a29a00-4fa7-466c-b29a-9ff297d5cc00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a148a6ff-37bb-4942-83f5-19c974b9a3cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2593c3dd-53ea-478a-aaf2-31d244999986</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f50c3966-16f5-4169-b352-90d3bfb72c3f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ff8bfb5-dde9-4e6c-b8e5-f2c5e2cbc05b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d90c5a3-b9c5-4ea9-9a96-53ee563cb258</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d69b8ca0-97fa-44ef-83da-793076247bac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('benchmarkLossRatio') : 'BenchmarkLossRatio', ('pricedTechPremium') : 'PricedTechPremium', ('brokerRefernce') : 'BrokerReference', ('llyodsRiskCode1') : 'l1$pLloydsRiskCode', ('premiumPercent1') : 'l1$pPremiumSplitPercent', ('checkBoxViewAll') : 'ViewAllDACases']</defaultValue>
+      <description></description>
+      <id>9c7780fb-ad57-4fae-9499-da452e327a74</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'GBP', '0.00', '0.00', 'GBP', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>a1a29a00-4fa7-466c-b29a-9ff297d5cc00</id>
+      <masked>false</masked>
+      <name>expectedInstalmentValues</name>
+   </variable>
+   <variable>
+      <defaultValue>'UW/Fac RI Quality Check'</defaultValue>
+      <description></description>
+      <id>a148a6ff-37bb-4942-83f5-19c974b9a3cb</id>
+      <masked>false</masked>
+      <name>uwTab</name>
+   </variable>
+   <variable>
+      <defaultValue>['Versions', 'Case ID', 'Status']</defaultValue>
+      <description></description>
+      <id>2593c3dd-53ea-478a-aaf2-31d244999986</id>
+      <masked>false</masked>
+      <name>expectedHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>'CreateSubmission'</defaultValue>
+      <description></description>
+      <id>f50c3966-16f5-4169-b352-90d3bfb72c3f</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>9ff8bfb5-dde9-4e6c-b8e5-f2c5e2cbc05b</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bureau'</defaultValue>
+      <description></description>
+      <id>2d90c5a3-b9c5-4ea9-9a96-53ee563cb258</id>
+      <masked>false</masked>
+      <name>expectedTaxBureau</name>
+   </variable>
+   <variable>
+      <defaultValue>'Resolved-Completed'</defaultValue>
+      <description></description>
+      <id>d69b8ca0-97fa-44ef-83da-793076247bac</id>
+      <masked>false</masked>
+      <name>expectedStatus</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownPremiumType</name>
+   <tag></tag>
+   <elementGuidId>b892d2f8-b9f6-4f99-bd1b-06e9d7b67668</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium Type'])[1]/following::select[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#31e99fe7</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Premium Type&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>111d7e32-c8f7-47ac-a336-0f7214d94a5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-change</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;ComDisplayGrid&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;ChangeAmounts,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX1jMmMxMDkzNmY3M2ZmYzk1YmRhMjFhOTllZDBhYjhhMWNmMzAxMDA4ZWY3MWM5M2VlYmU3M2IwZjY1MzM3MjlhMDQ3MmY1ZGY3YTRiZmZmYmM3ZDUzZjRhODEzM2ZmZDgzZDQyYWJmZWZhOTRmZGQwOWMwMmUzZTkwNzQzOTA4MDljNzhlNmQzMjU5MzQ2N2UwMmEzM2Y0NTdhMTcyNWY5ZmJlMzVmNWQ1MjBhMTA4YzZlMjgxZTg0YjA4YmI1NWM%3D*&quot;,{},{}],&quot;pyWorkPage.ApplicationPage.SelectedQuote&quot;]]]</value>
+      <webElementGuid>c13f310f-ae21-40de-b580-3f50cd7713a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20170120094708086815387</value>
+      <webElementGuid>b225223a-822b-4c98-996b-16002ca89c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>[&quot;Dropdown&quot;]</value>
+      <webElementGuid>39f23faa-395b-4844-b57e-1a8b7b150bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7382770d-f18f-404a-8139-9bd31eb841fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>31e99fe7</value>
+      <webElementGuid>42d74e38-47ce-4820-982f-961ac2caf0fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standard</value>
+      <webElementGuid>48d4dbea-09cf-4395-bc05-b7c3d3994faa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pApplicationPage$pSelectedQuote$pPremiumData$pPremiumType</value>
+      <webElementGuid>458828fb-034a-4d61-b1e4-b6ac7ff5d8bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>$PpyWorkPage$pApplicationPage$pSelectedQuote$pPremiumData$pPremiumTypeError</value>
+      <webElementGuid>adf228a5-866f-4b35-870e-df6cef63f11b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+Original Premium
+
+</value>
+      <webElementGuid>61ec4a93-09d8-4374-8db3-01cc7885e7b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;31e99fe7&quot;)</value>
+      <webElementGuid>2c24e60c-40a7-4127-97c8-edda07f227bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>6a91a654-ab9a-4edc-9eca-ecc0299c248a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='31e99fe7']</value>
+      <webElementGuid>c22fbf5d-60ee-4e7e-a4da-a93c704316b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium Type'])[1]/following::select[1]</value>
+      <webElementGuid>ca0950a8-f221-4a94-a587-654428a5e5f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium Information'])[1]/following::select[1]</value>
+      <webElementGuid>0fafc483-b3e5-4132-9f48-045636fcb55d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layer Gross Premium'])[1]/preceding::select[1]</value>
+      <webElementGuid>5f3d04db-5eff-4e68-9ec0-eec4b26c71d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layer Net Premium'])[1]/preceding::select[1]</value>
+      <webElementGuid>b0a6fc76-aeed-4b58-bc32-9ddf3a12eedf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = '$PpyWorkPage$pApplicationPage$pSelectedQuote$pPremiumData$pPremiumType' and (text() = '
+
+Original Premium
+
+' or . = '
+
+Original Premium
+
+')]</value>
+      <webElementGuid>65aaf181-5588-4508-8135-ca5f94f97ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='EXPAND-INNERDIV']/div/div/div/div/div/div/div/div/div/select)[3]</value>
+      <webElementGuid>23b5e982-394c-4261-bbb6-298b7e782d88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/select</value>
+      <webElementGuid>94a2d090-041a-4387-8480-dc20e0192910</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

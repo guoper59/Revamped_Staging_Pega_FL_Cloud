@@ -1,0 +1,76 @@
+# azure-pipelines.yml
+# ======================================
+# Main pipeline that calls reusable Katalon job template
+# ======================================
+ 
+trigger:
+  - none
+ 
+jobs:
+  - template: template.yml
+    parameters:
+      jobName: Collection1
+      displayName: 'Collection1'
+      collectionPath: 'Collection1'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP012_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: Collection2
+      displayName: 'Collection2'
+      collectionPath: 'Collection2'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP013_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: Collection3
+      displayName: 'Collection3'
+      collectionPath: 'Collection3'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP014_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: Collection4
+      displayName: 'Collection4'
+      collectionPath: 'Collection4'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP015_Agent'
+  - template: template.yml
+    parameters:
+      jobName: Collection5
+      displayName: 'Collection5'
+      collectionPath: 'Collection5'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP016_Agent'
+  - template: template.yml
+    parameters:
+      jobName: Collection6
+      displayName: 'Collection6'
+      collectionPath: 'Collection6'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP017_Agent'
+  - template: template.yml
+    parameters:
+      jobName: Collection7
+      displayName: 'Collection7'
+      collectionPath: 'Collection7'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP018_Agent'
+  - template: template.yml
+    parameters:
+      jobName: Collection8
+      displayName: 'Collection8'
+      collectionPath: 'Collection8'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP019_Agent'
+ 
+  - template: template.yml
+    parameters:
+      jobName: Collection9
+      displayName: 'Collection9'
+      collectionPath: 'Collection9'
+      executionProfile: 'FinancialLinesCloud_SIT'
+      #agentName: 'UKDOCTWDVOAP020_Agent'   

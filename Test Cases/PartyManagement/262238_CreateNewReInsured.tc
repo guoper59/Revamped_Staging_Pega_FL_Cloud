@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin&#xd;
+Description: Verify user is able to create new reinsured&#xd;
+Module: Regression Test Pack/Party Management&#xd;
+Test Case ADO ID:262238</description>
+   <name>262238_CreateNewReInsured</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262238</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f35817ba-adb6-42bf-b2ea-b08c360ff7b7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4d5b169e-584b-4879-b5fb-83028283e0ee</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e96f0166-6859-4d09-9b88-603f5a776429</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7531f8eb-f982-4e9f-ac79-61ca8c761ecc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2922a0ea-e68f-47ef-a72e-3536ada06790</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>096fcc44-fa04-4485-9825-d354186c6134</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20ba0a13-268d-4233-a42c-50094d438421</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42e6d77b-9cee-48bf-a11c-5e22c0c29a2b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>e96f0166-6859-4d09-9b88-603f5a776429</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Party Management'</defaultValue>
+      <description></description>
+      <id>7531f8eb-f982-4e9f-ac79-61ca8c761ecc</id>
+      <masked>false</masked>
+      <name>partyManagementLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reinsured'</defaultValue>
+      <description></description>
+      <id>2922a0ea-e68f-47ef-a72e-3536ada06790</id>
+      <masked>false</masked>
+      <name>reInsuredLink</name>
+   </variable>
+   <variable>
+      <defaultValue>[('reInsuredName') : 'Reinsured Name', ('addressLine1') : 'Address line 1', ('cityName') : 'City', ('postCode') : 'Postcode', ('searchReInsuredName') : 'Reinsured Name', ('insuredName') : 'Name', ('status') : 'Status', ('country') : 'Country']</defaultValue>
+      <description></description>
+      <id>096fcc44-fa04-4485-9825-d354186c6134</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestData'</defaultValue>
+      <description></description>
+      <id>20ba0a13-268d-4233-a42c-50094d438421</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Files/TestData'</defaultValue>
+      <description></description>
+      <id>42e6d77b-9cee-48bf-a11c-5e22c0c29a2b</id>
+      <masked>false</masked>
+      <name>testDataFilePath</name>
+   </variable>
+</TestCaseEntity>

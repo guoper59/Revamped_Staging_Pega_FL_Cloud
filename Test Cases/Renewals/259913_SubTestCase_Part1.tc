@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>259913_SubTestCase_Part1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8febcad-86ef-496d-b5c5-51308be188d3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33146e48-8be1-4546-97c2-634fc0514a5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'abohle'</defaultValue>
+      <description></description>
+      <id>33146e48-8be1-4546-97c2-634fc0514a5e</id>
+      <masked>false</masked>
+      <name>UnderwriterUserName</name>
+   </variable>
+</TestCaseEntity>

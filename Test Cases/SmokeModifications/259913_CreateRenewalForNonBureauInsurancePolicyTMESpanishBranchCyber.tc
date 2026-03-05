@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>259913_CreateRenewalForNonBureauInsurancePolicyTMESpanishBranchCyber</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>060089cb-fe1d-4b6a-9889-3588c6bd497f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb76e2bc-3cd7-477a-acec-faedbf135623</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef72ce05-d917-44a0-8471-8198cf0cf3b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e10ce370-719a-4652-a321-bf14c5e70bb2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52d0bdb3-0691-452b-ac0c-ab42aa98d029</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51d03909-95ae-4346-b8d0-db1352f9266f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['10']</defaultValue>
+      <description></description>
+      <id>bb76e2bc-3cd7-477a-acec-faedbf135623</id>
+      <masked>false</masked>
+      <name>sublimitList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Underwriter', 'Underwriting Assistant', 'Producing Team', 'Major Class', 'Insured Country', 'NAIC Division']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Broker Company to be Approved', 'Sanctions Check Directors Unresolved', 'Sanctions Check Insured or Reinsured Unresolved', 'TRI Parent Check']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedDataValidationList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Failed DEC Renewals', 'Renewal Work Basket', 'Open Submissions', 'Open NB Submissions >90 days', 'Open RNS Submissions >120 days', 'Open NB Submissions', 'Open RNB Submissions', 'Submissions with Quote Due within 30 days', 'Submissions in Quoted Status', 'Policy Expires within 7 days', 'Policy Expires within 30 days', 'Policy Expires within 2 months', 'Policy Expires within 4 months', 'Tacit Renewal within 15 days', 'Tacit Renewal within 30 days', 'Policies Signed/Written in the last 30 days', 'Policies in Bound Status']</defaultValue>
+      <description></description>
+      <id>ef72ce05-d917-44a0-8471-8198cf0cf3b6</id>
+      <masked>false</masked>
+      <name>expectedWorkFlowList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Quote Reference ID', 'Policy Number', 'Insured Name', 'Actual Insured Name', 'Major Class', 'Underwriter', 'UWA', 'Broker Company Name', 'Broker Contact First Name', 'Broker Contact Last Name', 'Quoted Date', 'Insured Domicile', 'Producing Team']</defaultValue>
+      <description></description>
+      <id>e10ce370-719a-4652-a321-bf14c5e70bb2</id>
+      <masked>false</masked>
+      <name>expectedHeaderList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Insured Name', 'Actual Insured Name', 'Insured Address', 'NAIC Description', 'Public / Private', 'ADR Exposure', 'Reinsured Name', 'Reinsured Address', 'Is SME', 'Broker Company Name', 'UMR (Bureau)', 'Risk Code', 'Bureau Indicator', 'Business provider name', 'Underwriter', 'Producing team', 'Major Class', 'Minor Class', 'Class', 'Placing Type', 'TMHCC Placing Title', 'Pega Bound Date', 'Policy number', 'Expiring Policy Reference', 'Inception Date', 'Expiry Date', 'Entity', 'Legal Branch', 'Lead', 'New Business / Renewal', 'Tacit renewal date', 'TMHCC Written Participation %', 'Estimated Signing %', 'Order %', 'Calculated Line %', 'Original Currency', 'Layer Gross Premium', 'TMHCC Premium', 'Limits', 'Sub-Limits', 'Deductibles', 'Reinstatements', 'De Minimis Amount', 'Attachment Point', 'Risk Adjusted Rate Change %', 'Rate Change Due to Limit/Deductible %', 'Rate Change Due to Coverage Change %', 'Fac Out (Y/N)', 'Brokerage/Commission', 'Policy Fees']</defaultValue>
+      <description></description>
+      <id>52d0bdb3-0691-452b-ac0c-ab42aa98d029</id>
+      <masked>false</masked>
+      <name>expectedTableList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Your action has been completed.'</defaultValue>
+      <description></description>
+      <id>51d03909-95ae-4346-b8d0-db1352f9266f</id>
+      <masked>false</masked>
+      <name>expectedSuccessMessage</name>
+   </variable>
+</TestCaseEntity>

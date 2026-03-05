@@ -1,0 +1,25 @@
+    
+# azure-pipelines.yml
+# ======================================
+# Main pipeline that calls reusable Katalon job template
+# ======================================
+
+trigger:
+  - none
+
+jobs:
+  - template: template/run-testSuite.yml
+    parameters:
+      CollectionName: 'FailedCollectionUAT1'
+      testSuiteCollectionPath: 'Test Suites/Collection/FailedCollectionUAT1'
+      testRunTitle: 'FailedCollectionUAT1'
+      artifactName: 'FailedCollectionUAT1'
+      executionProfile: 'FinancialLinesCloud_UAT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      CollectionName: 'FailedCollectionUAT2'
+      testSuiteCollectionPath: 'Test Suites/Collection/FailedCollectionUAT2'
+      testRunTitle: 'FailedCollectionUAT2'
+      artifactName: 'FailedCollectionUAT2'
+      executionProfile: 'FinancialLinesCloud_UAT'      

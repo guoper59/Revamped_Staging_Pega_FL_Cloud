@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_SearchName</name>
+   <tag></tag>
+   <elementGuidId>209223d7-2346-4912-ae81-468728eb0f0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@name,'InitialInsuredInformation')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.pzbtn-img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02409200637520503175&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>726012b9-95e8-44d0-b822-7cb3ce94a097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>webwb/pxcasemgrportalsearchicon_13780558315.png!!.png</value>
+      <webElementGuid>7df2c849-e6cc-45a1-9ea0-4924b81b2fcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-img</value>
+      <webElementGuid>2bb6b6a8-3108-42e5-8326-c0da8a022cf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;CopyCollectCustomerInfo,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmI4ZTVhYTJhOTY0NzRlODQ3ZWUxNmRlYmE4OGI2YjY4YTNkZTkwODZiMmMxMTVmOWQ1ZDFmNzIwZWJjN2YwYTQwNzIzNjMwNTQ0MWYzMDYyMzljMDM4ZjY3YjJiOWVlMGNlNWQ2ZmU3ZTdhYTgxYTM0ZTEyMWI2ZWJlNDIwZDJlMzFkOGI3MTZlM2MxZjljY2MyMzQxYzg3NjRmMGU5YzgwYWNlOWM3ZDQ3NGNiOTlmMzVkMDcxMWFiMmU4ZjM3MTQ%3D*&quot;,{},{}],&quot;pyWorkPage&quot;]],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;KRInsuredDetails&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmJiMTNlMzY1NDlhMzU1Y2NkOTlhZTdiOTQ0MmQ4Y2Q5YQ%3D%3D*&quot;,{},{}],&quot;pyWorkPage&quot;]]]</value>
+      <webElementGuid>b39ae668-ecb3-4cf5-a2e0-04a767c6a9c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-keydown</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;CopyCollectCustomerInfo,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmI4ZTVhYTJhOTY0NzRlODQ3ZWUxNmRlYmE4OGI2YjY4YTNkZTkwODZiMmMxMTVmOWQ1ZDFmNzIwZWJjN2YwYTQwNzIzNjMwNTQ0MWYzMDYyMzljMDM4ZjY3YjJiOWVlMGNlNWQ2ZmU3ZTdhYTgxYTM0ZTEyMWI2ZWJlNDIwZDJlMzFkOGI3MTZlM2MxZjljY2MyMzQxYzg3NjRmMGU5YzgwYWNlOWM3ZDQ3NGNiOTlmMzVkMDcxMWFiMmU4ZjM3MTQ%3D*&quot;,{},{}],&quot;pyWorkPage&quot;],,&quot;enter&quot;],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;KRInsuredDetails&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmJiMTNlMzY1NDlhMzU1Y2NkOTlhZTdiOTQ0MmQ4Y2Q5YQ%3D%3D*&quot;,{},{}],&quot;pyWorkPage&quot;],,&quot;enter&quot;]]</value>
+      <webElementGuid>b0a07d65-4081-4b1d-803c-5273551d9a88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/span[@class=&quot;inspector-span&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-primary_container_legend&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-default_with_less_padding&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_labels_left  content-inline_labels_left&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/a[1]/img[@class=&quot;pzbtn-img&quot;]</value>
+      <webElementGuid>8c838c6b-c9ab-4bd9-9b25-a5910f0ffa18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+      <webElementGuid>87eb7037-72dd-4a64-b835-2ec1d6751b23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

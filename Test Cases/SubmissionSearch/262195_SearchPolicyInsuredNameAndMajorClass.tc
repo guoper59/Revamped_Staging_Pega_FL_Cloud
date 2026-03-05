@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Verify Search Policy By Insured Name And Major Class&#xd;
+Module: Regression Test Pack/Submission Search &#xd;
+Test Case ADO ID:262195</description>
+   <name>262195_SearchPolicyInsuredNameAndMajorClass</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262195</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cff54ef5-a53d-497c-babc-3c6f16d35479</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94b69f60-63e7-4b69-9c68-a39b29e62b5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1826457a-cab5-41f0-a41a-5efe43f30a4f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d078ea3a-25f6-48b2-afcc-03a2a7b432f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e870061-2e7b-42fc-b95a-0cb54a952d41</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b518d44-c53f-4214-b2b2-c088bdf9dbae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7cfd46f2-0e89-46c9-9411-1fa7479f1def</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aec0b705-ed73-4b9c-87ee-3a44853f82c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Credentials').getValue('username', 2)</defaultValue>
+      <description></description>
+      <id>94b69f60-63e7-4b69-9c68-a39b29e62b5d</id>
+      <masked>false</masked>
+      <name>adminUser</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials').getValue('password', 2)</defaultValue>
+      <description></description>
+      <id>1826457a-cab5-41f0-a41a-5efe43f30a4f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials').getValue('role', 2)</defaultValue>
+      <description></description>
+      <id>d078ea3a-25f6-48b2-afcc-03a2a7b432f3</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SearchSubmission').getValue('Insured Name', 2)</defaultValue>
+      <description></description>
+      <id>8e870061-2e7b-42fc-b95a-0cb54a952d41</id>
+      <masked>false</masked>
+      <name>insuredName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SearchSubmission').getValue('Major Class', 2)</defaultValue>
+      <description></description>
+      <id>5b518d44-c53f-4214-b2b2-c088bdf9dbae</id>
+      <masked>false</masked>
+      <name>majorClass</name>
+   </variable>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>7cfd46f2-0e89-46c9-9411-1fa7479f1def</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>aec0b705-ed73-4b9c-87ee-3a44853f82c4</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

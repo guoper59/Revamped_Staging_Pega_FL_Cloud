@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_InsuredName</name>
+   <tag></tag>
+   <elementGuidId>40da5eb3-b037-44ad-b012-1596f0f24b7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${insuredName}' or . = '${insuredName}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.match-highlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '${insuredName}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Banco Bilbao Vizcaya Argentaria, S.A.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>57eb00b2-37ed-49a8-863c-769994c197aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>match-highlight</value>
+      <webElementGuid>8fe02b78-1231-4436-b8ea-6bf473b67bfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${insuredName}</value>
+      <webElementGuid>5cd930cd-b7bf-4f04-9dca-b5eeaba95293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PD_InsuredListOnType_pa471830086209561pz$ppxResults$l1&quot;)/td[@class=&quot;autocompleteAGleft gridCell cellHover&quot;]/div[@class=&quot;oflowDiv&quot;]/div[@class=&quot;divCont&quot;]/div[@class=&quot;cellIn&quot;]/span[1]/span[@class=&quot;match-highlight&quot;]</value>
+      <webElementGuid>3dedd404-980a-4507-944f-64de879de3f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>1d85c604-b56c-4c31-a687-a91d56965ea5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='$PD_InsuredListOnType_pa471830086209561pz$ppxResults$l1']/td/div/div/div/span/span</value>
+      <webElementGuid>2610da5b-5614-4294-a6db-e2c415112711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[2]/following::span[3]</value>
+      <webElementGuid>626d5d11-6992-4847-b869-72cc5bf20802</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BusinessUnitId'])[1]/following::span[4]</value>
+      <webElementGuid>051d6aaa-0a50-43b5-9f9c-5c29d379471a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spain'])[2]/preceding::span[1]</value>
+      <webElementGuid>bdb164f4-318c-4869-b2a6-ac85d4a806f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P4887'])[1]/preceding::span[2]</value>
+      <webElementGuid>86b65abd-5076-4b0f-81f1-2d2b03d376cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Banco Bilbao Vizcaya Argentaria, S.A.']/parent::*</value>
+      <webElementGuid>b4b90f69-5bf7-417a-99d4-a6c1529fa9d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>4eb59b51-6401-4bf3-a6cf-a9db815b5b62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Banco Bilbao Vizcaya Argentaria, S.A.' or . = 'Banco Bilbao Vizcaya Argentaria, S.A.')]</value>
+      <webElementGuid>f039a316-c745-4d32-8384-d2741cbce279</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

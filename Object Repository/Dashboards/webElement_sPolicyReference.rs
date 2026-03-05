@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_sPolicyReference</name>
+   <tag></tag>
+   <elementGuidId>ef4a38ae-c472-4642-a807-fcbc04820e57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Policy Reference :']/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.content.layout-content-inline_labels_left_with_margin.content-inline_labels_left_with_margin</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'sPolicy Reference :F23GV830A001' or . = 'sPolicy Reference :F23GV830A001') and @ref_element = 'Object Repository/Pega_CreateInsured/Page_Pega Case Manager Portal/Page_Pega Case Manager Portal/iframe_QC-41722_PegaGadget1Ifr']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;sPolicy Reference :F23GV830A001&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>794f7ac9-164d-427d-841a-6b72b7a8d4c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>bsimplelayout</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e646eb8f-a461-46b9-99f1-c08cbfc72c8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> content layout-content-inline_labels_left_with_margin  content-inline_labels_left_with_margin </value>
+      <webElementGuid>9da852b0-577f-47d7-82c3-287fd0f84c0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ui-meta</name>
+      <type>Main</type>
+      <value>{'type':'Layout','subType':'DYNAMICLAYOUT','pgRef':'.pySections(3)'}</value>
+      <webElementGuid>6a35a4df-9270-4ee3-8b11-1e7e0425196e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>sPolicy Reference :F23GV830A001</value>
+      <webElementGuid>1e67685d-0748-4fe3-b1c7-fde09b1ffe44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modaldialog_con&quot;)/div[@id=&quot;pyFlowActionHTML&quot;]/span[1]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_labels_left_with_margin  content-inline_labels_left_with_margin&quot;]</value>
+      <webElementGuid>9b3c87af-349d-4d18-a656-c90e29755598</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Dashboards/iframe_PegaGadget2Ifr</value>
+      <webElementGuid>d02933e0-2acd-4631-ba20-b7fdf0ae9628</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='RULE_KEY']/div/div/div)[1]</value>
+      <webElementGuid>9e4afd5a-6d31-4fa7-9309-1abd97221711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying Policy Reference'])[2]/following::div[6]</value>
+      <webElementGuid>b7ad64c9-0040-4580-a2e7-b36977ef9d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying Policy Reference'])[1]/following::div[7]</value>
+      <webElementGuid>1ebf336b-b09f-4155-8c2d-79952073aaee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/div/div</value>
+      <webElementGuid>9821a7e5-7b4c-490b-8fc3-9a8bdd044145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'sPolicy Reference :F23GV830A001' or . = 'sPolicy Reference :F23GV830A001')]</value>
+      <webElementGuid>5e995c50-8b2f-4ba9-adc9-12a662cda31a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

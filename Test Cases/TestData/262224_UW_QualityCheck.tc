@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>262224_UW_QualityCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b2dc25e-a479-4b1d-8987-e62d8e40f55b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0743d7ea-a39b-4ff6-a48e-93fec09222b0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Insured Name', 'Actual Insured Name', 'Insured Address', 'NAIC Description', 'Public / Private', 'Reinsured Name', 'Reinsured Address', 'Additional Insureds', 'Broker Company Name', 'UMR (Bureau)', 'Risk Code', 'Bureau Indicator', 'Business provider name', 'Underwriter', 'Producing team', 'UW Authority', 'Major Class', 'Minor Class', 'Class', 'Placing Type', 'TMHCC Placing Title', 'Pega Bound Date', 'Policy number', 'Inception Date', 'Expiry Date', 'Target Name', 'Target Domicile', 'Target NAIC', 'Enterprise Value', 'SPA Law', 'SPA Title', 'Entity', 'Legal Branch', 'Lead', 'TMHCC Written Participation %', 'Estimated Signing %', 'Order %', 'Calculated Line %', 'Original Currency', 'Layer Gross Premium', 'TMHCC Premium', 'Limits', 'Sub-Limits', 'Deductibles', 'De Minimis Amount', 'Attachment Point', 'Risk Adjusted Rate Change %', 'Rate Change Due to Limit/Deductible %', 'Rate Change Due to Coverage Change %', 'Fac Out (Y/N)', 'Brokerage/Commission', 'Policy Fees']</defaultValue>
+      <description></description>
+      <id>7a8d8947-5a0f-49e8-8489-632d64de7bbc</id>
+      <masked>false</masked>
+      <name>expectedHeadersList</name>
+   </variable>
+</TestCaseEntity>

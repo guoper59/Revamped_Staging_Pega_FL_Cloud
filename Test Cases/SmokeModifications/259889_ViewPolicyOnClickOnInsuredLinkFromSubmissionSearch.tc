@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: View policy on click on 'Insured' link from submission search&#xd;
+Module: Regression Test Pack/View Mode &#xd;
+Test Case ADO 259889</description>
+   <name>259889_ViewPolicyOnClickOnInsuredLinkFromSubmissionSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>850b0c03-dc5a-47ac-b978-9bef6223f7b0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6ee0285-20e4-4996-8504-dfd4dc18febf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6dd04684-662d-468d-b8db-9d712f489ada</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00651013-f180-4989-a5d0-485667d3f395</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Overview', 'Insured', 'Broker', 'General Data', 'UW Worksheet', 'Underwriting', 'Bind', 'Post Bind', 'Payments', 'Policy Docs', 'Endorsements', 'RI Forms', 'Quality Checks', 'Attachments', 'Closed Reasons', 'Claims', 'Links', 'Policies', 'History', 'Notes']</defaultValue>
+      <description></description>
+      <id>e6ee0285-20e4-4996-8504-dfd4dc18febf</id>
+      <masked>false</masked>
+      <name>expectedHeaders</name>
+   </variable>
+   <variable>
+      <defaultValue>'SearchSubmission'</defaultValue>
+      <description></description>
+      <id>6dd04684-662d-468d-b8db-9d712f489ada</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>00651013-f180-4989-a5d0-485667d3f395</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

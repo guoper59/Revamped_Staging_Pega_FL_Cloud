@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Search text_pi pi-search-2</name>
+   <tag></tag>
+   <elementGuidId>4cc3b9d6-e620-4b09-a819-2f7f18a9ff39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='RULE_KEY']/div/div/div/div[2]/span/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.pi.pi-search-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 0160926105652029612122&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c7d20834-4271-447d-9a5b-4542174d803e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3bbd98a5-6da6-49ef-bf6c-96bb003dffb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-search-2</value>
+      <webElementGuid>37149dc7-8223-412f-ae9a-514e715de075</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>.</value>
+      <webElementGuid>1ba45838-d62f-45c0-abfc-2df71144f915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l1&quot;)/div[@class=&quot;screen-layout-region-content&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;flex content layout-content-inline_middle  content-inline_middle set-width-auto header-layout workspace-header dev-studio-header&quot;]/div[@class=&quot;content-item content-sub_section item-8 flex flex-row search-field system-search&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body&quot;]/div[@class=&quot;flex content layout-content-inline_middle  content-inline_middle  search-gadget&quot;]/div[@class=&quot;content-item content-field item-2 remove-top-spacing remove-bottom-spacing remove-left-spacing flex flex-row search-button dataValueWrite&quot;]/span[1]/button[@class=&quot;Icon_light pzhc pzbutton&quot;]/i[@class=&quot;pi pi-search-2&quot;]</value>
+      <webElementGuid>28bea823-2946-44b2-aa3f-6fc8b04574e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/span/button/i</value>
+      <webElementGuid>295f0e2c-7107-461a-bb4b-8f9263b37c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+      <webElementGuid>df94a60f-83c0-41c7-9476-2884b158d7d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

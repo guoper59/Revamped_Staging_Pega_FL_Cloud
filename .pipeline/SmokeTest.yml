@@ -1,0 +1,40 @@
+# azure-pipelines.yml
+# ======================================
+# Main pipeline that calls reusable Katalon job template
+# ======================================
+
+trigger:
+  - none
+
+jobs:
+  - template: template/run-testSuite.yml
+    parameters:
+      CollectionName: 'QASmokeCollection1'
+      testSuiteCollectionPath: 'Test Suites/Collection/QASmokeCollection1'
+      testRunTitle: 'QASmokeCollection1_SIT'
+      artifactName: 'QASmokeCollection1_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      CollectionName: 'QASmokeCollection2'
+      testSuiteCollectionPath: 'Test Suites/Collection/QASmokeCollection2'
+      testRunTitle: 'QASmokeCollection2_SIT'
+      artifactName: 'QASmokeCollection2_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      CollectionName: 'QASmokeCollection3'
+      testSuiteCollectionPath: 'Test Suites/Collection/QASmokeCollection3'
+      testRunTitle: 'QASmokeCollection3_SIT'
+      artifactName: 'QASmokeCollection3_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'
+
+  - template: template/run-testSuite.yml
+    parameters:
+      CollectionName: 'QASmokeCollection4'
+      testSuiteCollectionPath: 'Test Suites/Collection/QASmokeCollection4'
+      testRunTitle: 'QASmokeCollection4_SIT'
+      artifactName: 'QASmokeCollection4_SIT'
+      executionProfile: 'FinancialLinesCloud_SIT'

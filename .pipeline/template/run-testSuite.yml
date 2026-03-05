@@ -1,0 +1,84 @@
+parameters:
+  - name: collectionName
+    type: string
+  - name: testSuiteCollectionPath
+    type: string
+  - name: testRunTitle
+    type: string
+  - name: artifactName
+    type: string
+  - name: reportDestinationPath
+    type: string
+    default: 'D:\\Automation_Run_Reports\\FinancialLines_Katalon_Automation_TestSuite'
+  - name: tempFolderPath
+    type: string
+    default: 'C:\\Users\\svc-ADO-Agents\\AppData\\Local\\Temp'
+  - name: ProjectPath
+    type: string
+    default: '$(System.DefaultWorkingDirectory)/FinancialLines_Katalon_Automation.prj'
+  - name: maxRetries
+    type: number
+    default: 6
+  - name: retryIntervalMinutes
+    type: number
+    default: 10
+  - name: executionProfile
+    type: string
+
+jobs:
+  - job: ${{ parameters.collectionName }}
+    displayName: '${{ parameters.collectionName }}'
+    timeoutInMinutes: 880
+    pool:
+      name: TMHCC_QE_NI_POOL
+
+    variables:
+      - group: Katalon_Secrets
+
+    steps:
+      # ✅ Call reusable PowerShell template for Katalon execution
+      - template: run-katalon.yml
+        parameters:
+          ProjectPath: '${{ parameters.ProjectPath }}'
+          testSuiteCollectionPath: '${{ parameters.testSuiteCollectionPath }}'
+          maxRetries: ${{ parameters.maxRetries }}
+          retryIntervalMinutes: ${{ parameters.retryIntervalMinutes }}
+          executionProfile: ${{ parameters.executionProfile }}
+
+      # ✅ Cleanup step
+      - task: PowerShell@2
+        displayName: 'Delete All Collection Folders'
+        condition: always()
+        inputs:
+          targetType: 'inline'
+          script: |
+            try {
+                $searchRoot = "$(System.DefaultWorkingDirectory)"
+                $collectionFolders = Get-ChildItem -Path $searchRoot -Recurse -Force | Where-Object {
+                    $_.PSIsContainer -and $_.Name -ieq "collection"
+                }
+                foreach ($folder in $collectionFolders) {
+                    Remove-Item -Path $folder.FullName -Recurse -Force
+                }
+            } catch {
+                Write-Host "Error occurred: $_"
+                exit 0
+            }
+
+      # ✅ Publish JUnit test results
+      - task: PublishTestResults@2
+        condition: always()
+        inputs:
+          testResultsFormat: 'JUnit'
+          testResultsFiles: '**/JUnit_Report.xml'
+          SearchFolder: '$(System.DefaultWorkingDirectory)/reports'
+          testRunTitle: '${{ parameters.testRunTitle }}'
+          failTaskOnFailedTests: false
+
+      # ✅ Publish pipeline artifact
+      - task: PublishPipelineArtifact@1
+        condition: always()
+        inputs:
+          targetPath: '$(System.DefaultWorkingDirectory)/reports'
+          artifactName: '${{ parameters.artifactName }}'
+          publishLocation: 'pipeline'

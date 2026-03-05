@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Renewal Endorsement Templates</description>
+   <name>259856_CheckRenewalEndorsementTemplates_Part1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2bf4bf8-b048-441c-9047-23e043c7e3fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c99f023e-fb5c-429d-aae8-1b6f4632e23b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c99f023e-fb5c-429d-aae8-1b6f4632e23b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97661a2e-87f5-4700-be37-5aac054739d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b50d98ff-12c5-4b4a-a876-54995fef7084</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Underwriter', 'Underwriting Assistant', 'Producing Team', 'Major Class', 'Insured Country', 'NAIC Division']</defaultValue>
+      <description></description>
+      <id>8b0bb039-90d7-4b11-82ca-8230898d5609</id>
+      <masked>false</masked>
+      <name>expectedList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Broker Company to be Approved', 'Sanctions Check Directors Unresolved', 'Sanctions Check Insured or Reinsured Unresolved', 'TRI Parent Check']</defaultValue>
+      <description></description>
+      <id>c99f023e-fb5c-429d-aae8-1b6f4632e23b</id>
+      <masked>false</masked>
+      <name>expectedDataValidationList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Failed DEC Renewals', 'Renewal Work Basket', 'Open Submissions', 'Open NB Submissions >90 days', 'Open RNS Submissions >120 days', 'Open NB Submissions', 'Open RNB Submissions', 'Submissions with Quote Due within 30 days', 'Submissions in Quoted Status', 'Policy Expires within 7 days', 'Policy Expires within 30 days', 'Policy Expires within 2 months', 'Policy Expires within 4 months', 'Tacit Renewal within 15 days', 'Tacit Renewal within 30 days', 'Policies Signed/Written in the last 30 days', 'Policies in Bound Status']</defaultValue>
+      <description></description>
+      <id>97661a2e-87f5-4700-be37-5aac054739d1</id>
+      <masked>false</masked>
+      <name>expectedWorkFlowList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Quote Letter', 'Broker Binder', 'Policy Slip','Renewal Endorsement']</defaultValue>
+      <description></description>
+      <id>b50d98ff-12c5-4b4a-a876-54995fef7084</id>
+      <masked>false</masked>
+      <name>expectedPolicyDocsList</name>
+   </variable>
+</TestCaseEntity>

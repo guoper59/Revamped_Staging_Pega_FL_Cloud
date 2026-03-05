@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_FeeTextArea1</name>
+   <tag></tag>
+   <elementGuidId>8edb3dff-bfc1-4dfd-ae14-7c40d5a918b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody//tr//th[contains(@data-attribute-name,'${fieldName}')]//following::tr//td[contains(@data-attribute-name,'${fieldName}')]//div//span//input&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>(//tbody//tr//th[contains(@data-attribute-name,'${fieldName}')]//following::tr//td[contains(@data-attribute-name,'${fieldName}')]//div//span//input)[i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>880f2d7d-cd08-4995-a677-fd0755e75916</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

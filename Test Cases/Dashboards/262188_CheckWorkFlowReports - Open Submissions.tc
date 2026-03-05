@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin&#xd;
+Description: Verify workflow report for Open Submissions&#xd;
+Module: Regression Test Pack/Dashboards&#xd;
+Test Case ADO ID:262188</description>
+   <name>262188_CheckWorkFlowReports - Open Submissions</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262188</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9c99f6d-0cc4-4643-aa79-26ecb4fb4cf4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>396e991c-b217-4480-9098-9f6a6b12ee11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef72ce05-d917-44a0-8471-8198cf0cf3b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e10ce370-719a-4652-a321-bf14c5e70bb2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e10a8fbf-d384-4798-88bd-35030820d876</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Underwriter', 'Underwriting Assistant', 'Producing Team', 'Major Class', 'Insured Country', 'NAIC Division']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Broker Company to be Approved', 'Sanctions Check Directors Unresolved', 'Sanctions Check Insured or Reinsured Unresolved', 'TRI Parent Check']</defaultValue>
+      <description></description>
+      <id>396e991c-b217-4480-9098-9f6a6b12ee11</id>
+      <masked>false</masked>
+      <name>expectedDataValidationList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Failed DEC Renewals', 'Renewal Work Basket', 'Open Submissions', 'Open NB Submissions >90 days', 'Open RNS Submissions >120 days', 'Open NB Submissions', 'Open RNB Submissions', 'Submissions with Quote Due within 30 days', 'Submissions in Quoted Status', 'Policy Expires within 7 days', 'Policy Expires within 30 days', 'Policy Expires within 2 months', 'Policy Expires within 4 months', 'Tacit Renewal within 15 days', 'Tacit Renewal within 30 days', 'Policies Signed/Written in the last 30 days', 'Policies in Bound Status']</defaultValue>
+      <description></description>
+      <id>ef72ce05-d917-44a0-8471-8198cf0cf3b6</id>
+      <masked>false</masked>
+      <name>expectedWorkFlowList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Quote Reference ID', 'Insured Name', 'Actual Insured Name', 'Major Class', 'Underwriter', 'UWA', 'Broker Company Name', 'Broker Contact First Name', 'Broker Contact Last Name', 'Submission Received Date', 'Insured Domicile', 'Producing Team']</defaultValue>
+      <description></description>
+      <id>e10ce370-719a-4652-a321-bf14c5e70bb2</id>
+      <masked>false</masked>
+      <name>expectedHeaderList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dashboards'</defaultValue>
+      <description></description>
+      <id>e10a8fbf-d384-4798-88bd-35030820d876</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

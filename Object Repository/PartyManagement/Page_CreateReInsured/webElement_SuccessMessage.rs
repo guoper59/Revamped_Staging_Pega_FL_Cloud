@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>webElement_SuccessMessage</name>
+   <tag></tag>
+   <elementGuidId>d64723fd-9583-4e53-84d5-085a9ad6a460</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'status_complete')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.field-item.dataLabelRead</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 017010306291905823239&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>48d8bbcd-ec06-4c65-8b46-f98a0b5db022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>field-item dataLabelRead</value>
+      <webElementGuid>9b7536a4-b32e-4207-9fc8-e670d09990eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>2017010306291905823239</value>
+      <webElementGuid>b560959c-19c2-4f02-9fd7-6e53238d0747</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test Created SuccessFully</value>
+      <webElementGuid>33cc15ff-4527-46ae-88a4-18d887bbbaa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;harness-container&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;harnessBodyNoHead&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-notifications&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-stacked  content-stacked&quot;]/div[@class=&quot;content-item content-label item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataLabelRead&quot;]</value>
+      <webElementGuid>40d65b40-3c7f-46f8-9fda-847cd89f45c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/PartyManagement/Page_CreateReInsured/iframe_PegaGadget0Ifr</value>
+      <webElementGuid>44004cd8-28ce-4ebc-aede-1cca0da7714c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[10]</value>
+      <webElementGuid>c0721c49-3165-4cdd-a997-566e071a115b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discard'])[1]/following::div[14]</value>
+      <webElementGuid>f9cb1044-20a6-4d33-ae7b-7a305897dfae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Broker Contact Search'])[1]/preceding::div[1]</value>
+      <webElementGuid>406fca1c-ef72-43b7-ad80-b32a25bdb924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search terms'])[1]/preceding::div[13]</value>
+      <webElementGuid>d96c6671-6ccd-4d36-aeab-5532f5346420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='test Created SuccessFully']/parent::*</value>
+      <webElementGuid>fddf985d-cff0-44b8-96b6-7b58f965ba6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'test Created SuccessFully' or . = 'test Created SuccessFully')]</value>
+      <webElementGuid>a1633d6c-e629-4a3e-87ee-0a2cfca9e400</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>9176af90-2a0a-4c01-8f2c-f9dba870757b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='RULE_KEY']/div/div/div/div/div/div)[2]</value>
+      <webElementGuid>392c6edd-c689-4d35-ac05-1df6a45fea62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

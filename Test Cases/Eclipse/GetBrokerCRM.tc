@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetBrokerCRM</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>165e478c-fbdc-427a-b287-1f1f3975b3d5</testCaseGuid>
+</TestCaseEntity>

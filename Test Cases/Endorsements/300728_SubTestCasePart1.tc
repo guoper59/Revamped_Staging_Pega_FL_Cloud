@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>300728_SubTestCasePart1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b325d5f5-1a3f-4189-b55c-bb0987634b87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06e94e00-5013-466e-8470-afce45fea84d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57de5739-2c32-4830-b6fb-f71fb3db8bad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ddf0f67-a762-4d4f-9c64-5898580d4eb1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '10,000.00', '5,512.34', 'EUR', '10,000.00', '5,512.34', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '-1,000.00', '-551.23', 'EUR', '-1,000.00', '-551.23', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024','1', 'IPT France', '900.00', '496.11', 'EUR', '900.00', '496.11', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>06e94e00-5013-466e-8470-afce45fea84d</id>
+      <masked>false</masked>
+      <name>expectedInstallmentValues</name>
+   </variable>
+   <variable>
+      <defaultValue>'Adam Bohle'</defaultValue>
+      <description></description>
+      <id>57de5739-2c32-4830-b6fb-f71fb3db8bad</id>
+      <masked>false</masked>
+      <name>underWriterName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abohle'</defaultValue>
+      <description></description>
+      <id>7ddf0f67-a762-4d4f-9c64-5898580d4eb1</id>
+      <masked>false</masked>
+      <name>underWriterLoginName</name>
+   </variable>
+</TestCaseEntity>

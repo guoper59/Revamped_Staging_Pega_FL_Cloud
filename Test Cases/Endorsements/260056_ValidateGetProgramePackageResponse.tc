@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>260056_ValidateGetProgramePackageResponse</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9a0ebb0-8b9c-49bb-bbaf-21659a15070c</testCaseGuid>
+</TestCaseEntity>

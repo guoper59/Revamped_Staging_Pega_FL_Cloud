@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>259914_CreatePolicy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22ee2bcf-1ace-4926-8476-ea72f1f6d2aa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc4efa14-5123-4453-8622-9aa1bd3befc7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56fa8a7d-9e36-44cd-9020-6bcdbda346db</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa94b091-83bc-48a1-a6d1-05cc5472c927</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>978cc837-1444-4afb-985a-bcea6e6d00e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a377629e-0c01-4d08-b0e4-4f4a90d26408</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Vaishali Voo', 'Vvoo@tmhcc.com', 'Test Specialist']</defaultValue>
+      <description></description>
+      <id>dc4efa14-5123-4453-8622-9aa1bd3befc7</id>
+      <masked>false</masked>
+      <name>contactDetailsList</name>
+   </variable>
+   <variable>
+      <defaultValue>['ContactName', 'Email', 'Position']</defaultValue>
+      <description></description>
+      <id>56fa8a7d-9e36-44cd-9020-6bcdbda346db</id>
+      <masked>false</masked>
+      <name>contactFieldList</name>
+   </variable>
+   <variable>
+      <defaultValue>['BusinessProvider']</defaultValue>
+      <description></description>
+      <id>fa94b091-83bc-48a1-a6d1-05cc5472c927</id>
+      <masked>false</masked>
+      <name>payableToList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Introduction Fee: Tokio Marine Insurans (Malaysia) Berhad']</defaultValue>
+      <description></description>
+      <id>978cc837-1444-4afb-985a-bcea6e6d00e6</id>
+      <masked>false</masked>
+      <name>feeTypeList</name>
+   </variable>
+   <variable>
+      <defaultValue>['10']</defaultValue>
+      <description></description>
+      <id>a377629e-0c01-4d08-b0e4-4f4a90d26408</id>
+      <masked>false</masked>
+      <name>feePercentList</name>
+   </variable>
+</TestCaseEntity>

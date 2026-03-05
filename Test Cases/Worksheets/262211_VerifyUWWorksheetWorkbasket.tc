@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Jaya&#xd;
+Description: Verify UW Worksheet Workbasket&#xd;
+Module: Regression Test Pack/Worksheets&#xd;
+Test Case ADO 262211</description>
+   <name>262211_VerifyUWWorksheetWorkbasket</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262211</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f6605e5-1aa9-4a91-bd37-73ac209dfa58</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c267fb28-d8fe-4125-abb6-b910f26a265d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1dd5fdca-af59-4a88-a09d-19202da5f7e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbd85a56-4bd1-4c66-8f76-d6d2e5c9b389</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Underwriting Worksheet'</defaultValue>
+      <description></description>
+      <id>c267fb28-d8fe-4125-abb6-b910f26a265d</id>
+      <masked>false</masked>
+      <name>underwritingWorksheetLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Worksheets'</defaultValue>
+      <description></description>
+      <id>1dd5fdca-af59-4a88-a09d-19202da5f7e0</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credentials'</defaultValue>
+      <description></description>
+      <id>dbd85a56-4bd1-4c66-8f76-d6d2e5c9b389</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+</TestCaseEntity>

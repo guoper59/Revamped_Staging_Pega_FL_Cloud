@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reusable pre-step: call BearerTokengeneration API and store access token to GlobalVariable.AccessToken</description>
+   <name>_GenerateAccessToken</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f44be65-8254-4f71-9fc4-05a67e17c799</testCaseGuid>
+</TestCaseEntity>

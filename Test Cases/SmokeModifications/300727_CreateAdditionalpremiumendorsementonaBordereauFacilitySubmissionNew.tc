@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Additional premium  endorsementon a Bordereau Facility New Submission</description>
+   <name>300727_CreateAdditionalpremiumendorsementonaBordereauFacilitySubmissionNew</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c17b8ab-ac61-4617-9875-2e9a47861cb9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c653ce12-4b21-42c2-a28f-33a50a0bec50</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd209d81-e55e-4173-8718-c0035806ebf4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>969f1ec5-9fae-4f7b-be76-21e605c5e4f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68d0817b-657a-4f97-b8af-83bf64e7e03b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0173d4f8-55f9-4b91-a4f0-96f28055ac28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c36cf805-1d81-4d44-bfd4-df34421a430a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['1', '1', 'Original Premium', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024', '1', 'Brokerage Commission', '0.00', '0.00', 'EUR', '0.00', '0.00', 'EUR', '1.0', '01/05/2023', '01/03/2023', '01/03/2024']</defaultValue>
+      <description></description>
+      <id>c653ce12-4b21-42c2-a28f-33a50a0bec50</id>
+      <masked>false</masked>
+      <name>expectedInstallmentValues</name>
+   </variable>
+   <variable>
+      <defaultValue>['Lawyer', 'Other']</defaultValue>
+      <description></description>
+      <id>bd209d81-e55e-4173-8718-c0035806ebf4</id>
+      <masked>false</masked>
+      <name>payableToList</name>
+   </variable>
+   <variable>
+      <defaultValue>['Lawyer Fee: Altenburger (CH)', 'Front Fee Local Policies Payable']</defaultValue>
+      <description></description>
+      <id>969f1ec5-9fae-4f7b-be76-21e605c5e4f8</id>
+      <masked>false</masked>
+      <name>feeTypeList</name>
+   </variable>
+   <variable>
+      <defaultValue>['10','10']</defaultValue>
+      <description></description>
+      <id>68d0817b-657a-4f97-b8af-83bf64e7e03b</id>
+      <masked>false</masked>
+      <name>feePercentList</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.00'</defaultValue>
+      <description></description>
+      <id>0173d4f8-55f9-4b91-a4f0-96f28055ac28</id>
+      <masked>false</masked>
+      <name>expectedGrossPremium</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.00'</defaultValue>
+      <description></description>
+      <id>c36cf805-1d81-4d44-bfd4-df34421a430a</id>
+      <masked>false</masked>
+      <name>expectedNetPremium</name>
+   </variable>
+</TestCaseEntity>

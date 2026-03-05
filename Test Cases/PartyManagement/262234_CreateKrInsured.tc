@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated By: Vipin&#xd;
+Description: Verify user is able to create K&amp;R Insured&#xd;
+Module: Regression Test Pack/Party Management&#xd;
+Test Case ADO ID:262234</description>
+   <name>262234_CreateKrInsured</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>262234</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fceff2d-2166-4a7f-8461-52622bff5051</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4a9bb8f3-0c7c-4011-b3b5-e7c545f98e97</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>69448271-d88f-4692-962d-3649cb6d3038</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d95a473-22ea-4558-822f-50b3a2340284</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2caf70ac-b97b-4fc2-bf0b-2ebcde5d950c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>096fcc44-fa04-4485-9825-d354186c6134</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>865c5418-8766-44a1-8ff2-3d22a9449342</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82bada2d-8c4d-482c-8eaf-7737c9f5b685</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce4e4c22-6121-4e99-ae38-a44f96cf01c7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>69448271-d88f-4692-962d-3649cb6d3038</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Party Management'</defaultValue>
+      <description></description>
+      <id>0d95a473-22ea-4558-822f-50b3a2340284</id>
+      <masked>false</masked>
+      <name>partyManagementLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Insured'</defaultValue>
+      <description></description>
+      <id>2caf70ac-b97b-4fc2-bf0b-2ebcde5d950c</id>
+      <masked>false</masked>
+      <name>insuredLink</name>
+   </variable>
+   <variable>
+      <defaultValue>[('actualInsuredName') : 'Actual Insured', ('addressLine1') : 'Address line 1', ('cityName') : 'City', ('postCode') : 'Post Code', ('parentInsuredName') : 'Parent Insured', ('searchName') : 'Insured Name', ('insuredName') : 'Name']</defaultValue>
+      <description></description>
+      <id>096fcc44-fa04-4485-9825-d354186c6134</id>
+      <masked>false</masked>
+      <name>labelName</name>
+   </variable>
+   <variable>
+      <defaultValue>[('publicPrivateDropDown') : 'Public/Private', ('countryDropDown') : 'Country', ('divisionDropDown') : 'NAIC Division', ('descriptionDropDown') : 'NAIC Description']</defaultValue>
+      <description></description>
+      <id>865c5418-8766-44a1-8ff2-3d22a9449342</id>
+      <masked>false</masked>
+      <name>dropDownName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestData'</defaultValue>
+      <description></description>
+      <id>82bada2d-8c4d-482c-8eaf-7737c9f5b685</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Files/TestData'</defaultValue>
+      <description></description>
+      <id>ce4e4c22-6121-4e99-ae38-a44f96cf01c7</id>
+      <masked>false</masked>
+      <name>testDataFilePath</name>
+   </variable>
+</TestCaseEntity>

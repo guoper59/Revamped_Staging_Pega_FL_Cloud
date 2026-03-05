@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_SearchName</name>
+   <tag></tag>
+   <elementGuidId>0392aac4-bd18-4021-8cba-01a6bc516bb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.pzbtn-img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@name,'InitialInsuredInformation')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test-id=&quot;\32 02409200637520503175&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>cda920ee-55c4-4e12-9856-ff65dabff476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>webwb/pxcasemgrportalsearchicon_13780558315.png!!.png</value>
+      <webElementGuid>31911da5-9064-4f8f-b958-942d5f8b4a12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pzbtn-img</value>
+      <webElementGuid>0c8471e6-9b1d-4c7d-896d-d93174f0f3d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;CopyCollectCustomerInfo,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmI4ZTVhYTJhOTY0NzRlODQ3ZWUxNmRlYmE4OGI2YjY4YTNkZTkwODZiMmMxMTVmOWQ1ZDFmNzIwZWJjN2YwYTQwNzIzNjMwNTQ0MWYzMDYyMzljMDM4ZjY3YjJiOWVlMGNlNWQ2ZmU3ZTdhYTgxYTM0ZTEyMWI2ZWJlNDIwZDJlMzFkOGI3MTZlM2MxZjljY2MyMzQxYzg3NjRmMGU5YzgwYWNlOWM3ZDQ3NGNiOTlmMzVkMDcxMWFiMmU4ZjM3MTQ%3D*&quot;,{},{}],&quot;pyWorkPage&quot;]],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;KRInsuredDetails&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmJiMTNlMzY1NDlhMzU1Y2NkOTlhZTdiOTQ0MmQ4Y2Q5YQ%3D%3D*&quot;,{},{}],&quot;pyWorkPage&quot;]]]</value>
+      <webElementGuid>0c01c41a-11c7-483c-94ec-c6d410909a73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-keydown</name>
+      <type>Main</type>
+      <value>[[&quot;refresh&quot;, [&quot;thisSection&quot;,&quot;&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;CopyCollectCustomerInfo,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmI4ZTVhYTJhOTY0NzRlODQ3ZWUxNmRlYmE4OGI2YjY4YTNkZTkwODZiMmMxMTVmOWQ1ZDFmNzIwZWJjN2YwYTQwNzIzNjMwNTQ0MWYzMDYyMzljMDM4ZjY3YjJiOWVlMGNlNWQ2ZmU3ZTdhYTgxYTM0ZTEyMWI2ZWJlNDIwZDJlMzFkOGI3MTZlM2MxZjljY2MyMzQxYzg3NjRmMGU5YzgwYWNlOWM3ZDQ3NGNiOTlmMzVkMDcxMWFiMmU4ZjM3MTQ%3D*&quot;,{},{}],&quot;pyWorkPage&quot;],,&quot;enter&quot;],[&quot;refresh&quot;, [&quot;otherSection&quot;,&quot;KRInsuredDetails&quot;, &quot;&quot;, &quot;=&quot;, &quot;&quot;, &quot;,&quot;,&quot;:event&quot;,&quot;&quot;,[&quot;pzuiactionzzz=CXt0cn17VEFCVEhSRUFEMX04MzA2NGFkMzcxNTE1NDQwOWY0MzBmYTFiYTY1ZmY4NWQxYjAxZWJiMzBmNGZmN2YyNDc4YjAzNjJjMTM4NTRiMzFjMWQ0YzZkYzg3Y2NkYWVlODk3NGNlZmRhZjBiMmJiMTNlMzY1NDlhMzU1Y2NkOTlhZTdiOTQ0MmQ4Y2Q5YQ%3D%3D*&quot;,{},{}],&quot;pyWorkPage&quot;],,&quot;enter&quot;]]</value>
+      <webElementGuid>77a53ca2-7ca6-4e0c-9d61-1447d278f29b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/span[@class=&quot;inspector-span&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-primary_container_legend&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-default_with_less_padding&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_labels_left  content-inline_labels_left&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/a[1]/img[@class=&quot;pzbtn-img&quot;]</value>
+      <webElementGuid>b56210fc-6d8d-4cf8-8785-0717dece3011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
+      <webElementGuid>4832cf1e-9b16-43f0-b0c0-564c2341143b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/div/span/a/img</value>
+      <webElementGuid>d907688a-33fd-4e88-89e2-79ca9b3445e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+      <webElementGuid>4e5cb7c7-fb6c-4364-b82b-0636c6928f08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'webwb/pxcasemgrportalsearchicon_13780558315.png!!.png']</value>
+      <webElementGuid>f25f0585-e74e-43b5-b47d-85dea7ad9d6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
