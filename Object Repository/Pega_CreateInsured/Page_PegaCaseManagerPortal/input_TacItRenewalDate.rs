@@ -127,36 +127,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>992f8e50-ccd2-4721-b4de-8eb4e82f1684</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='e425a0b2']</value>
-      <webElementGuid>5c8cca9c-c79c-437a-9489-c5e7861651d5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pPolicyData$pTacitRenewalDate']</value>
-      <webElementGuid>78049295-b8f9-487a-b00f-c64045f1d10c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//span[@id='$PpyWorkPage$pApplicationPage$pPolicyData$pTacitRenewalDateSpan']/input</value>
-      <webElementGuid>bfb83491-11e2-4323-9b9d-076a396fb0a9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div/span/input</value>
-      <webElementGuid>d79b2c5f-ea06-467a-ad9a-86865626280f</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

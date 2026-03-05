@@ -55,20 +55,4 @@
       <value>id(&quot;l1&quot;)/div[@class=&quot;screen-layout-region-content&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-portal_header  float-right set-width-auto&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-portal_header_group_secondary  content-portal_header_group_secondary set-width-auto&quot;]/div[@class=&quot;content-item content-field item-2 remove-top-spacing remove-bottom-spacing operator-menu with-icon&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/a[@class=&quot;Header_nav&quot;]/i[@class=&quot;pi pi-user&quot;]</value>
       <webElementGuid>46edc307-e010-4a49-9a84-d2d6b6dc2c9e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/span/a/i</value>
-      <webElementGuid>8dff0602-508d-41f8-9a02-32f07cf69044</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[2]/div/div/span/a/i</value>
-      <webElementGuid>8d97d068-f992-4475-be98-c5b702a9c2dc</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

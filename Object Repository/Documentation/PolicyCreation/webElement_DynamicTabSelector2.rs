@@ -25,18 +25,4 @@
       <value>Object Repository/Documentation/PolicyCreation/iframe_PegaGadget1Ifr</value>
       <webElementGuid>d2f80283-1365-4b84-b773-8552d38832f5</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <type>Main</type>
-      <value>//div//h3[text()='${tabName}' and @class='layout-group-item-title']</value>
-      <webElementGuid>ecea3414-587e-42ef-b1e8-9f67ab39477d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>96d348ac-357e-4c0d-a481-c10c47918c40</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

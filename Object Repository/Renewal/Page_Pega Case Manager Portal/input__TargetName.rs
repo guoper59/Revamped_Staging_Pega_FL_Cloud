@@ -135,36 +135,4 @@
       <value>Object Repository/Renewal/Page_Pega Case Manager Portal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>68fb05f1-706a-4280-a99e-c8afdbb0e1dc</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='44bfe7ae']</value>
-      <webElementGuid>b5268649-a14d-43b9-ac45-1a096af7517b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div/div/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>7297b72d-35a9-4926-887b-6cab1faa36b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>94e2adbd-c3d5-4ef5-a017-7d24e6b853b0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @id = '44bfe7ae' and @name = '$PpyWorkPage$pNewCustomerInfo$pCustomerInfo$pTargetDetails$pBusinessUnitName']</value>
-      <webElementGuid>936fb178-7c9e-44ae-ac85-609eb5a43e71</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

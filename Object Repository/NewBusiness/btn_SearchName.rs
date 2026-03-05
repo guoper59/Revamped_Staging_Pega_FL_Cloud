@@ -71,12 +71,4 @@
       <value>id(&quot;pyFlowActionHTML&quot;)/span[1]/div[@id=&quot;RULE_KEY&quot;]/span[@class=&quot;inspector-span&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-primary_container_legend&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-none&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-default  content-default&quot;]/div[@class=&quot;content-item content-layout item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-default_with_less_padding&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content layout-content-inline_labels_left  content-inline_labels_left&quot;]/div[@class=&quot;content-item content-field item-2&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueWrite&quot;]/span[1]/a[1]/img[@class=&quot;pzbtn-img&quot;]</value>
       <webElementGuid>8c838c6b-c9ab-4bd9-9b25-a5910f0ffa18</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//a/img</value>
-      <webElementGuid>87eb7037-72dd-4a64-b835-2ec1d6751b23</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

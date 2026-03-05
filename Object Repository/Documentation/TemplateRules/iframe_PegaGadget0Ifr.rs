@@ -95,36 +95,4 @@
       <value>id(&quot;PegaGadget0Ifr&quot;)</value>
       <webElementGuid>fb0fa156-c87f-49b0-a8eb-58e3da938743</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//iframe[@id='PegaGadget0Ifr']</value>
-      <webElementGuid>25ab0f99-f489-4b64-bc3a-8edf153cd3b7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//iframe[@name = 'PegaGadget0Ifr' and @title = 'FLDashboardReports']</value>
-      <webElementGuid>90331823-5e4e-4bca-83fa-7ce5ce0cc892</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//iframe</value>
-      <webElementGuid>8d1077f4-ba92-452b-aeca-b947377236a9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='PegaWebGadget0']/iframe</value>
-      <webElementGuid>31edfd68-3b33-4e3d-a2df-9ce684139aaf</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

@@ -143,36 +143,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>f49323dc-1905-4e02-96c3-0bb715cd5540</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='da94a2bc']</value>
-      <webElementGuid>281392e4-b3a6-42a2-b4d1-4d295522edfd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pPolicyData$pPolicyHolderTurnover']</value>
-      <webElementGuid>faa4cfa7-cc23-4cb3-b945-e2789183af9e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='EXPAND-OUTERFRAME']/div[2]/div/div/div/div/div/div/div[4]/div/div/div/div/div[4]/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>71da3568-1baf-435c-b034-c71b9ef9a7b5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>3eec1e3a-707a-48a3-9eec-d569631423c3</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

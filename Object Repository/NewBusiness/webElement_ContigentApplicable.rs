@@ -119,36 +119,4 @@
       <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
       <webElementGuid>bc24c9d1-73bd-41b9-9da0-114057d72a49</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='be53c89c']</value>
-      <webElementGuid>0ac4746a-ecd3-4a41-9078-e0bc6463f113</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/input[2]</value>
-      <webElementGuid>ebb25516-9736-4a50-83c5-3030572d5e0e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'checkbox' and @name = '$PpyWorkPage$pApplicationPage$pPolicyData$pIsContingentBIApplicable' and @id = 'be53c89c']</value>
-      <webElementGuid>725b8cbc-0384-4e2d-bc8b-38595f4ef8af</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/div/div/div/div/div/span/input[2]</value>
-      <webElementGuid>60bc60c0-a119-44f7-ab0b-31cd0e98814d</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

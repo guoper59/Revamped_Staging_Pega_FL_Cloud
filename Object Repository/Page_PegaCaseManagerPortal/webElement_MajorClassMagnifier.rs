@@ -130,44 +130,4 @@
       <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
       <webElementGuid>a32d87d2-66f4-43dc-a25e-3e5c73343d1c</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//img[@name='SearchMajorClass_D_SearchSubmissionCriteria_2']</value>
-      <webElementGuid>acafd3d7-b873-4505-8772-4bd32d92fdf2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/span/i/img)[2]</value>
-      <webElementGuid>2e30f206-ac25-4c5f-b2d4-f75c8766a41c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Click here to select Major Class']</value>
-      <webElementGuid>a4d27834-e672-4060-9cfc-ac465c236d09</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[6]/div/div/div/div/div/div[2]/div/div/span/i/img</value>
-      <webElementGuid>21417d4e-1e0b-45e2-847b-87923533d55a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'webwb/rfsearch_on_metal_13030817380.gif!!.gif' and @title = 'Click here to select Major Class' and @name = 'SearchMajorClass_D_SearchSubmissionCriteria_2' and @alt = 'Click here to select Major Class']</value>
-      <webElementGuid>79dd6c1d-da97-4f6b-8e87-2e7fd291a6e4</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

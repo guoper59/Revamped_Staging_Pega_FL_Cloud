@@ -87,36 +87,4 @@
       <value>id(&quot;txtPassword&quot;)</value>
       <webElementGuid>23954eb7-43e9-4858-a2ea-08bb8bd35458</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='txtPassword']</value>
-      <webElementGuid>dc418ff7-213a-44d0-96bc-50cd10785c0c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='credentialsForm']/div[2]/input</value>
-      <webElementGuid>8dd74760-57f9-41f2-a987-843a868b003f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>6f7909c4-3055-4879-bafa-170a3cf9af72</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'txtPassword' and @type = 'password' and @name = 'Password' and @placeholder = 'Password']</value>
-      <webElementGuid>feaf4848-8bed-4765-b6d8-85c0f7cad001</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

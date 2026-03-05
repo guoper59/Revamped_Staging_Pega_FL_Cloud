@@ -103,28 +103,4 @@
       <value>Object Repository/PartyManagement/Page_BrokerSearch/iframe_PegaGadget0Ifr</value>
       <webElementGuid>79524f6d-0a85-4214-90cb-8baf8c3dff35</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//tr[@id='$PD_BrokerList_pa28757253170904pz$ppxResults$l1']/td/span</value>
-      <webElementGuid>f820bd6c-8e0d-479a-bed9-2bef8f2117bd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td/span</value>
-      <webElementGuid>5effde01-4f49-4203-b04b-c2bd89249ae1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[@title = 'press enter to expand row' and @alt = 'press enter to expand row']</value>
-      <webElementGuid>067d6bea-a24f-454b-9a4c-81a2d59e84a5</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

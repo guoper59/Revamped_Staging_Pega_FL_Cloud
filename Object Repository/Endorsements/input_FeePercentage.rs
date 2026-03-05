@@ -135,36 +135,4 @@
       <value>Object Repository/Endorsements/iframe_PegaGadget2Ifr</value>
       <webElementGuid>a5fd1314-ce49-49f3-ad74-4a515f97192c</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='70759ac4']</value>
-      <webElementGuid>bf258bad-667f-4a18-83f8-f32be289b3ae</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[3]/div/span/input</value>
-      <webElementGuid>66a5077f-e154-430f-a079-715f7af47e9c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = '70759ac4' and @type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pProposedQuotes$l2$pAcquisitionFees$l1$pFeePercentage']</value>
-      <webElementGuid>8bdf60ea-ede5-42bb-9cf4-6d18b5973c19</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//tr[@id='$PpyWorkPage$pApplicationPage$pProposedQuotes$l2$pAcquisitionFees$l1']/td[3]/div/span/input</value>
-      <webElementGuid>e91fb872-27a4-4cdc-b62b-922ac98f82b1</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

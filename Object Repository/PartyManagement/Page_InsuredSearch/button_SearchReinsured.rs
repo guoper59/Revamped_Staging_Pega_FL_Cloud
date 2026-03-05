@@ -111,36 +111,4 @@
       <value>Object Repository/PartyManagement/Page_InsuredSearch/iframe_PegaGadget0Ifr</value>
       <webElementGuid>c074f61e-9666-40c5-8a6c-2c213cc678ce</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//img[@name='AppFindReinsured_pyDisplayHarness_2']</value>
-      <webElementGuid>cd0bfe75-c4b5-4054-bd08-8ff273d65397</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'webwb/pxcasemgrportalsearchicon_13780558315.png!!.png' and @name = 'AppFindReinsured_pyDisplayHarness_2']</value>
-      <webElementGuid>a307ae68-0e16-4739-8209-3676d8689bbb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//i/img</value>
-      <webElementGuid>3aa6dd45-55b7-4ae6-970a-7bc283d541b9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/span/i/img</value>
-      <webElementGuid>b545201b-7186-46bb-a6d0-112439108b9c</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

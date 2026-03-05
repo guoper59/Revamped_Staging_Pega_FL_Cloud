@@ -127,44 +127,4 @@
       <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
       <webElementGuid>8326b2c9-a01c-4103-afae-62dda4cb8067</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//img[@name='SearchStatus_D_SearchSubmissionCriteria_2']</value>
-      <webElementGuid>13a2ab43-7cc1-481d-b21f-39e0c5ef9b36</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/span/i/img</value>
-      <webElementGuid>a186949c-608d-480a-97e9-cfe9adbc4a26</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Click here to select Status']</value>
-      <webElementGuid>249e99ea-9e78-415a-bc80-b84fa2ec2a24</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//i/img</value>
-      <webElementGuid>c84f7c5e-53e5-4489-beba-7e01f8e74e8f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'webwb/rfsearch_on_metal_13030817380.gif!!.gif' and @title = 'Click here to select Status' and @name = 'SearchStatus_D_SearchSubmissionCriteria_2' and @alt = 'Click here to select Status']</value>
-      <webElementGuid>67eef0aa-aaee-4dab-8749-1f8dc0fe88bf</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

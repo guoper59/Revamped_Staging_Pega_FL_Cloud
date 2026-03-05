@@ -103,28 +103,4 @@
       <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
       <webElementGuid>a07320ed-f550-41b9-9222-785053da76db</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td/span</value>
-      <webElementGuid>2dc66d84-ccc2-4a3a-acfb-4e6d6602deb5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[@title = 'press enter to expand row' and @alt = 'press enter to expand row']</value>
-      <webElementGuid>18eea85f-0115-42aa-93ae-cc757e139dd6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//tr[@id='$PEndorsementVersionPage$pEndorsementVersions$l1']/td/span</value>
-      <webElementGuid>95ff66ff-1b8e-44f1-bfb5-55809497f12a</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

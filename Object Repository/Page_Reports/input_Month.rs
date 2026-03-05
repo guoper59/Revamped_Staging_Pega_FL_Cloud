@@ -71,36 +71,4 @@
       <value>Object Repository/Page_Reports/iframe_PegaGadget0Ifr</value>
       <webElementGuid>82966943-1e47-41b2-b5b7-5762615ad2cb</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@type='text'])[2]</value>
-      <webElementGuid>031ed1e5-c71e-43e1-be11-97cbc6bca78a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text']</value>
-      <webElementGuid>9c88d6b9-e782-4c51-ac41-65c8df979033</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td/span/input</value>
-      <webElementGuid>b7c5ef82-3db8-4fd4-ace1-76d5c38d7954</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//span[@id='monthSpinner']/input</value>
-      <webElementGuid>cf3d19de-c1d8-476f-92e8-72577af03eac</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

@@ -167,36 +167,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>dbcb88c2-a0ce-4c33-ba62-37606c49a436</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='067db0b7']</value>
-      <webElementGuid>04e902eb-010c-42ed-ba65-d7e192a36cc9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyWorkPage$pVariousInsuredName']</value>
-      <webElementGuid>801f5931-eab5-484f-9b19-3a63acca8749</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>7bdae474-3773-4cdc-8eb0-623de7096506</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>309cf6a9-a225-44c9-aee7-41d377cf0322</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

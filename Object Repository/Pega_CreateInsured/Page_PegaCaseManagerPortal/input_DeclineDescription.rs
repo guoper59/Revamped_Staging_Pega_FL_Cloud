@@ -175,36 +175,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>18d79ad5-a84f-4c38-9cf5-9d01a0909126</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//textarea[@id='c457450a']</value>
-      <webElementGuid>e657e27c-28ab-47a2-bd39-6e5514b4b10b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//textarea[@name = '$PpyWorkPage$pDecDescription' and @title = 'Declined Reason Description']</value>
-      <webElementGuid>73feeff3-a923-44a5-bd2e-7eb2fa5b6950</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//span[@id='CTRL_TA']/textarea</value>
-      <webElementGuid>b383faee-b32a-459b-a22d-59808eb840c2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>fd71ede0-31a8-4ff5-ad0c-3d09de2de5d2</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

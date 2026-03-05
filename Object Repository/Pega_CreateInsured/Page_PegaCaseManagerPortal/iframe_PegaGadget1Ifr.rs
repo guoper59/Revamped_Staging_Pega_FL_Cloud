@@ -99,36 +99,4 @@
       <value>id(&quot;PegaGadget1Ifr&quot;)</value>
       <webElementGuid>53415ea1-8324-4676-88aa-288bc3a5ab0d</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//iframe[@id='PegaGadget1Ifr']</value>
-      <webElementGuid>b9c2162c-9288-48b0-8f8f-ec1c78839235</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='PegaWebGadget1']/iframe</value>
-      <webElementGuid>41a8f81d-12be-4e59-aab9-5fd84060c61e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div[2]/iframe</value>
-      <webElementGuid>8b74f18f-c3ff-4fc0-81df-3bf2f4c4b7f2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//iframe[@name = 'PegaGadget1Ifr' and @id = 'PegaGadget1Ifr' and @src = '/prweb/app/LiabilityLines/AQrj2LB4NQAOPtP9hXno2IIlYboujm6E8dIQk5abRysA6jNpGpr450806NH2tyh9*/!TABTHREAD1?pyActivity=%40baseclass.doUIAction&amp;action=createNewWork&amp;className=HCC-CL-LL-Work-Submission-FL&amp;flowName=pyStartCase&amp;dynamicContainerID=f9e64470-c4fa-4e63-b814-0a50f75d0647&amp;contentID=623b052b-bba2-3ac8-bea7-4f172d7b4112&amp;tabIndex=2&amp;prevContentID=88d0292e-17d9-4ddd-9c1a-7e474fd0068c&amp;prevRecordkey=Data-Portal%7CSearchSubmission%7Cundefined&amp;portalThreadName=STANDARD&amp;portalName=pyCaseManager7&amp;pzHarnessID=HID2A89046096091A936B8342223F8F2A14' and @title = 'New']</value>
-      <webElementGuid>0c8b4eb0-850a-454a-a18c-86780947e3ff</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

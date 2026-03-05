@@ -71,44 +71,4 @@
       <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
       <webElementGuid>2ffc71d4-ee7e-47c8-8d4d-53d3bb759fbd</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Endorsement'])[1]/following::span[2]</value>
-      <webElementGuid>437ebd39-1079-4542-a86b-17d09940d9e7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='View']/parent::*</value>
-      <webElementGuid>2c618511-5644-4f3d-9418-e1e03f893c53</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = 'View' or . = 'View')]</value>
-      <webElementGuid>ffc0462d-04ec-4851-8f3a-b2d04cba59d1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[3]/a/span/span</value>
-      <webElementGuid>acbdcb3e-b881-49c7-acf8-318120b0cc39</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//ul[@id='pyNavigation1737967070156']/li[3]/a/span/span</value>
-      <webElementGuid>2ce65da3-9f26-41d1-8bf3-30963988a54a</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

@@ -183,36 +183,4 @@
       <value>Object Repository/Documentation/TemplateRules/iframe_PegaGadget0Ifr</value>
       <webElementGuid>909c93ce-b213-49b3-888b-5f65ad08da1e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='e7059a93']</value>
-      <webElementGuid>e4940c33-c840-4180-85c2-53fe1adf37ab</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyDisplayHarness$pTemplateID']</value>
-      <webElementGuid>79ab9f21-48be-49c5-bede-fdac371552f9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>db437456-5c48-4b98-a2f9-10acc4335c1e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/div/div/div[3]/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>e94a7d0d-9268-4944-93c4-b723d06f323e</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

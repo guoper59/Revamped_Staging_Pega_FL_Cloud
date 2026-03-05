@@ -63,20 +63,4 @@
       <value>Object Repository/Renewal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>c506e1cd-95b0-4596-b82d-eaef9b719975</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[5]/span/button/i</value>
-      <webElementGuid>868c5008-ed0c-46d0-bcb8-b708d33b45ef</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div[5]/span/button/i</value>
-      <webElementGuid>6e6540bf-3933-4de2-ad8f-95fae86aac86</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

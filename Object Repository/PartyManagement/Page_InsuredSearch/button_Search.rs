@@ -111,36 +111,4 @@
       <value>Object Repository/PartyManagement/Page_InsuredSearch/iframe_PegaGadget0Ifr</value>
       <webElementGuid>216805b4-6734-4b7d-aabe-a85cd5843fe4</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//img[@name='FindSurplusBrokerContact_pyDisplayHarness_2']</value>
-      <webElementGuid>5a1ab88e-3db7-41a1-85d3-a8bc54ec7be4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'webwb/pxcasemgrportalsearchicon_13780558315.png!!.png' and @name = 'FindSurplusBrokerContact_pyDisplayHarness_2']</value>
-      <webElementGuid>343c267b-a559-4486-a289-696c9776a565</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//i/img</value>
-      <webElementGuid>8a9b8acc-c694-4199-a8c4-2ce4efa45e04</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div[2]/div/div/span/i/img</value>
-      <webElementGuid>7456bc6f-f55f-4c5c-9741-c579a0c1b791</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

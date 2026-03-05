@@ -135,36 +135,4 @@
       <value>id(&quot;24dbd519&quot;)</value>
       <webElementGuid>292ad9e1-e9f0-49bb-b1d0-5530b2f4882d</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='24dbd519']</value>
-      <webElementGuid>572c97bf-c527-419f-b0a7-1ce1bf90df04</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div/div/div/div/div/span/input</value>
-      <webElementGuid>b4f84f49-95c7-41ae-81c2-60194ef52a11</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>86b7471c-06f0-4207-bb00-314e055cc381</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @id = '24dbd519' and @name = '$PpyDisplayHarness$ppySearchText' and @placeholder = 'Search']</value>
-      <webElementGuid>80a7f6a0-d8c6-485c-afa9-9bba4be5ef01</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

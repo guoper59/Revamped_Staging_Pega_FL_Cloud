@@ -119,36 +119,4 @@
       <value>Object Repository/Page_PegaCaseManagerPortal/iframe_PegaGadget0Ifr</value>
       <webElementGuid>cdac6ea5-fbb7-4ab7-8dc4-7c4ef6f176fc</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='19408f5c']</value>
-      <webElementGuid>ab99d1a7-04f7-479a-9cef-39c4194b05e8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[4]/div/div/span/input</value>
-      <webElementGuid>031d87e0-0e91-4e18-9722-2357039e38aa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div/span/input</value>
-      <webElementGuid>8bc6481f-1026-437b-9086-c22ae7a3844c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @id = '19408f5c' and @name = '$PD_SearchSubmissionCriteria$pPolicyReference']</value>
-      <webElementGuid>66d87be2-ed0f-4ce4-8726-b85da3816b35</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

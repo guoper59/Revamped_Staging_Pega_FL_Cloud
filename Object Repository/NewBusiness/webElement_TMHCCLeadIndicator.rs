@@ -71,36 +71,4 @@
       <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
       <webElementGuid>2bd49535-3082-4a0a-a85f-0e3628098281</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='True']</value>
-      <webElementGuid>cb3603be-8e13-4521-b709-84a22dc51caf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div/div[4]/div/div/span/img</value>
-      <webElementGuid>5c66761f-25a3-49ff-946b-6e9acdc4fd8d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'webwb/dhtmlx_iconcheckdis_13603858786.gif!!.gif' and @alt = 'True']</value>
-      <webElementGuid>565839cc-415a-4496-8327-d29188d514b7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='CT']/div/div/span/img)[2]</value>
-      <webElementGuid>51e6fda6-75c2-4919-82bf-5d3f1391f3fe</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

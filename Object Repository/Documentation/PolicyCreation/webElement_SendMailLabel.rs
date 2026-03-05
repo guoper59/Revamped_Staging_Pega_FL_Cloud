@@ -55,44 +55,4 @@
       <value>id(&quot;root&quot;)/div[1]/main[1]/div[@class=&quot;htmlMail_Auth__3mkXH&quot;]/div[@class=&quot;htmlMail_buttoncont__mcUHf&quot;]/button[@class=&quot;Button_Button__2RCPc Button_ButtonSmall4__3k7dB&quot;]</value>
       <webElementGuid>3e1a1dd5-2ce3-4b50-a5d2-82a2ba06dbec</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tokio Marine HCC - Ratings'])[1]/following::button[1]</value>
-      <webElementGuid>e13a8760-cbd1-4f45-80d1-9b4023dbe427</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Send']/parent::*</value>
-      <webElementGuid>af523eb3-6800-4b34-9fcd-c9f2de315708</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'Send' or . = 'Send')]</value>
-      <webElementGuid>aa2d1223-8e22-49d1-a389-469a9ade2bed</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[13]/button</value>
-      <webElementGuid>73f1e6c7-da6c-4a5c-ae8a-c80f72097096</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/main/div/div[13]/button</value>
-      <webElementGuid>e8800f00-14cf-43da-83e6-8ce6496b8df2</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

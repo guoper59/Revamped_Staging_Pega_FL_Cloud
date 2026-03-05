@@ -143,36 +143,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>cb1f308d-e77d-4175-960a-e748d4b5df37</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='45923e02']</value>
-      <webElementGuid>0b05fe3a-d8b8-49da-826c-5b3422f2d80f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pProposedQuotes$l1$pExcessLimit']</value>
-      <webElementGuid>e8161c45-3fe8-433d-8cf4-db5a03cc934e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='EXPAND-INNERDIV']/div/div/div/div/div/div/div[3]/div/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>d80c768b-56e3-41e2-a8c5-95cf7600934e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>41243bda-9866-4743-9fbe-988486e91a03</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

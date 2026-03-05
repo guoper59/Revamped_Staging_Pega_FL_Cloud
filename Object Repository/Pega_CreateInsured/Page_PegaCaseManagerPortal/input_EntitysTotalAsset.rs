@@ -143,36 +143,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>88c65650-67a0-4a83-b1f8-240ae920cbee</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='5bcc748d']</value>
-      <webElementGuid>570da9f8-1c92-495a-9155-9e3c9287aad4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pPolicyData$pEntitysTotalAssets']</value>
-      <webElementGuid>75cd3778-24b4-41d9-bfbc-c5456f9b2f5c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='CT']/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>1c445391-91b5-4b88-8776-deca8e5da534</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div/div/div/div/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>62aef47d-6680-47e6-bc6f-8fecb502a030</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

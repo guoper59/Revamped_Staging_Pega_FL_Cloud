@@ -215,36 +215,4 @@
       <value>Object Repository/RenewalAgent/Page_Pega Dev Studio/iframe_Resources_PegaGadget1Ifr</value>
       <webElementGuid>6c343a18-24f4-49a7-9696-7dbf53bd13c3</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@id='PropertiesValue'])[2]</value>
-      <webElementGuid>23c8d1aa-d36b-4343-9e96-ef9c939607ec</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//td[@id='SL_Input']/input)[7]</value>
-      <webElementGuid>2149934a-0a4a-4ece-80c7-bac6361f7824</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[3]/td[3]/table/tbody/tr/td/table/tbody/tr/td/input</value>
-      <webElementGuid>48309085-e2a0-41fb-974d-8cb5b895edf1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@name = '$PRH_1$ppySteps$l3$ppyParamArray$l2$pPropertiesValue' and @id = 'PropertiesValue' and @type = 'text']</value>
-      <webElementGuid>b01d80c9-ce68-407b-a121-cd58f00b2ea8</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

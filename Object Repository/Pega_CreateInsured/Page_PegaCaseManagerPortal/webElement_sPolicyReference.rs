@@ -86,44 +86,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>95ccae26-c100-4665-90c6-6b327617ba0a</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='RULE_KEY']/div/div/div)[1]</value>
-      <webElementGuid>701af305-af65-4aee-88ea-4f97f3b64e2f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying Policy Reference'])[2]/following::div[6]</value>
-      <webElementGuid>8867b34d-adef-4d05-acfc-098a1e192959</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying Policy Reference'])[1]/following::div[7]</value>
-      <webElementGuid>92886869-54c7-42bf-9ac4-4317c375f031</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/div/div/div/div</value>
-      <webElementGuid>e7c7da21-54ec-46bf-8907-30efa07da0da</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'sPolicy Reference :F23GV830A001' or . = 'sPolicy Reference :F23GV830A001')]</value>
-      <webElementGuid>61a063f9-3aa3-4c54-b09d-7a8689dd040b</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

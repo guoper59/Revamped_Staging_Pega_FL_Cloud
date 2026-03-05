@@ -111,36 +111,4 @@
       <value>Object Repository/PartyManagement/Page_BrokerSearch/iframe_PegaGadget0Ifr</value>
       <webElementGuid>9cbe4a0b-0e65-45d2-8b16-e75b38798131</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='70f20850']</value>
-      <webElementGuid>d6e3b7bd-c0cc-43bd-9559-88bc7b440047</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='EXPAND-OUTERFRAME']/div[2]/div/div[4]/div/div/span/input</value>
-      <webElementGuid>da7a7f5d-5e6d-43d4-84d9-5ad5cfd83654</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div/span/input</value>
-      <webElementGuid>d20b7e28-8d02-42db-9291-ae225796e8ac</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = '70f20850' and @type = 'text' and @name = '$PpyDisplayHarness$pBrokerContactParty$pJobPosition']</value>
-      <webElementGuid>c982ee6d-2dbd-469d-84af-375795ff497f</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

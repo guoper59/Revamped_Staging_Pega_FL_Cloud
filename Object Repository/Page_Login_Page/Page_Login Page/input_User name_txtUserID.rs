@@ -111,36 +111,4 @@
       <value>id(&quot;txtUserID&quot;)</value>
       <webElementGuid>cf37c8bc-58b2-4f75-a1fc-758df5a9ca8c</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='txtUserID']</value>
-      <webElementGuid>560ee9fe-4452-49be-8989-3cb91b99d1db</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='credentialsForm']/div/input</value>
-      <webElementGuid>b50a3d73-8a84-49e5-b9fb-fa16c1c9db58</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>60487a42-2bba-4bda-9423-44bd702b58ec</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'txtUserID' and @type = 'text' and @name = 'UserIdentifier' and @placeholder = 'User name']</value>
-      <webElementGuid>1e31e386-18d1-4601-9da8-26c39f88d516</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

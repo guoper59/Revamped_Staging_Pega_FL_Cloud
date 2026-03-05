@@ -135,36 +135,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>74540f75-5b3d-4a7d-8c4e-8387d15eeb43</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='b7b000b8']</value>
-      <webElementGuid>603dc20a-8657-462f-94a6-c26718b38947</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='EXPAND-INNERDIV']/div/div/div/div/div/div/div/div/div/span/input)[5]</value>
-      <webElementGuid>2d58ccd6-6062-4a1f-9273-3fc8d20c9b03</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[5]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>b203b4bc-9d4a-4557-bbda-81e0e675612c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'b7b000b8' and @type = 'number' and @name = '$PpyWorkPage$pApplicationPage$pProposedQuotes$l1$pCommissionPercentage']</value>
-      <webElementGuid>b7362d0b-e8f5-44ac-8842-4522907601eb</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

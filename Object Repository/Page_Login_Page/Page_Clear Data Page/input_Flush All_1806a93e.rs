@@ -119,36 +119,4 @@
       <value>id(&quot;1806a93e&quot;)</value>
       <webElementGuid>91c73fc7-a045-4594-b34e-cd858e6d62d6</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='1806a93e']</value>
-      <webElementGuid>5adae52f-0be6-4b38-8c2a-1a4e33962bee</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/table/tbody/tr/td[2]/input[2]</value>
-      <webElementGuid>aff59e55-338a-486f-9213-b272f8f611c5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[2]/input[2]</value>
-      <webElementGuid>6a6f2046-daa5-4b7e-ac7c-d8d31692f32f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'checkbox' and @name = '$PRH_1$ppyFlushAll' and @id = '1806a93e']</value>
-      <webElementGuid>d2dc5bbb-e7f9-40bb-a3f2-31ed9764868b</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

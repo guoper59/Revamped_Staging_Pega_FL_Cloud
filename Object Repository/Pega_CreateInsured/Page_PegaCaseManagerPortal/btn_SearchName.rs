@@ -79,28 +79,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>4832cf1e-9b16-43f0-b0c0-564c2341143b</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/div/span/a/img</value>
-      <webElementGuid>d907688a-33fd-4e88-89e2-79ca9b3445e7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//a/img</value>
-      <webElementGuid>4e5cb7c7-fb6c-4364-b82b-0636c6928f08</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'webwb/pxcasemgrportalsearchicon_13780558315.png!!.png']</value>
-      <webElementGuid>f25f0585-e74e-43b5-b47d-85dea7ad9d6a</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

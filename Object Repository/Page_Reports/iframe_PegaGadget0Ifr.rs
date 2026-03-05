@@ -95,36 +95,4 @@
       <value>id(&quot;PegaGadget0Ifr&quot;)</value>
       <webElementGuid>b4355197-a9d4-48f9-9c18-5db611759794</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//iframe[@id='PegaGadget0Ifr']</value>
-      <webElementGuid>0b6c970f-934c-43c2-bce8-f8e84ec9beac</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//iframe[@name = 'PegaGadget0Ifr' and @title = 'Contract Certainty Reports']</value>
-      <webElementGuid>c3d253a9-e182-4a95-9399-15e0d27321a7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//iframe</value>
-      <webElementGuid>0f7ec3b1-4589-492d-842e-1e1e7457efa3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='PegaWebGadget0']/iframe</value>
-      <webElementGuid>bb499eee-fdb8-4314-b711-ad0683b6875a</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

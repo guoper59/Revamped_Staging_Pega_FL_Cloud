@@ -159,36 +159,4 @@
       <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
       <webElementGuid>207c3606-59c1-469a-92ee-2df4d38e9ea8</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='64d8c6ab']</value>
-      <webElementGuid>5c331160-983b-4faa-9d94-62e337927b2d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='EXPAND-INNERDIV']/div/div/div/div/div/div/div[2]/div/div/span/input)[2]</value>
-      <webElementGuid>8b230590-b24a-4d4f-8912-0a82409d181d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div[2]/div/div/div/div/div/div/div[2]/div/div/span/input</value>
-      <webElementGuid>179d04f2-04b4-4d27-a580-d5e32b61d9cf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pPolicyData$pLeadEntity' and @id = '64d8c6ab']</value>
-      <webElementGuid>fa46661c-457f-4335-bc96-dbb20aa45aca</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

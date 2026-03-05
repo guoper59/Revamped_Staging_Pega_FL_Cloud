@@ -86,44 +86,4 @@
       <value>Object Repository/Dashboards/iframe_PegaGadget2Ifr</value>
       <webElementGuid>d02933e0-2acd-4631-ba20-b7fdf0ae9628</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='RULE_KEY']/div/div/div)[1]</value>
-      <webElementGuid>9e4afd5a-6d31-4fa7-9309-1abd97221711</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying Policy Reference'])[2]/following::div[6]</value>
-      <webElementGuid>b7ad64c9-0040-4580-a2e7-b36977ef9d5e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying Policy Reference'])[1]/following::div[7]</value>
-      <webElementGuid>1ebf336b-b09f-4155-8c2d-79952073aaee</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/div/div/div/div</value>
-      <webElementGuid>9821a7e5-7b4c-490b-8fc3-9a8bdd044145</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'sPolicy Reference :F23GV830A001' or . = 'sPolicy Reference :F23GV830A001')]</value>
-      <webElementGuid>5e995c50-8b2f-4ba9-adc9-12a662cda31a</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

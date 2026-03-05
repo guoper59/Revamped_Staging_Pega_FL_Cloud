@@ -63,44 +63,4 @@
       <value>Object Repository/PartyManagement/Page_BrokerSearch/iframe_PegaGadget0Ifr</value>
       <webElementGuid>381d8f6b-3ca6-44e3-9f88-5ba02e6fa52c</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//th[@id='a2']/div)[2]</value>
-      <webElementGuid>d0db7f52-a036-4358-b3f5-28065f13b1bd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter to sort'])[16]/following::div[1]</value>
-      <webElementGuid>5576258e-b77f-41db-86b8-41759b9616bf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::div[2]</value>
-      <webElementGuid>271fc384-c22e-4a28-8019-7734ca553206</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr/th[3]/div</value>
-      <webElementGuid>8dc21193-85a0-499a-a6c4-086187a0fee0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'NameEnter to sort' or . = 'NameEnter to sort')]</value>
-      <webElementGuid>160aa3f0-050a-4076-ac96-919cfcff166b</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

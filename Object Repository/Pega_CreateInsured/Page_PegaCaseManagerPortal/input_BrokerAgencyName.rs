@@ -207,36 +207,4 @@
       <value>Object Repository/Pega_CreateInsured/Page_PegaCaseManagerPortal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>fc7ce7de-7ab4-42b7-a8b4-be2923c43f34</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='4b4b3600']</value>
-      <webElementGuid>da54b0ab-7105-482e-9c34-a2f1e82af18f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>3956af10-8a38-4d27-949f-046420570f21</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>8c39ece3-7839-4fb5-bf6c-ebaad1896039</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Enter minimum 3 chars' and @title = 'Enter minimum 3 chars' and @id = '4b4b3600' and @name = '$PpyWorkPage$pFLAgencyName']</value>
-      <webElementGuid>c8fbc928-5bd1-4c5a-958c-53c6120f6afc</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

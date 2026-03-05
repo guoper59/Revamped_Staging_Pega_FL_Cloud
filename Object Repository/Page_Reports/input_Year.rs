@@ -71,36 +71,4 @@
       <value>Object Repository/Page_Reports/iframe_PegaGadget0Ifr</value>
       <webElementGuid>7a054ca4-8bec-48a4-8d4c-56ee15058097</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@type='text'])[3]</value>
-      <webElementGuid>fcf85cfb-3f2d-4136-96cd-68cfd06e04f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text']</value>
-      <webElementGuid>a20eaf29-3c68-4ffb-8988-8cb4ef6c8429</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[3]/span/input</value>
-      <webElementGuid>a63f2738-ddf3-47f8-b781-a9e1dddb0e47</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//span[@id='yearSpinner']/input</value>
-      <webElementGuid>6ffd03f6-b978-421f-be73-cc1853a6e88e</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

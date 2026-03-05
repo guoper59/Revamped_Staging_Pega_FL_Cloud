@@ -103,36 +103,4 @@
       <value>Object Repository/NewBusiness/iframe_PegaGadget0Ifr</value>
       <webElementGuid>405d1329-1ed1-4993-93e5-61d0a4eacc7e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//a[@id='pui_filter'])[7]</value>
-      <webElementGuid>6132a335-9d76-4a68-8427-ae6d72a4fd74</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@title = 'Click to filter']</value>
-      <webElementGuid>336a2540-e2ba-4423-b216-2c48413845e4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//th[8]/div/span/a</value>
-      <webElementGuid>a0f69e75-1682-487b-8c00-5c0294aacde9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//th[@id='a8']/div/span/a</value>
-      <webElementGuid>73833df5-e0ee-4a8c-8baa-90f2346dd918</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

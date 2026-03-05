@@ -253,12 +253,4 @@
       <value>Object Repository/Renewal/iframe_PegaGadget1Ifr</value>
       <webElementGuid>c21202b2-beb2-473f-8be6-6f6dbbee6fad</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@name = '$PRH_1$ppySteps$l4$ppySteps$l3$ppyStepsActivityName' and @type = 'text' and @title = 'Obj-Browse']</value>
-      <webElementGuid>c486d06e-5fd1-4d63-aac6-68755835cd46</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

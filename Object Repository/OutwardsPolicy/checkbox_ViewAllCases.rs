@@ -135,36 +135,4 @@
       <value>Object Repository/OutwardsPolicy/iframe_PegaGadget0Ifr</value>
       <webElementGuid>6f56c8c6-90d6-482f-a12b-981165f33143</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='be6fe132']</value>
-      <webElementGuid>3b9658f3-fa15-452d-9a55-7a963827bc3f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'checkbox' and @name = '$PpyDisplayHarness$pViewAllDACases']</value>
-      <webElementGuid>9964bfe8-bcf8-499e-a7fc-cccf681811a6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/input[2]</value>
-      <webElementGuid>3321312d-b400-4f05-b1da-002c917e79ba</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='RULE_KEY']/div[2]/div/div/div[5]/div/div/span/input[2]</value>
-      <webElementGuid>8fe9d027-c3a8-43ae-a798-1140f6d67f0a</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

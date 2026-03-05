@@ -111,36 +111,4 @@
       <value>Object Repository/PartyManagement/Page_BrokerSearch/iframe_PegaGadget0Ifr</value>
       <webElementGuid>c365e8df-580b-43ee-8783-90cf48648372</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='746005f9']</value>
-      <webElementGuid>ae814aec-8f31-46e8-bd4d-6b141c4a2311</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='EXPAND-OUTERFRAME']/div[2]/div/div[2]/div/div/span/input</value>
-      <webElementGuid>bdf222fc-63de-43a1-9a41-a4b23014ca4d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/span/input</value>
-      <webElementGuid>fa472c2a-aac4-496c-a329-ecbecf8607d2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = '746005f9' and @type = 'text' and @name = '$PpyDisplayHarness$pBrokerContactParty$pLastName']</value>
-      <webElementGuid>42fbcd58-e4eb-4a8a-8b72-3e9d1a46c9a5</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

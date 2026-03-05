@@ -127,36 +127,4 @@
       <value>Object Repository/Page_Reports/iframe_PegaGadget1Ifr</value>
       <webElementGuid>693670dc-3b24-40ef-ab7c-800e7400418f</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//textarea[@id='fb03a90c']</value>
-      <webElementGuid>7b41de8d-403d-4a02-ade2-eeef2283e00b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//textarea[@name = '$PpyWorkPage$pAdditionalUWComments']</value>
-      <webElementGuid>04441fa3-c604-4fd7-b6fe-d14cd70b0a9d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>655aeb81-7aa4-4100-9052-a4b06b2ae74e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//span[@id='CTRL_TA']/textarea</value>
-      <webElementGuid>f1cdef41-8a0a-455a-bcb3-b04401d2e078</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

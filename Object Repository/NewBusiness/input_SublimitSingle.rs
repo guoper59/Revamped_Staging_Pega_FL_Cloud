@@ -143,36 +143,4 @@
       <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
       <webElementGuid>3110b097-86c1-408a-bc59-aa215dff6a8e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='acf160dc']</value>
-      <webElementGuid>7e1a2297-2f1c-4070-8902-3a455225fcda</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[3]/div/span/input</value>
-      <webElementGuid>b38ec187-71f5-4c20-b899-40df123a07f9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'acf160dc' and @type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pSelectedQuote$pSubLimits$l1$pSublimitPercentage']</value>
-      <webElementGuid>bcee995e-2c97-4581-ada3-c8a04f8ac647</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//tr[@id='$PpyWorkPage$pApplicationPage$pSelectedQuote$pSubLimits$l1']/td[3]/div/span/input</value>
-      <webElementGuid>e80d4c73-43c9-4fb8-a2ff-dd7b31280f23</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

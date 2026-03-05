@@ -127,36 +127,4 @@
       <value>Object Repository/NewBusiness/iframe_PegaGadget1Ifr</value>
       <webElementGuid>5ed49ab1-7049-4598-a13a-ab2200d78163</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='c7a85606']</value>
-      <webElementGuid>ff8803c8-03f6-4b0a-b9d1-8bc206cdedab</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/span/input</value>
-      <webElementGuid>b050f0cd-09ef-424e-aa41-3212af43624f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'c7a85606' and @type = 'text' and @name = '$PpyWorkPage$pApplicationPage$pPolicyData$pBIWaitingPeriod']</value>
-      <webElementGuid>9be506e1-33da-4866-9b0c-1e0855a9e084</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>(//div[@id='EXPAND-OUTERFRAME']/div[2]/div/div[2]/div/div/div/div/div/div/div/span/input)[4]</value>
-      <webElementGuid>3ea230da-d359-44dd-b621-67141bcfde4d</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>
